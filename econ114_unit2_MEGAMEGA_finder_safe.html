@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ECON 114 Unit 2 MEGAMEGA Pack</title>
+<style>
+:root{
+  --ink:#162235; --paper:#f7f4ee; --card:#ffffff; --border:#ddd5c8; --muted:#6b645a;
+  --dark-purple:#4b2378; --pastel-purple:#d9c7ff; --dark-blue:#183A6B; --light-blue:#7fb3e6;
+  --dark-green:#255b41; --pastel-green:#dcefd9; --pastel-yellow:#fff1bf; --light-orange:#ffd7b0;
+  --dark-orange:#ef9a57; --red:#d85e5b; --pink:#e9a8d8; --sidebar:308px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.72}
+a{color:inherit}
+.sidebar{position:fixed;left:0;top:0;bottom:0;width:var(--sidebar);background:var(--ink);color:#f2ece2;overflow:auto;padding-bottom:40px;z-index:30}
+.logo{padding:26px 20px 18px;border-bottom:1px solid rgba(255,255,255,.1)}
+.logo h1{margin:0 0 8px;font-size:1.42rem;line-height:1.08;color:#fff}
+.logo p{margin:0;font-size:.78rem;color:rgba(255,255,255,.6)}
+.nav-head{padding:14px 18px 8px;font-size:.68rem;text-transform:uppercase;letter-spacing:.12em;font-weight:900;color:rgba(255,255,255,.35)}
+.nav-item{display:flex;gap:10px;align-items:center;padding:10px 20px;border-left:3px solid transparent;color:rgba(255,255,255,.78);text-decoration:none;font-size:.9rem;font-weight:800}
+.nav-item:hover{background:rgba(255,255,255,.06);color:#fff}
+.dot{width:8px;height:8px;border-radius:50%;flex:0 0 8px}
+.main{margin-left:var(--sidebar);min-height:100vh}
+.hero{background:linear-gradient(135deg,#162235 0%,#2d4976 100%);color:#fff;padding:58px 48px 42px;position:relative;overflow:hidden}
+.hero:after{content:'UNIT 2';position:absolute;right:-22px;top:-26px;font-size:8rem;font-weight:900;opacity:.06;line-height:1}
+.eyebrow{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;font-weight:900;color:rgba(255,255,255,.68);margin-bottom:12px}
+.hero h2{margin:0 0 14px;font-size:2.5rem;line-height:1.03;max-width:900px}
+.hero p{margin:0;max-width:900px;font-size:1rem;color:rgba(255,255,255,.88)}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.badge{padding:7px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);font-size:.78rem;font-weight:800}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+.kpi{background:rgba(255,255,255,.95);border-radius:18px;padding:16px;color:var(--ink)}
+.kpi .mini{display:block;font-size:.74rem;color:#5f5a53;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.kpi b{display:block;margin-top:7px;font-size:1.12rem;line-height:1.2}
+.wrap{padding:28px 30px 64px;max-width:1320px}
+.section{background:var(--card);border:1px solid var(--border);border-radius:24px;padding:24px 24px 28px;margin-bottom:24px;box-shadow:0 10px 24px rgba(0,0,0,.035)}
+.section-title{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:18px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+.section-title h3{margin:0;font-size:1.48rem;line-height:1.15}
+.seq{font-size:.78rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:7px 11px;border-radius:999px}
+.topic{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:start}
+.topic + .topic{margin-top:18px;padding-top:18px;border-top:1px dashed var(--border)}
+.card{border:1px solid var(--border);background:#fff;border-radius:18px;padding:18px}
+.card h4{margin:0 0 10px;font-size:1.05rem}
+.card p{margin:0 0 10px}
+.card ul{margin:0;padding-left:19px}
+.card li{margin:0 0 6px}
+.callout{padding:14px 16px;border-left:6px solid;border-radius:15px;margin:14px 0;background:#faf7f2}
+.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#fbf7ef;border:1px dashed #ccbfa6;border-radius:13px;padding:11px 13px;white-space:pre-line;margin:12px 0}
+.graphbox{background:#fff;border:1px solid var(--border);border-radius:18px;padding:14px}
+.graphbox h5{margin:0 0 8px;font-size:.96rem}
+.graphbox img{width:100%;display:block;border:1px solid var(--border);border-radius:12px;background:#fff}
+.stack{display:grid;gap:14px}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.audit{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.small{font-size:.84rem;color:var(--muted)}
+.footer-note{margin-top:14px;font-size:.84rem;color:var(--muted)}
+.dark-purple{border-top:10px solid var(--dark-purple)} .dark-purple .seq{background:#f1e8ff;color:var(--dark-purple)} .dark-purple h3,.dark-purple h4,.dark-purple h5{color:var(--dark-purple)}
+.pastel-purple{border-top:10px solid #b893ff} .pastel-purple .seq{background:#f5efff;color:#6b37b3} .pastel-purple h3,.pastel-purple h4,.pastel-purple h5{color:#6b37b3}
+.dark-blue{border-top:10px solid var(--dark-blue)} .dark-blue .seq{background:#e9f0f9;color:var(--dark-blue)} .dark-blue h3,.dark-blue h4,.dark-blue h5{color:var(--dark-blue)}
+.light-blue{border-top:10px solid var(--light-blue)} .light-blue .seq{background:#eef7ff;color:#356f9f} .light-blue h3,.light-blue h4,.light-blue h5{color:#356f9f}
+.dark-green{border-top:10px solid var(--dark-green)} .dark-green .seq{background:#eaf4ef;color:var(--dark-green)} .dark-green h3,.dark-green h4,.dark-green h5{color:var(--dark-green)}
+.pastel-green{border-top:10px solid #b6dab1} .pastel-green .seq{background:#eef8ec;color:#416e49} .pastel-green h3,.pastel-green h4,.pastel-green h5{color:#416e49}
+.pastel-yellow{border-top:10px solid #efce63} .pastel-yellow .seq{background:#fff8dc;color:#8d6b00} .pastel-yellow h3,.pastel-yellow h4,.pastel-yellow h5{color:#8d6b00}
+.light-orange{border-top:10px solid var(--light-orange)} .light-orange .seq{background:#fff4e7;color:#ad6a2e} .light-orange h3,.light-orange h4,.light-orange h5{color:#ad6a2e}
+.dark-orange{border-top:10px solid var(--dark-orange)} .dark-orange .seq{background:#fff0e3;color:#b65c22} .dark-orange h3,.dark-orange h4,.dark-orange h5{color:#b65c22}
+.red{border-top:10px solid var(--red)} .red .seq{background:#fdeceb;color:#b64340} .red h3,.red h4,.red h5{color:#b64340}
+.pink{border-top:10px solid var(--pink)} .pink .seq{background:#feeff9;color:#a55d90} .pink h3,.pink h4,.pink h5{color:#a55d90}
+@media (max-width:1100px){.sidebar{position:relative;width:100%;height:auto}.main{margin-left:0}.hero{padding:40px 24px}.wrap{padding:22px}.kpis,.grid-2,.audit,.topic{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<aside class="sidebar">
+  <div class="logo">
+    <h1>ECON 114<br>Unit 2 MEGAMEGA</h1>
+    <p>Finder-safe graph-right study pack · unemployment, wages, inequality</p>
+  </div>
+  <div class="nav-head">Navigation</div>
+  <a class="nav-item" href="#cover"><span class="dot" style="background:#fff"></span>Cover</a>
+  <a class="nav-item" href="#map"><span class="dot" style="background:var(--dark-purple)"></span>1. Big map</a>
+  <a class="nav-item" href="#recall"><span class="dot" style="background:#b893ff"></span>2. Quick recall</a>
+  <a class="nav-item" href="#ineq"><span class="dot" style="background:var(--dark-blue)"></span>3. Inequality tools</a>
+  <a class="nav-item" href="#wsps"><span class="dot" style="background:var(--light-blue)"></span>4. WS–PS + Lorenz</a>
+  <a class="nav-item" href="#policies"><span class="dot" style="background:var(--dark-green)"></span>5. Labour policies</a>
+  <a class="nav-item" href="#unions"><span class="dot" style="background:#b6dab1"></span>6. Unions + segmentation</a>
+  <a class="nav-item" href="#taxes"><span class="dot" style="background:#efce63"></span>7. Taxes + imports</a>
+  <a class="nav-item" href="#us"><span class="dot" style="background:var(--light-orange)"></span>8. US competition story</a>
+  <a class="nav-item" href="#denmark"><span class="dot" style="background:var(--dark-orange)"></span>9. Denmark + Germany/Spain</a>
+  <a class="nav-item" href="#model"><span class="dot" style="background:var(--red)"></span>10. Limits + traps</a>
+  <a class="nav-item" href="#teach"><span class="dot" style="background:var(--pink)"></span>11. Teach-back</a>
+</aside>
+<main class="main">
+<section class="hero" id="cover">
+  <div class="eyebrow">ECON 114 · A1 / Unit 2 master build</div>
+  <h2>Unit 2 — Unemployment, wages, and inequality: Supply-side policies and institutions</h2>
+  <p>This version is rebuilt in the format you prefer: theory on the left, graphs on the right, with the current Unit 2 slide deck, the full Unit 2 textbook PDF, and the earlier graph-pack idea merged into one cleaner MEGAMEGA study source. It is designed to function as your main Unit 2 note pack without dropping later sections like labour unions, segmented labour markets, taxes, imported materials, Denmark, or Germany vs Spain.</p>
+  <div class="badges">
+    <span class="badge">Right-hand graphs kept</span>
+    <span class="badge">Sections 2.1–2.13 included</span>
+    <span class="badge">Slide-only South Africa notes included</span>
+    <span class="badge">Exam traps + teach-back added</span>
+  </div>
+  <div class="kpis">
+    <div class="kpi"><span class="mini">Unit core</span><b>WS–PS + inequality</b></div>
+    <div class="kpi"><span class="mini">Policy angle</span><b>How institutions shift WS/PS</b></div>
+    <div class="kpi"><span class="mini">Country cases</span><b>US, Denmark, Germany, Spain</b></div>
+    <div class="kpi"><span class="mini">Next bridge</span><b>Demand side begins in Unit 3</b></div>
+  </div>
+</section>
+<div class="wrap">
+
+<section class="section dark-purple" id="map">
+  <div class="section-title"><h3>Big map / what this unit is actually doing</h3><span class="seq">Stage 1 · Dark Purple</span></div>
+  <div class="topic">
+    <div class="card">
+      <h4>The core job of Unit 2</h4>
+      <p>Unit 2 takes the supply-side model from Unit 1 and adds distribution. It asks not only <em>how many people are employed</em> and <em>what real wage is set in equilibrium</em>, but also <em>who gets what share of output</em>. The key bridge is the Lorenz curve: the WS–PS model can be translated into an inequality picture.</p>
+      <div class="callout" style="border-color:var(--dark-purple)"><strong>Master question</strong><br/>Why do countries that look similar—especially Spain, Germany, and Denmark—produce such different combinations of unemployment, real wage growth, and inequality?</div>
+      <h4>Main unit route</h4>
+      <ul>
+        <li><strong>2.1</strong> sets up the puzzle with Mar in Spain and Germany.</li>
+        <li><strong>2.2</strong> introduces Lorenz curves, Gini coefficients, and market vs disposable income.</li>
+        <li><strong>2.3</strong> maps WS–PS equilibrium into a Lorenz curve.</li>
+        <li><strong>2.4–2.8</strong> show how policies and shocks shift WS and PS.</li>
+        <li><strong>2.9–2.11</strong> apply the model to the US, Denmark, Germany, and Spain.</li>
+        <li><strong>2.12</strong> explains why the supply-side model is not enough on its own.</li>
+      </ul>
+      <div class="footer-note">The official topic sequence in your slide deck runs from 2.1 A scarred generation to 2.13 Summary, including labour unions, segmented labour markets, taxes, imported materials, Denmark, and Germany/Spain.</div>
+    </div>
+    <div class="graphbox">
+      <h5>Figure 2.1 · Spain vs Germany unemployment</h5>
+      <img src="unit2_finder_assets/fig21_spain_germany.jpg" alt="Spain and Germany unemployment graph" />
+      <div class="small">This opening graph is the whole puzzle: Spain’s unemployment is persistently much higher than Germany’s, even though both are high-income European economies exposed to similar global technology and product markets.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section pastel-purple" id="recall">
+  <div class="section-title"><h3>Quick recall / before you go deep</h3><span class="seq">Stage 2 · Pastel Purple</span></div>
+  <div class="grid-2">
+    <div class="card">
+      <h4>Definitions you must know cold</h4>
+      <ul>
+        <li><strong>Gini coefficient:</strong> numerical measure of inequality from 0 (perfect equality) to 1 (extreme inequality).</li>
+        <li><strong>Lorenz curve:</strong> cumulative share of income/wealth plotted against cumulative share of population from poorest to richest.</li>
+        <li><strong>Market income:</strong> income before tax and transfers.</li>
+        <li><strong>Disposable income:</strong> income after tax and transfers.</li>
+        <li><strong>Structural unemployment:</strong> unemployment at the WS–PS Nash equilibrium.</li>
+        <li><strong>Markup / profit share:</strong> higher markup means a lower wage share and a lower PS curve.</li>
+        <li><strong>Primary labour market:</strong> higher wages, more security, often unionized.</li>
+        <li><strong>Secondary labour market:</strong> lower wages, lower security, precarious contracts.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>Fast logic rules</h4>
+      <ul>
+        <li>PS up → higher real wage + more employment.</li>
+        <li>PS down → lower real wage + less employment.</li>
+        <li>WS up on its own → higher structural unemployment.</li>
+        <li>Higher productivity with unchanged shares → PS up.</li>
+        <li>Higher taxes or imported-input costs → PS down.</li>
+        <li>Higher markup / less competition → PS down + more inequality.</li>
+        <li>More unemployment and/or lower wage share → Lorenz curve bows further from equality line.</li>
+      </ul>
+      <div class="callout" style="border-color:#9b78dc"><strong>Slide-only note</strong><br/>Your slides also flag South Africa directly: the state of unemployment and inequality in South Africa is part of the framing, and the deck adds the note that South Africa remained extremely unequal, with a slide stating a 2022 Gini of about 0.63.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark-blue" id="ineq">
+  <div class="section-title"><h3>Inequality tools: Lorenz curve, Gini, and disposable income</h3><span class="seq">Stage 3 · Dark Blue</span></div>
+  <div class="topic">
+    <div class="card">
+      <h4>How inequality is measured</h4>
+      <p>The Gini coefficient is a summary number, but the Lorenz curve gives the full shape of inequality. The more bowed the Lorenz curve is away from the 45° equality line, the more unequal the distribution. The area method gives:</p>
+      <div class="formula">Gini = A / (A + B)</div>
+      <p>That is why the landowners example matters: if the first 90% of the population owns nothing, the curve lies flat for most of the horizontal axis and then rises sharply at the end. That is extreme inequality.</p>
+      <h4>Market income vs disposable income</h4>
+      <p>Unit 2 does not stop with wages before government intervention. Disposable income is what households can actually spend after taxes and transfers. Government redistribution can pull the Lorenz curve closer to the equality line even if market income is very unequal.</p>
+      <div class="callout" style="border-color:var(--dark-blue)"><strong>Exam insight</strong><br/>If the question says “living standards”, disposable income is often the more meaningful comparison. If the question says “who earns what before redistribution”, use market income.</div>
+    </div>
+    <div class="stack">
+      <div class="graphbox"><h5>Landowners example</h5><img src="unit2_finder_assets/fig22_lorenz_land.jpg" alt="Lorenz curve land" /></div>
+      <div class="graphbox"><h5>Area method for Gini</h5><img src="unit2_finder_assets/fig24_gini_area.jpg" alt="Gini area diagram" /></div>
+      <div class="graphbox"><h5>Market vs disposable income</h5><img src="unit2_finder_assets/fig26_market_disposable.jpg" alt="Market vs disposable income Lorenz curve" /></div>
+    </div>
+  </div>
+</section>
+
+<section class="section light-blue" id="wsps">
+  <div class="section-title"><h3>WS–PS + Lorenz curve: how equilibrium becomes inequality</h3><span class="seq">Stage 4 · Light Blue</span></div>
+  <div class="topic">
+    <div class="card">
+      <h4>The key bridge in this unit</h4>
+      <p>In the WS–PS model, equilibrium determines three things together: the real wage, employment/unemployment, and the division of output between wage income and profit income. Because of that, one supply-side equilibrium can be translated directly into a Lorenz curve.</p>
+      <p>In the textbook example, a population of 100 has 10 owners, 80 employed workers, and 10 unemployed workers. If the employed workers receive 60% of total income as wages and the owners receive 40%, then the Lorenz curve has:</p>
+      <ul>
+        <li>a flat first segment because unemployed workers receive no income,</li>
+        <li>a middle upward segment because employed workers all earn the same wage,</li>
+        <li>a final steep segment because owners take the remaining profit share.</li>
+      </ul>
+      <p>That is why more unemployment or a lower wage share increases inequality.</p>
+      <div class="formula">wage share = w / λ = 1 − σ</div>
+      <p>So if competition increases and markup falls, the PS curve shifts up, the wage share rises, unemployment falls, and the Lorenz curve moves closer to equality.</p>
+    </div>
+    <div class="stack">
+      <div class="graphbox"><h5>Figure 2.7 · WS–PS mapped to Lorenz</h5><img src="unit2_finder_assets/fig27_wsps_lorenz.jpg" alt="WS-PS mapped to Lorenz" /></div>
+      <div class="graphbox"><h5>Figure 2.8 · More competition</h5><img src="unit2_finder_assets/fig28_competition.jpg" alt="Increased competition shifts PS up" /></div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark-green" id="policies">
+  <div class="section-title"><h3>Labour market policies: intended gains + unintended consequences</h3><span class="seq">Stage 5 · Dark Green</span></div>
+  <div class="topic">
+    <div class="card">
+      <h4>Education and training</h4>
+      <p>If education and training raise labour productivity <strong>λ</strong>, and the markup is unchanged, the PS curve shifts up. Workers get a higher real wage, firms employ more labour, and inequality falls because unemployment falls while the profit share is unchanged.</p>
+      <h4>Wage subsidy</h4>
+      <p>A wage subsidy lowers firms’ effective labour cost. Because the markup is unchanged, firms set a lower price, the real wage rises, and structural unemployment falls. The mechanism is similar to higher productivity: lower unit cost pushes PS up.</p>
+      <h4>Unemployment benefits</h4>
+      <p>This is the big warning example. In the short run, higher unemployment benefits raise the reservation option of workers, so the WS curve shifts up and both unemployed people and employed workers look better off. But in the long run, the new Nash equilibrium can have <em>higher structural unemployment</em>. The unemployed are better off, but fewer people have jobs.</p>
+      <div class="callout" style="border-color:var(--dark-green)"><strong>Very testable contrast</strong><br/>Education/training and wage subsidies push <strong>PS up</strong>. Unemployment benefits, by themselves, push <strong>WS up</strong>. Those are very different policy stories.</div>
+      <div class="small">Your slide deck also notes that some unemployment-benefit data slides and “solidarity wages” enrichment are not to be assessed directly, but the model logic still matters.</div>
+    </div>
+    <div class="stack">
+      <div class="graphbox"><h5>Figure 2.9 · Education/training</h5><img src="unit2_finder_assets/fig29_education.jpg" alt="Education and training effect" /></div>
+      <div class="graphbox"><h5>Figure 2.10 · Unemployment benefit</h5><img src="unit2_finder_assets/fig210_unemp_benefit.jpg" alt="Unemployment benefit short and long run" /></div>
+      <div class="graphbox"><h5>Figure 2.12 · Swedish solidarity wage package</h5><img src="unit2_finder_assets/fig212_solidarity.jpg" alt="Solidarity wage policy" /></div>
+    </div>
+  </div>
+  <div class="topic">
+    <div class="card">
+      <h4>Why Sweden is special in the model</h4>
+      <p>At first glance, generous unemployment benefits should raise structural unemployment. Sweden’s solidaristic package shows why outcomes can differ if other institutions move too. The three linked policies were:</p>
+      <ul>
+        <li><strong>Equal wages for equal work</strong>, negotiated nationally.</li>
+        <li><strong>Generous but relatively short-term unemployment benefits</strong>.</li>
+        <li><strong>Active labour market policy</strong> such as retraining and mobility support.</li>
+      </ul>
+      <p>The result is that low-productivity firms exit, higher-productivity firms expand, average productivity rises, and the PS curve shifts up enough to offset the upward WS pressure from unemployment benefits. This creates a better equilibrium than “benefits alone” would predict.</p>
+    </div>
+    <div class="graphbox">
+      <h5>Figure 2.11 · Benefits generosity vs unemployment</h5>
+      <img src="unit2_finder_assets/fig211_benefit_data.jpg" alt="Benefits generosity and unemployment" />
+      <div class="small">The data warning is important: generous benefits do not automatically imply high unemployment. Institutional packages matter.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section pastel-green" id="unions">
+  <div class="section-title"><h3>Labour unions + segmented labour markets</h3><span class="seq">Stage 6 · Pastel Green</span></div>
+  <div class="topic">
+    <div class="card">
+      <h4>Unions can push WS up — but that is not the whole story</h4>
+      <p>If unions bargain for wages above the minimum necessary to prevent shirking, the bargaining curve lies above the original WS curve. In the simplest version, that means lower employment and unchanged equilibrium real wages in the long run.</p>
+      <p>But the unit then adds two correctives:</p>
+      <ul>
+        <li><strong>Union restraint:</strong> powerful unions may choose not to fully use bargaining power because they understand general-equilibrium effects on jobs.</li>
+        <li><strong>Union voice effect:</strong> cooperative relations can lower the disutility of effort, shift WS down, raise productivity, or even shift PS up.</li>
+      </ul>
+      <p>That is why union coverage and unemployment do not show a simple positive relationship across countries.</p>
+      <div class="callout" style="border-color:#5ca06d"><strong>High-level rule</strong><br/>In this unit, unions are not “always good” or “always bad”. Their net effect depends on bargaining pressure, restraint, voice, productivity effects, and the surrounding institutions.</div>
+    </div>
+    <div class="stack">
+      <div class="graphbox"><h5>Figure 2.14 · Bargained WS curve</h5><img src="unit2_finder_assets/fig214_union_bargain.jpg" alt="Bargained wage setting curve" /></div>
+      <div class="graphbox"><h5>Figure 2.15 · Union coverage vs unemployment</h5><img src="unit2_finder_assets/fig215_union_coverage.jpg" alt="Union coverage and unemployment" /></div>
+      <div class="graphbox"><h5>Figure 2.16 · Union voice effect</h5><img src="unit2_finder_assets/fig216_union_voice.jpg" alt="Union voice effect" /></div>
+    </div>
+  </div>
+  <div class="topic">
+    <div class="card">
+      <h4>US example: weaker unions and more inequality</h4>
+      <p>The textbook gives the US as a time-series example: union density fell sharply from the early 1980s, while earnings inequality rose. In model terms, weaker unions and weaker worker bargaining power contribute to a downward shift in the WS curve. That can help explain why unemployment did not rise as much as a falling-competition story alone would predict.</p>
+      <h4>Segmented labour markets</h4>
+      <p>Unit 2 then separates the labour market into a primary segment and a secondary segment. Carmen belongs to the primary labour market: better wages, stronger security, promotion ladders, often unionized. Mar is trapped in the secondary market: insecure contracts, lower pay, lower bargaining power. Segmentation increases inequality even when workers have similar skills.</p>
+      <p>Eliminating segmentation raises low wages, lowers high wages somewhat, and moves the Lorenz curve closer to equality. The product-market side is unchanged, so the PS curve is unaffected in that example.</p>
+    </div>
+    <div class="stack">
+      <div class="graphbox"><h5>Figure 2.17 · Unionization and Gini in the US</h5><img src="unit2_finder_assets/fig217_union_gini_us.jpg" alt="Union share and Gini US" /></div>
+      <div class="graphbox"><h5>Figure 2.18 · Segmented labour market</h5><img src="unit2_finder_assets/fig218_segmented.jpg" alt="Segmented labour market Lorenz curve" /></div>
+    </div>
+  </div>
+</section>
+
+<section class="section pastel-yellow" id="taxes">
+  <div class="section-title"><h3>Taxes + imported materials: why PS can fall even without weaker worker power</h3><span class="seq">Stage 7 · Pastel Yellow</span></div>
+  <div class="topic">
+    <div class="card">
+      <h4>Taxes in the WS–PS model</h4>
+      <p>Once taxes are introduced, we care about the <strong>post-tax real consumption wage</strong>. The WS curve stays written in terms of the real wage workers can actually consume, but the PS curve changes because taxes reduce the output available to be shared between workers and firms.</p>
+      <div class="formula">P<sub>c</sub> = P(1 + t<sub>v</sub>)
+W<sub>gross</sub> = W(1 + t<sub>d</sub>)
+w = W / P<sub>c</sub>
+PS with tax: w = ((1 − σ)λ) / ((1 + t<sub>d</sub>)(1 + t<sub>v</sub>))</div>
+      <p>So a higher direct tax or consumption tax shifts PS down. Real wages fall and structural unemployment rises, other things equal. If education/training is financed by tax, the tax effect partly offsets the productivity effect.</p>
+      <h4>Imported materials</h4>
+      <p>If firms rely on imported raw materials or energy, higher import costs raise marginal cost. Then workers and firms are not the only claimants on output anymore: foreign input suppliers also take a slice.</p>
+      <div class="formula">PS with imported materials: w = ((1 − σ)λ) / (1 + ψ)</div>
+      <p>When <strong>ψ</strong> rises—think oil and gas shock—the PS curve shifts down. Real wages fall and structural unemployment rises. This is one reason imported-energy shocks matter so much for macro outcomes.</p>
+    </div>
+    <div class="stack">
+      <div class="graphbox"><h5>Figure 2.19 · Tax split inside output</h5><img src="unit2_finder_assets/fig219_tax_split.jpg" alt="WS-PS with tax split" /></div>
+      <div class="graphbox"><h5>Figure 2.20 · Tax rise shifts PS down</h5><img src="unit2_finder_assets/fig220_tax_rise.jpg" alt="Tax rise shifts PS down" /></div>
+    </div>
+  </div>
+</section>
+
+<section class="section light-orange" id="us">
+  <div class="section-title"><h3>Application: did falling competition increase inequality in the US?</h3><span class="seq">Stage 8 · Light Orange</span></div>
+  <div class="topic">
+    <div class="card">
+      <h4>The model’s US story</h4>
+      <p>Governments use competition policy mostly as a micro tool, but Unit 2 shows a macro damage from excessive market power too. Less competition means a higher markup. In the WS–PS model, that is a lower PS curve, which means a lower wage share, a higher profit share, and—if nothing else changes—higher structural unemployment.</p>
+      <p>The textbook then shows three US trends moving in the same broad direction over time:</p>
+      <ul>
+        <li>average markup rises,</li>
+        <li>profit share rises,</li>
+        <li>market-income Gini rises.</li>
+      </ul>
+      <p>But the model initially predicts more unemployment too, which did not happen clearly in the US. So the textbook adds a second force: weaker unions / weaker worker bargaining power shifted WS down. The combined movement can produce higher inequality without a rise in unemployment.</p>
+      <div class="callout" style="border-color:var(--light-orange)"><strong>Important nuance</strong><br/>The textbook also flags automation and the China shock as additional reasons inequality rose in the US. So competition is a major explanation in the unit, but not the only one.</div>
+    </div>
+    <div class="stack">
+      <div class="graphbox"><h5>Figure 2.21 · Markup in the US</h5><img src="unit2_finder_assets/fig221_markup_us.jpg" alt="Markup US" /></div>
+      <div class="graphbox"><h5>Figure 2.22 · Profit share</h5><img src="unit2_finder_assets/fig222_profit_share.jpg" alt="Profit share US" /></div>
+      <div class="graphbox"><h5>Figure 2.23 · Market-income Gini</h5><img src="unit2_finder_assets/fig223_gini_us.jpg" alt="Gini US" /></div>
+    </div>
+  </div>
+  <div class="topic">
+    <div class="card">
+      <h4>How the model resolves the puzzle</h4>
+      <p>If only PS falls because markup rises, the economy moves from A to B: lower wage share and more unemployment. But if WS also shifts down because worker bargaining weakens, the final equilibrium can move to C: inequality still rises, yet unemployment need not rise and may even fall somewhat.</p>
+      <p>So the US application is really a <strong>combined product-market and labour-market power story</strong>.</p>
+    </div>
+    <div class="stack">
+      <div class="graphbox"><h5>Figure 2.24 · Market power + weaker worker power</h5><img src="unit2_finder_assets/fig224_marketpower_wsps.jpg" alt="Combined WS-PS story US" /></div>
+      <div class="graphbox"><h5>Figure 2.25 · Lorenz outcome</h5><img src="unit2_finder_assets/fig225_marketpower_lorenz.jpg" alt="Lorenz outcome US" /></div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark-orange" id="denmark">
+  <div class="section-title"><h3>Denmark flexicurity + Germany vs Spain</h3><span class="seq">Stage 9 · Darker Orange</span></div>
+  <div class="topic">
+    <div class="card">
+      <h4>Denmark’s flexicurity triangle</h4>
+      <p>Denmark combines employer flexibility with worker security. Employers can hire and fire relatively easily, but workers receive income support for a limited period and strong active labour market policies like retraining and job matching. The model suggests several possible effects:</p>
+      <ul>
+        <li>higher productivity can shift PS up,</li>
+        <li>cooperative labour relations can shift WS down,</li>
+        <li>easy firing can also shift WS down because shirking becomes riskier,</li>
+        <li>but generous benefits can shift WS up because life without a job improves.</li>
+      </ul>
+      <p>The overall Danish outcome is consistent with a successful institutional package, not a single policy lever.</p>
+      <h4>Germany vs Spain</h4>
+      <p>Germany performs better because its system combines stronger worker–employer cooperation, higher labour productivity, and more competitive product markets. Spain suffers from slower productivity growth, weaker firm-level cooperation, more difficult firing rules, and higher markups. That means Germany tends to have a higher PS and a lower WS than Spain.</p>
+    </div>
+    <div class="stack">
+      <div class="graphbox"><h5>Figure 2.26 · Flexicurity triangle</h5><img src="unit2_finder_assets/fig226_flexicurity.jpg" alt="Flexicurity triangle Denmark" /></div>
+      <div class="graphbox"><h5>Figure 2.27 · Macro performance comparison</h5><img src="unit2_finder_assets/fig227_macro_performance.jpg" alt="Macro performance graph" /></div>
+      <div class="graphbox"><h5>Figure 2.28 · Germany / Spain / Denmark indicators</h5><img src="unit2_finder_assets/fig228_compare_table.jpg" alt="Country comparison table" /></div>
+    </div>
+  </div>
+</section>
+
+<section class="section red" id="model">
+  <div class="section-title"><h3>How good is the model? + exam traps</h3><span class="seq">Stage 10 · Red</span></div>
+  <div class="topic">
+    <div class="card">
+      <h4>What the model misses</h4>
+      <p>The WS–PS framework is powerful, but Unit 2 explicitly says it is incomplete. First, the equilibrium can act like a weak magnet: adjustment can be slow. German reunification shows this. East German unemployment jumped and stayed high for a long time because wages rose toward West German levels and East German firms could not compete. If the model adjusted quickly, that hump would have disappeared much faster.</p>
+      <p>Second, the model is supply-side only. It cannot explain why economists and governments devote so much effort to stabilizing demand shocks. That is why Unit 3 introduces the demand side and aggregate demand.</p>
+      <div class="callout" style="border-color:var(--red)"><strong>What to write in a paragraph answer</strong><br/>“The WS–PS model is useful for showing how productivity, competition, taxation, benefits, unions, and input costs affect structural unemployment, wages, and inequality. But it does not fully explain slow adjustment or macroeconomic slumps caused by weak demand, which is why the demand side is introduced in Unit 3.”</div>
+      <h4>Mistakes to avoid</h4>
+      <ul>
+        <li>Confusing market income with disposable income.</li>
+        <li>Writing that a higher unemployment benefit automatically raises unemployment in the data.</li>
+        <li>Saying unions always raise unemployment.</li>
+        <li>Forgetting that higher markup = lower PS = lower wage share.</li>
+        <li>Thinking taxes shift WS instead of PS in this setup.</li>
+        <li>Forgetting that imported materials create a claim on output by foreign suppliers.</li>
+        <li>Treating Denmark’s outcome as “because benefits are generous” without mentioning the whole flexicurity package.</li>
+      </ul>
+    </div>
+    <div class="stack">
+      <div class="graphbox"><h5>Figure 2.29 · Long-run unemployment comparison</h5><img src="unit2_finder_assets/fig229_longrun_unemp.jpg" alt="Long-run unemployment Spain Germany Denmark" /></div>
+      <div class="graphbox"><h5>Coverage audit</h5>
+        <div class="audit">
+          <div class="card"><h4>Included</h4><p>2.1–2.4</p><p class="small">Scarred generation, inequality tools, WS–PS + Lorenz, education/training, wage subsidy, unemployment benefit.</p></div>
+          <div class="card"><h4>Included</h4><p>2.5–2.8</p><p class="small">Labour unions, union voice/restraint, segmentation, taxes, imported materials.</p></div>
+          <div class="card"><h4>Included</h4><p>2.9–2.13</p><p class="small">US market power, Denmark flexicurity, Germany vs Spain, model limits, final summary.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section pink" id="teach">
+  <div class="section-title"><h3>Teach-back / mastery page</h3><span class="seq">Stage 11 · Pink</span></div>
+  <div class="grid-2">
+    <div class="card">
+      <h4>Explain aloud without notes</h4>
+      <ul>
+        <li>Why is the Lorenz curve more informative than the Gini coefficient alone?</li>
+        <li>How does a WS–PS equilibrium generate a Lorenz curve?</li>
+        <li>Why does more competition reduce inequality in this model?</li>
+        <li>Why can generous unemployment benefits raise structural unemployment in theory but not obviously in the data?</li>
+        <li>How can unions either raise or lower structural unemployment?</li>
+        <li>Why do taxes and imported materials both shift PS down?</li>
+        <li>How does the US application combine product-market and labour-market changes?</li>
+        <li>What is flexicurity and why is it different from simple job protection?</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>One-minute exam prompts</h4>
+      <ol>
+        <li>Define market income and disposable income and explain their effect on measured inequality.</li>
+        <li>Use Figure 2.7 logic to explain why higher unemployment can raise inequality.</li>
+        <li>Show how education and training affect PS, employment, and the Gini coefficient.</li>
+        <li>Contrast a wage subsidy with an unemployment benefit in WS–PS language.</li>
+        <li>Explain the union voice effect.</li>
+        <li>Explain how a rise in oil prices affects the PS curve.</li>
+        <li>Explain the difference between Denmark and Spain using WS–PS.</li>
+        <li>State one limitation of the supply-side model and why Unit 3 is needed.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="footer-note">Built in your preferred finder-safe layout: explanation on the left, visuals on the right, and later topics kept in instead of stopping too early.</div>
+</section>
+
+</div>
+</main>
+</body>
+</html>

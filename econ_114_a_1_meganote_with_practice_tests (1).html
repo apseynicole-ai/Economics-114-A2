@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Economics 114 A1 MegaNote</title>
+  <style>
+    :root {
+      --bg: #fffafc;
+      --ink: #1f2430;
+      --muted: #5b6473;
+      --card: #ffffff;
+      --border: #eadfea;
+      --shadow: 0 14px 40px rgba(64, 26, 78, 0.08);
+      --dark-purple: #3c1361;
+      --purple: #7b4cc2;
+      --dark-blue: #1f4e79;
+      --light-blue: #89c2ff;
+      --dark-green: #1d6f5f;
+      --light-green: #bfe8c7;
+      --yellow: #fff0a8;
+      --light-orange: #ffd3a4;
+      --dark-orange: #f4a261;
+      --red: #e76f51;
+      --dark-pink: #c2185b;
+      --hot-pink: #ff4fa3;
+      --pastel-pink: #ffd6e7;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #fffdfd 0%, #fff7fb 100%);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      width: min(1180px, 94vw);
+      margin: 0 auto;
+      padding: 28px 0 80px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--dark-purple), #5c2491 55%, var(--hot-pink));
+      color: white;
+      border-radius: 28px;
+      padding: 32px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto -120px -120px auto;
+      width: 280px;
+      height: 280px;
+      background: rgba(255,255,255,0.09);
+      border-radius: 999px;
+    }
+
+    h1, h2, h3, h4 { line-height: 1.15; margin: 0 0 14px; }
+    h1 { font-size: clamp(2rem, 4vw, 3.2rem); }
+    h2 { font-size: clamp(1.4rem, 2.2vw, 2rem); }
+    h3 { font-size: 1.1rem; }
+    p { margin: 0 0 12px; }
+    .muted { color: var(--muted); }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .chip {
+      border: 1px solid rgba(255,255,255,0.25);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 0.92rem;
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(8px);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 22px;
+      margin-top: 22px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .section-head {
+      padding: 20px 22px;
+      color: white;
+    }
+
+    .section-body {
+      padding: 22px;
+    }
+
+    .purple-dark { background: var(--dark-purple); }
+    .purple { background: var(--purple); }
+    .blue-dark { background: var(--dark-blue); }
+    .blue-light { background: var(--light-blue); color: #10304d; }
+    .green-dark { background: var(--dark-green); }
+    .green-light { background: var(--light-green); color: #143b2b; }
+    .yellow { background: var(--yellow); color: #503e00; }
+    .orange-light { background: var(--light-orange); color: #5a3000; }
+    .orange-dark { background: var(--dark-orange); }
+    .red { background: var(--red); }
+    .pink-dark { background: var(--dark-pink); }
+    .pink-hot { background: var(--hot-pink); }
+    .pink-pastel { background: var(--pastel-pink); color: #6a2447; }
+
+    .mini-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    ul, ol {
+      margin: 0 0 10px 1.2rem;
+      padding: 0;
+    }
+
+    li { margin-bottom: 7px; }
+
+    .formula {
+      background: #f8f3ff;
+      border: 1px solid #e8dafb;
+      border-left: 5px solid var(--purple);
+      padding: 14px 16px;
+      border-radius: 16px;
+      margin: 12px 0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      overflow-x: auto;
+    }
+
+    .exam-box {
+      background: #fff;
+      border: 1px solid #efe4f4;
+      border-left: 6px solid var(--dark-purple);
+      padding: 16px;
+      border-radius: 16px;
+      margin: 12px 0;
+    }
+
+    .trap {
+      background: #fff6f6;
+      border: 1px solid #ffd8d8;
+      border-left: 6px solid var(--red);
+      padding: 14px 16px;
+      border-radius: 16px;
+      margin: 12px 0;
+    }
+
+    .fast {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .fast .pill {
+      background: #fff;
+      border: 1px solid #ece3f0;
+      padding: 14px;
+      border-radius: 16px;
+      font-size: 0.95rem;
+    }
+
+    details {
+      border: 1px solid #eddff1;
+      border-radius: 18px;
+      padding: 0;
+      overflow: hidden;
+      background: white;
+      margin-bottom: 16px;
+    }
+
+    summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 18px 18px;
+      font-weight: 700;
+      background: linear-gradient(90deg, #f9f1ff, #fff8fc);
+      border-bottom: 1px solid #f0e3f4;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    .quiz-inner {
+      padding: 18px;
+    }
+
+    .question {
+      padding: 16px;
+      border: 1px solid #eee3f2;
+      border-radius: 16px;
+      margin-bottom: 14px;
+      background: #fff;
+    }
+
+    .question h4 {
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+
+    .option {
+      display: block;
+      padding: 10px 12px;
+      border-radius: 12px;
+      margin-bottom: 8px;
+      border: 1px solid #f0e5f2;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+
+    .option:hover {
+      background: #fcf8ff;
+      border-color: #dcc2ef;
+    }
+
+    .quiz-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+      align-items: center;
+    }
+
+    button {
+      border: 0;
+      border-radius: 14px;
+      padding: 11px 16px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(100, 54, 140, 0.12);
+    }
+
+    .grade-btn { background: linear-gradient(135deg, var(--dark-purple), var(--purple)); color: white; }
+    .reset-btn { background: #f3ecf7; color: #4f2a67; }
+    .result {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-radius: 16px;
+      background: #f8f5ff;
+      border: 1px solid #e5daf5;
+      display: none;
+    }
+
+    .correct { border-color: #7bd39d !important; background: #f2fff7 !important; }
+    .incorrect { border-color: #ff9e9e !important; background: #fff5f5 !important; }
+    .explanation {
+      margin-top: 8px;
+      font-size: 0.94rem;
+      color: #5b4866;
+    }
+
+    .footer-note {
+      margin-top: 24px;
+      padding: 18px;
+      background: linear-gradient(135deg, #fff3f8, #fef8ff);
+      border: 1px solid #f3dbe7;
+      border-radius: 18px;
+    }
+
+    @media (max-width: 980px) {
+      .grid, .mini-grid, .fast { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Economics 114 A1 MegaNote 💜</h1>
+      <p>This pack is built around the <strong>most repeated A1 patterns</strong> from past papers. It is designed to help you spot question types fast, answer with clean structure, and avoid common traps.</p>
+      <div class="chips">
+        <span class="chip">A1-focused</span>
+        <span class="chip">Past-paper pattern guide</span>
+        <span class="chip">Clean exam answers</span>
+        <span class="chip">4 practice tests with auto grading</span>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <div class="section-head purple-dark">
+          <h2>1) What keeps coming up in A1?</h2>
+        </div>
+        <div class="section-body">
+          <div class="mini-grid">
+            <div>
+              <h3>Section A: True/False</h3>
+              <ul>
+                <li>Malthusian logic</li>
+                <li>MRS vs MRT definitions</li>
+                <li>Game theory concepts</li>
+                <li>Fairness / Pareto / bargaining</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Section B: MCQ</h3>
+              <ul>
+                <li>Game theory / Nash equilibrium</li>
+                <li>Budget lines + MRS</li>
+                <li>Income + substitution effects</li>
+                <li>Comparative advantage</li>
+                <li>Technology choice + innovation rent</li>
+                <li>GDP / GDP per capita / relative prices</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exam-box">
+            <h3>Best prediction for A1</h3>
+            <p>You should expect a paper that tests whether you can do <strong>short conceptual distinctions quickly</strong>, then apply them to <strong>graphs, tables, and payoff matrices</strong>.</p>
+          </div>
+
+          <div class="trap">
+            <strong>Big trap:</strong> A1 loves giving you familiar words in slightly wrong combinations, like saying <em>MRT is the slope of the indifference curve</em> or saying <em>income growth leads to population growth which then causes more income growth</em>. Read every word carefully.
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="section-head purple">
+          <h2>2) Ultra-fast formula sheet</h2>
+        </div>
+        <div class="section-body">
+          <div class="formula">GDP growth % = ((new GDP - old GDP) / old GDP) × 100</div>
+          <div class="formula">GDP per capita = GDP / population</div>
+          <div class="formula">Relative price of X in terms of Y = Px / Py</div>
+          <div class="formula">Technology cost = wL + rK</div>
+          <div class="formula">At consumer optimum: MRS = relative price</div>
+          <div class="formula">Innovation rent = old cost - new cost (if output price stays the same)</div>
+          <div class="formula">Comparative advantage = lower opportunity cost</div>
+          <div class="formula">Nash equilibrium = no player wants to deviate unilaterally</div>
+        </div>
+      </section>
+    </div>
+
+    <section class="card" style="margin-top:22px;">
+      <div class="section-head blue-dark">
+        <h2>3) Section A MegaNote — what to know cold</h2>
+      </div>
+      <div class="section-body">
+        <div class="mini-grid">
+          <div>
+            <h3>Malthusian trap</h3>
+            <ul>
+              <li>Land is effectively fixed.</li>
+              <li>As population rises, the <strong>average product of labour falls</strong>.</li>
+              <li>If income rises above subsistence, population tends to increase.</li>
+              <li>That larger population then pushes income per person back down.</li>
+              <li>So temporary productivity gains do <strong>not</strong> permanently raise living standards in the trap.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Always remember</h3>
+            <ul>
+              <li><strong>MRS</strong> = slope of indifference curve</li>
+              <li><strong>MRT</strong> = slope of feasible frontier / budget line trade-off in production context</li>
+              <li><strong>Nash equilibrium</strong> ≠ always socially best</li>
+              <li><strong>Pareto efficient</strong> = no one can be made better off without making someone else worse off</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exam-box">
+          <h3>Section A answer style</h3>
+          <p>Do not answer based on vibe. Ask: <strong>Is every word correct?</strong> A statement can start well and still be false because of one wrong causal step or one swapped definition.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px;">
+      <div class="section-head blue-light">
+        <h2>4) Section B MegaNote — repeated question types</h2>
+      </div>
+      <div class="section-body">
+        <div class="mini-grid">
+          <div>
+            <h3>Comparative advantage</h3>
+            <p>Work out the opportunity cost for each side. The one with the <strong>lower opportunity cost</strong> has the comparative advantage.</p>
+            <div class="formula">Opportunity cost of 1 X = amount of Y given up</div>
+          </div>
+          <div>
+            <h3>Technology choice</h3>
+            <p>Eliminate dominated techniques first. Then compare total costs using input prices.</p>
+            <div class="formula">Cost = wL + rK</div>
+          </div>
+          <div>
+            <h3>Budget line + MRS</h3>
+            <p>If the consumer is at the best affordable point, then the indifference curve is tangent to the budget line.</p>
+            <div class="formula">MRS = Px / Py (using magnitudes)</div>
+          </div>
+          <div>
+            <h3>Income + substitution</h3>
+            <p>Price change → one good becomes relatively cheaper or more expensive → substitution effect. Real purchasing power also changes → income effect.</p>
+          </div>
+          <div>
+            <h3>Game theory</h3>
+            <p>Check best responses row by row and column by column. If one strategy is always best no matter what the other does, it is dominant.</p>
+          </div>
+          <div>
+            <h3>GDP / GDP per capita</h3>
+            <p>A fall in GDP does not automatically mean everyone is worse off. Population changes can make GDP per capita move differently from total GDP.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px;">
+      <div class="section-head green-dark">
+        <h2>5) Section C MegaNote — clean exam answers</h2>
+      </div>
+      <div class="section-body">
+        <div class="exam-box">
+          <h3>Template 1: Explain the Malthusian trap</h3>
+          <p>In the Malthusian model, land is effectively fixed, so when population increases, more labour is applied to the same land. This causes the average product of labour to fall. If wages or income rise above subsistence, population increases. That increase in population pushes output per worker back down, so living standards return toward subsistence. Therefore, productivity gains do not permanently raise living standards while the economy remains in the Malthusian trap.</p>
+        </div>
+
+        <div class="exam-box">
+          <h3>Template 2: Comparative advantage</h3>
+          <p>First calculate the opportunity cost of producing each good for each person/country. The person or country with the lower opportunity cost of producing a good has the comparative advantage in that good. Therefore, specialisation should follow comparative advantage, not absolute advantage.</p>
+        </div>
+
+        <div class="exam-box">
+          <h3>Template 3: Technology choice + innovation rent</h3>
+          <p>The firm should choose the non-dominated technology with the lowest total cost. Total cost is calculated as wage times labour plus the price of capital times capital. Innovation rent is the extra profit earned from using the new lower-cost technology before rivals adopt it. If output price stays the same, the innovation rent is equal to the old cost minus the new cost.</p>
+        </div>
+
+        <div class="exam-box">
+          <h3>Template 4: Income and substitution effects</h3>
+          <p>The substitution effect is the change in consumption caused by a good becoming relatively cheaper or more expensive. The income effect is the change caused by the change in real purchasing power. For a normal good, a fall in price usually increases consumption through both effects. In a labour-leisure model, a wage increase causes a substitution effect toward less free time and more work, but the income effect may increase free time if leisure is a normal good.</p>
+        </div>
+
+        <div class="exam-box">
+          <h3>Template 5: Nash equilibrium / social dilemma</h3>
+          <p>A Nash equilibrium is an outcome where neither player wants to deviate unilaterally. A social dilemma occurs when the Nash equilibrium is Pareto inefficient, meaning both players could be better off at another feasible outcome, but self-interested behaviour prevents them from reaching it.</p>
+        </div>
+
+        <div class="exam-box">
+          <h3>Template 6: Pareto efficiency in bargaining / farm diagrams</h3>
+          <p>An allocation is Pareto efficient if no further mutually beneficial reallocation is possible. Where MRS equals MRT, the person’s willingness to trade matches the economy’s trade-off, so the gains from trade have been exhausted. Therefore, no Pareto improvement from that point is possible.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px;">
+      <div class="section-head green-light">
+        <h2>6) Common traps that cost easy marks</h2>
+      </div>
+      <div class="section-body">
+        <div class="fast">
+          <div class="pill"><strong>MRS vs MRT:</strong> MRS is about preferences. MRT is about trade-offs in production / feasible choices.</div>
+          <div class="pill"><strong>Absolute vs comparative advantage:</strong> being better at both goods does not remove comparative advantage.</div>
+          <div class="pill"><strong>GDP vs wellbeing:</strong> GDP is useful, but does not measure everything that matters.</div>
+          <div class="pill"><strong>Nash equilibrium:</strong> not automatically fair, efficient, or socially best.</div>
+          <div class="pill"><strong>Innovation rent:</strong> it is a gain from lower cost, not just from inventing something cool.</div>
+          <div class="pill"><strong>Inferior good:</strong> income effect may go the opposite way from the substitution effect.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px;">
+      <div class="section-head yellow">
+        <h2>7) Extra past-paper clarifications</h2>
+      </div>
+      <div class="section-body">
+        <div class="mini-grid">
+          <div>
+            <h3>Graphs in A1</h3>
+            <p>Across the past A1 papers, students were generally <strong>not asked to draw full graphs from scratch</strong>. A1 mainly expects you to <strong>interpret provided graphs</strong>, explain movements between points, explain shifts, identify feasible vs unfeasible bundles, and derive equations for budget lines or isocost lines.</p>
+            <div class="exam-box">
+              <strong>Translation for revision:</strong> know how to <em>read</em> graphs fluently, not just memorise how to sketch them.
+            </div>
+          </div>
+          <div>
+            <h3>How much Adam Smith matters</h3>
+            <p>You do <strong>not</strong> need a big biography. What matters is linking Adam Smith to:</p>
+            <ul>
+              <li><strong>specialisation</strong></li>
+              <li><strong>division of labour</strong></li>
+              <li><strong>market coordination / spontaneous order</strong></li>
+            </ul>
+            <p>You are much more likely to get a conceptual question than a date-based history question.</p>
+          </div>
+        </div>
+
+        <div class="mini-grid" style="margin-top: 18px;">
+          <div>
+            <h3>Negative marking</h3>
+            <ul>
+              <li><strong>Section A:</strong> usually +1 for correct, −1/2 for incorrect</li>
+              <li><strong>Section B:</strong> usually +2 for correct, −1/4 for incorrect</li>
+            </ul>
+            <p>This means random guessing can hurt you, especially in Section A.</p>
+          </div>
+          <div>
+            <h3>Important pattern</h3>
+            <p>Past papers care far more about whether you can explain <strong>why a model works</strong> than whether you can recall dates, inventors, or trivia. Learn the logic, not just the labels.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px;">
+      <div class="section-head yellow">
+        <h2>8) Fast answer method for the real test</h2>
+      </div>
+      <div class="section-body">
+        <ol>
+          <li><strong>Section A:</strong> hunt for one wrong word.</li>
+          <li><strong>Section B:</strong> calculate before guessing.</li>
+          <li><strong>Game theory:</strong> mark best responses first, then locate the equilibrium.</li>
+          <li><strong>Technology questions:</strong> remove dominated techniques before doing any cost calculations.</li>
+          <li><strong>Consumer questions:</strong> decide whether the question is about slope, trade-off, substitution, or real income.</li>
+          <li><strong>Long questions:</strong> use the clean template language and then add the specific details from the numbers/graph.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px;">
+      <div class="section-head orange-light">
+        <h2>9) Four practice tests with automatic grading</h2>
+      </div>
+      <div class="section-body">
+        <p class="muted">These are A1-style mixed mini tests. Click <strong>Grade test</strong> to mark instantly and reveal explanations.</p>
+
+        <details open>
+          <summary>Practice Test 1 — Malthus + Tech + GDP</summary>
+          <div class="quiz-inner">
+            <form class="quiz" data-quiz-id="quiz1">
+              <div class="question" data-answer="b">
+                <h4>1. In the Malthusian trap, a productivity increase permanently raises living standards.</h4>
+                <label class="option"><input type="radio" name="q1_1" value="a"> A. True</label>
+                <label class="option"><input type="radio" name="q1_1" value="b"> B. False</label>
+                <div class="explanation">False. Higher income leads to population growth, which pushes income per person back down toward subsistence.</div>
+              </div>
+
+              <div class="question" data-answer="a">
+                <h4>2. Which conditions are necessary for an economy to remain in the Malthusian trap?</h4>
+                <label class="option"><input type="radio" name="q1_2" value="a"> A. A concave production function and rising population in response to higher wages</label>
+                <label class="option"><input type="radio" name="q1_2" value="b"> B. A convex production function and falling population when wages rise</label>
+                <label class="option"><input type="radio" name="q1_2" value="c"> C. Permanent innovation that offsets diminishing average product</label>
+                <label class="option"><input type="radio" name="q1_2" value="d"> D. None of the above</label>
+                <div class="explanation">The trap needs diminishing average product of labour plus a population response to higher income.</div>
+              </div>
+
+              <div class="question" data-answer="d">
+                <h4>3. A new technology lowers production cost while output price stays the same. The firm’s extra gain is called:</h4>
+                <label class="option"><input type="radio" name="q1_3" value="a"> A. Consumer surplus</label>
+                <label class="option"><input type="radio" name="q1_3" value="b"> B. Opportunity cost</label>
+                <label class="option"><input type="radio" name="q1_3" value="c"> C. GDP rent</label>
+                <label class="option"><input type="radio" name="q1_3" value="d"> D. Innovation rent</label>
+                <div class="explanation">Innovation rent is the extra profit from adopting a lower-cost technology before others do.</div>
+              </div>
+
+              <div class="question" data-answer="c">
+                <h4>4. GDP per capita can rise even when total GDP falls if:</h4>
+                <label class="option"><input type="radio" name="q1_4" value="a"> A. Prices rise</label>
+                <label class="option"><input type="radio" name="q1_4" value="b"> B. There is more inequality</label>
+                <label class="option"><input type="radio" name="q1_4" value="c"> C. Population falls by a larger percentage than GDP</label>
+                <label class="option"><input type="radio" name="q1_4" value="d"> D. Unpaid work rises</label>
+                <div class="explanation">GDP per capita depends on both GDP and population.</div>
+              </div>
+
+              <div class="question" data-answer="b">
+                <h4>5. Britain escaped the Malthusian trap in the Allen model mainly because:</h4>
+                <label class="option"><input type="radio" name="q1_5" value="a"> A. Labour was cheaper than coal</label>
+                <label class="option"><input type="radio" name="q1_5" value="b"> B. Coal was relatively cheap and labour relatively expensive</label>
+                <label class="option"><input type="radio" name="q1_5" value="c"> C. Britain had no population growth</label>
+                <label class="option"><input type="radio" name="q1_5" value="d"> D. Wages were irrelevant</label>
+                <div class="explanation">Cheap coal + expensive labour gave firms an incentive to adopt energy-intensive, labour-saving technology.</div>
+              </div>
+
+              <div class="quiz-actions">
+                <button type="button" class="grade-btn" onclick="gradeQuiz('quiz1')">Grade test</button>
+                <button type="button" class="reset-btn" onclick="resetQuiz('quiz1')">Reset</button>
+              </div>
+              <div class="result" id="quiz1-result"></div>
+            </form>
+          </div>
+        </details>
+
+        <details>
+          <summary>Practice Test 2 — Consumer theory</summary>
+          <div class="quiz-inner">
+            <form class="quiz" data-quiz-id="quiz2">
+              <div class="question" data-answer="c">
+                <h4>1. At the best affordable consumption point, the consumer usually chooses the bundle where:</h4>
+                <label class="option"><input type="radio" name="q2_1" value="a"> A. MRS = income</label>
+                <label class="option"><input type="radio" name="q2_1" value="b"> B. MRT = MRS</label>
+                <label class="option"><input type="radio" name="q2_1" value="c"> C. MRS = relative price</label>
+                <label class="option"><input type="radio" name="q2_1" value="d"> D. MP = AP</label>
+                <div class="explanation">At the optimum, the slope of the indifference curve equals the slope of the budget line.</div>
+              </div>
+
+              <div class="question" data-answer="a">
+                <h4>2. If the price of a normal good falls, the substitution effect on that good is:</h4>
+                <label class="option"><input type="radio" name="q2_2" value="a"> A. Positive</label>
+                <label class="option"><input type="radio" name="q2_2" value="b"> B. Negative</label>
+                <label class="option"><input type="radio" name="q2_2" value="c"> C. Zero</label>
+                <label class="option"><input type="radio" name="q2_2" value="d"> D. Always ambiguous</label>
+                <div class="explanation">When a good becomes relatively cheaper, consumers substitute toward it.</div>
+              </div>
+
+              <div class="question" data-answer="d">
+                <h4>3. The slope of the budget line shows:</h4>
+                <label class="option"><input type="radio" name="q2_3" value="a"> A. The consumer’s utility level</label>
+                <label class="option"><input type="radio" name="q2_3" value="b"> B. The production technology</label>
+                <label class="option"><input type="radio" name="q2_3" value="c"> C. The Gini coefficient</label>
+                <label class="option"><input type="radio" name="q2_3" value="d"> D. The market trade-off between the two goods</label>
+                <div class="explanation">Its magnitude is the opportunity cost of one good in terms of the other.</div>
+              </div>
+
+              <div class="question" data-answer="b">
+                <h4>4. If leisure is a normal good and wages rise, the substitution effect on free time is:</h4>
+                <label class="option"><input type="radio" name="q2_4" value="a"> A. Positive</label>
+                <label class="option"><input type="radio" name="q2_4" value="b"> B. Negative</label>
+                <label class="option"><input type="radio" name="q2_4" value="c"> C. Zero</label>
+                <label class="option"><input type="radio" name="q2_4" value="d"> D. Equal to income effect</label>
+                <div class="explanation">A higher wage makes free time more expensive, so the substitution effect reduces free time.</div>
+              </div>
+
+              <div class="question" data-answer="a">
+                <h4>5. For an inferior good, the income effect after a fall in real income is usually:</h4>
+                <label class="option"><input type="radio" name="q2_5" value="a"> A. Positive on consumption of the inferior good</label>
+                <label class="option"><input type="radio" name="q2_5" value="b"> B. Negative on consumption of the inferior good</label>
+                <label class="option"><input type="radio" name="q2_5" value="c"> C. Always zero</label>
+                <label class="option"><input type="radio" name="q2_5" value="d"> D. Always stronger than substitution effect</label>
+                <div class="explanation">When real income falls, consumers often buy more of an inferior good.</div>
+              </div>
+
+              <div class="quiz-actions">
+                <button type="button" class="grade-btn" onclick="gradeQuiz('quiz2')">Grade test</button>
+                <button type="button" class="reset-btn" onclick="resetQuiz('quiz2')">Reset</button>
+              </div>
+              <div class="result" id="quiz2-result"></div>
+            </form>
+          </div>
+        </details>
+
+        <details>
+          <summary>Practice Test 3 — Game theory + Pareto + bargaining</summary>
+          <div class="quiz-inner">
+            <form class="quiz" data-quiz-id="quiz3">
+              <div class="question" data-answer="b">
+                <h4>1. A dominant strategy is a strategy that:</h4>
+                <label class="option"><input type="radio" name="q3_1" value="a"> A. Gives the highest joint payoff</label>
+                <label class="option"><input type="radio" name="q3_1" value="b"> B. Gives a player the highest payoff regardless of what the other player does</label>
+                <label class="option"><input type="radio" name="q3_1" value="c"> C. Is always Pareto efficient</label>
+                <label class="option"><input type="radio" name="q3_1" value="d"> D. Can only exist in prisoner’s dilemma games</label>
+                <div class="explanation">Dominant means best no matter what the other player chooses.</div>
+              </div>
+
+              <div class="question" data-answer="c">
+                <h4>2. A social dilemma occurs when:</h4>
+                <label class="option"><input type="radio" name="q3_2" value="a"> A. The game has two Nash equilibria</label>
+                <label class="option"><input type="radio" name="q3_2" value="b"> B. Both players cooperate</label>
+                <label class="option"><input type="radio" name="q3_2" value="c"> C. The Nash equilibrium is Pareto inefficient</label>
+                <label class="option"><input type="radio" name="q3_2" value="d"> D. There is no equilibrium</label>
+                <div class="explanation">That is the core definition tested again and again.</div>
+              </div>
+
+              <div class="question" data-answer="a">
+                <h4>3. An allocation is Pareto efficient if:</h4>
+                <label class="option"><input type="radio" name="q3_3" value="a"> A. No one can be made better off without making someone else worse off</label>
+                <label class="option"><input type="radio" name="q3_3" value="b"> B. Everyone gets the same amount</label>
+                <label class="option"><input type="radio" name="q3_3" value="c"> C. It is always fair</label>
+                <label class="option"><input type="radio" name="q3_3" value="d"> D. It is always the Nash equilibrium</label>
+                <div class="explanation">Pareto efficiency is about exhausted gains from reallocation, not equality.</div>
+              </div>
+
+              <div class="question" data-answer="d">
+                <h4>4. Greater bargaining power usually affects:</h4>
+                <label class="option"><input type="radio" name="q3_4" value="a"> A. Only total output</label>
+                <label class="option"><input type="radio" name="q3_4" value="b"> B. Only biological survival</label>
+                <label class="option"><input type="radio" name="q3_4" value="c"> C. Whether a feasible frontier exists</label>
+                <label class="option"><input type="radio" name="q3_4" value="d"> D. How the surplus is divided</label>
+                <div class="explanation">Power affects the share of the rent each side gets.</div>
+              </div>
+
+              <div class="question" data-answer="b">
+                <h4>5. If MRS = MRT along a set of allocations, those allocations are:</h4>
+                <label class="option"><input type="radio" name="q3_5" value="a"> A. Dominated</label>
+                <label class="option"><input type="radio" name="q3_5" value="b"> B. Pareto efficient</label>
+                <label class="option"><input type="radio" name="q3_5" value="c"> C. Impossible</label>
+                <label class="option"><input type="radio" name="q3_5" value="d"> D. Always equal</label>
+                <div class="explanation">At that point, no further gains from trade remain.</div>
+              </div>
+
+              <div class="quiz-actions">
+                <button type="button" class="grade-btn" onclick="gradeQuiz('quiz3')">Grade test</button>
+                <button type="button" class="reset-btn" onclick="resetQuiz('quiz3')">Reset</button>
+              </div>
+              <div class="result" id="quiz3-result"></div>
+            </form>
+          </div>
+        </details>
+
+        <details>
+          <summary>Practice Test 4 — Mixed final drill</summary>
+          <div class="quiz-inner">
+            <form class="quiz" data-quiz-id="quiz4">
+              <div class="question" data-answer="c">
+                <h4>1. A technology is dominated if:</h4>
+                <label class="option"><input type="radio" name="q4_1" value="a"> A. It uses more of one input but less of another</label>
+                <label class="option"><input type="radio" name="q4_1" value="b"> B. It is not currently the cheapest</label>
+                <label class="option"><input type="radio" name="q4_1" value="c"> C. Another technology uses less of all inputs for the same output</label>
+                <label class="option"><input type="radio" name="q4_1" value="d"> D. It has high innovation rent</label>
+                <div class="explanation">Dominated techniques are never chosen.</div>
+              </div>
+
+              <div class="question" data-answer="a">
+                <h4>2. If one worker can produce 10 pizzas or 20 pastas, the opportunity cost of 1 pizza is:</h4>
+                <label class="option"><input type="radio" name="q4_2" value="a"> A. 2 pastas</label>
+                <label class="option"><input type="radio" name="q4_2" value="b"> B. 0.5 pastas</label>
+                <label class="option"><input type="radio" name="q4_2" value="c"> C. 10 pastas</label>
+                <label class="option"><input type="radio" name="q4_2" value="d"> D. 20 pastas</label>
+                <div class="explanation">Giving up 10 pizzas frees resources for 20 pastas, so 1 pizza costs 2 pastas.</div>
+              </div>
+
+              <div class="question" data-answer="d">
+                <h4>3. GDP is limited as a wellbeing measure because it:</h4>
+                <label class="option"><input type="radio" name="q4_3" value="a"> A. Includes too much unpaid work</label>
+                <label class="option"><input type="radio" name="q4_3" value="b"> B. Measures fairness perfectly</label>
+                <label class="option"><input type="radio" name="q4_3" value="c"> C. Ignores production entirely</label>
+                <label class="option"><input type="radio" name="q4_3" value="d"> D. Does not fully capture inequality, unpaid work, and environmental damage</label>
+                <div class="explanation">That is the standard critique used in A1 answers.</div>
+              </div>
+
+              <div class="question" data-answer="b">
+                <h4>4. In a prisoner’s dilemma, the Nash equilibrium is usually:</h4>
+                <label class="option"><input type="radio" name="q4_4" value="a"> A. Socially optimal</label>
+                <label class="option"><input type="radio" name="q4_4" value="b"> B. Pareto inefficient</label>
+                <label class="option"><input type="radio" name="q4_4" value="c"> C. Impossible to find</label>
+                <label class="option"><input type="radio" name="q4_4" value="d"> D. Equal for both players in all games</label>
+                <div class="explanation">That is why it is a classic social dilemma.</div>
+              </div>
+
+              <div class="question" data-answer="c">
+                <h4>5. If the price of all goods doubles, while income also doubles, then:</h4>
+                <label class="option"><input type="radio" name="q4_5" value="a"> A. Real income must fall</label>
+                <label class="option"><input type="radio" name="q4_5" value="b"> B. Relative prices must change</label>
+                <label class="option"><input type="radio" name="q4_5" value="c"> C. The budget line stays in the same position in real terms</label>
+                <label class="option"><input type="radio" name="q4_5" value="d"> D. Consumption becomes impossible</label>
+                <div class="explanation">Only nominal values changed, not real purchasing power.</div>
+              </div>
+
+              <div class="quiz-actions">
+                <button type="button" class="grade-btn" onclick="gradeQuiz('quiz4')">Grade test</button>
+                <button type="button" class="reset-btn" onclick="resetQuiz('quiz4')">Reset</button>
+              </div>
+              <div class="result" id="quiz4-result"></div>
+            </form>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px;">
+      <div class="section-head orange-dark">
+        <h2>10) What to do the night before A1</h2>
+      </div>
+      <div class="section-body">
+        <ol>
+          <li>Redo the formulas out loud.</li>
+          <li>Do Practice Test 4 without looking at notes.</li>
+          <li>Memorise the Malthus, innovation rent, and social dilemma templates.</li>
+          <li>Do one last game-theory best-response drill.</li>
+          <li>Sleep. Tired reading causes most Section A errors.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px;">
+      <div class="section-head red">
+        <h2>11) Last-minute rescue answers</h2>
+      </div>
+      <div class="section-body">
+        <div class="mini-grid">
+          <div class="exam-box">
+            <h3>If you forget Malthus</h3>
+            <p>Fixed land + more people → lower output per person. Higher income → more population. Population growth cancels the income gain.</p>
+          </div>
+          <div class="exam-box">
+            <h3>If you forget innovation rent</h3>
+            <p>It is just the <strong>cost saving</strong> from the new technology, as long as output price is unchanged.</p>
+          </div>
+          <div class="exam-box">
+            <h3>If you forget Pareto efficiency</h3>
+            <p>No one can be made better off without making someone else worse off.</p>
+          </div>
+          <div class="exam-box">
+            <h3>If you forget Nash equilibrium</h3>
+            <p>No player wants to change strategy alone.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px;">
+      <div class="section-head pink-dark">
+        <h2>12) Confidence rebuild</h2>
+      </div>
+      <div class="section-body">
+        <p>A1 papers repeat their logic more than they repeat their exact wording. That is good news. If you can identify the model, name the rule, and apply it cleanly, you are in a strong position.</p>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px;">
+      <div class="section-head pink-hot">
+        <h2>13) Best way to use this pack</h2>
+      </div>
+      <div class="section-body">
+        <ul>
+          <li>Read Sections 3–6 once slowly.</li>
+          <li>Do Test 1 and Test 2.</li>
+          <li>Review mistakes.</li>
+          <li>Then do Test 3 and Test 4 closed-book.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:22px; margin-bottom: 10px;">
+      <div class="section-head pink-pastel">
+        <h2>14) Next upgrade ideas</h2>
+      </div>
+      <div class="section-body">
+        <ul>
+          <li>Add a second tab with <strong>A2 / A3</strong> past-paper meganotes.</li>
+          <li>Add <strong>typed long-question answer boxes</strong> with self-check memo points.</li>
+          <li>Add a <strong>score tracker</strong> across all practice tests.</li>
+        </ul>
+        <div class="footer-note">
+          <strong>Default used for this version:</strong> A1-focused only, based on recurring patterns from the past A1 papers and your request for likely test questions + clean exam answers.
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function gradeQuiz(quizId) {
+      const quiz = document.querySelector(`form[data-quiz-id="${quizId}"]`);
+      const questions = quiz.querySelectorAll('.question');
+      let answered = 0;
+      let correct = 0;
+
+      questions.forEach((q, index) => {
+        const correctAnswer = q.dataset.answer;
+        const radios = q.querySelectorAll('input[type="radio"]');
+        const chosen = q.querySelector('input[type="radio"]:checked');
+
+        q.querySelectorAll('.option').forEach(opt => {
+          opt.classList.remove('correct', 'incorrect');
+        });
+
+        if (chosen) {
+          answered++;
+          const chosenLabel = chosen.closest('.option');
+          const correctInput = q.querySelector(`input[value="${correctAnswer}"]`);
+          const correctLabel = correctInput.closest('.option');
+
+          if (chosen.value === correctAnswer) {
+            correct++;
+            chosenLabel.classList.add('correct');
+          } else {
+            chosenLabel.classList.add('incorrect');
+            correctLabel.classList.add('correct');
+          }
+        }
+      });
+
+      const total = questions.length;
+      const percent = Math.round((correct / total) * 100);
+      const result = document.getElementById(`${quizId}-result`);
+      let message = '';
+
+      if (percent >= 80) message = 'Excellent 🌟 You are reading the model logic really well.';
+      else if (percent >= 60) message = 'Good work 💪 A few traps still need tightening.';
+      else message = 'Good starting point 🌱 Review the explanations and redo this test once.';
+
+      result.style.display = 'block';
+      result.innerHTML = `<strong>Score:</strong> ${correct}/${total} (${percent}%)<br><strong>Answered:</strong> ${answered}/${total}<br>${message}`;
+    }
+
+    function resetQuiz(quizId) {
+      const quiz = document.querySelector(`form[data-quiz-id="${quizId}"]`);
+      quiz.reset();
+      quiz.querySelectorAll('.option').forEach(opt => opt.classList.remove('correct', 'incorrect'));
+      const result = document.getElementById(`${quizId}-result`);
+      result.style.display = 'none';
+      result.innerHTML = '';
+    }
+  </script>
+</body>
+</html>
