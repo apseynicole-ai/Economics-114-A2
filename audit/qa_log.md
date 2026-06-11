@@ -148,3 +148,32 @@ Build `exports/html/eco114_a3_foundations_units_1_to_5.html`, with special focus
 ### Next recommended step
 
 Run a focused QA polish pass on `exports/html/eco114_a3_foundations_units_1_to_5.html`, then polish `exports/html/eco114_a3_index.html` so it links cleanly to all completed hubs.
+
+
+## 2026-06-11 - Foundations hub v1 QA polish
+
+### What was checked
+
+- Confirmed branch `feat/eco114-a3-study-hub` and inspected the Foundations Hub HTML.
+- Checked required top-level sections, sidebar navigation IDs, localStorage-backed progress, dark mode, active recall, answer reveal/collapse and smooth-scroll pulse behaviour.
+- Spot-checked high-risk Unit 3, Unit 4, Unit 5, Unit 2 and Unit 1 worked examples, templates, formulas, graph/model cards, traps and practice prompts.
+
+### Issues found
+
+- The top `First 2 hours` route grouped Unit 3 too broadly instead of separating MRS/MRT from income/substitution effects.
+- The top mastery checklist was useful but shorter than the full minimum capability list needed for an 80%+ Foundations pass.
+
+### Fixes made
+
+- Strengthened the `First 2 hours with this Foundations Hub` route to split Unit 3 into feasible set + MRS/MRT and income/substitution effects.
+- Expanded the saved `Foundations 80%+ minimum mastery checklist` to 16 concrete capabilities covering GDP, capitalism, opportunity cost, economic rent, production, isocosts, feasibility, MRS/MRT, wage effects, Nash, Pareto and fairness.
+
+### Remaining limitations
+
+- Graph/model sketches remain simplified redraw aids rather than exact official diagrams.
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms it is examinable.
+
+### Next recommended task
+
+Polish `exports/html/eco114_a3_index.html` so it functions as the completed A3 control centre linking the War Room, Markets Hub and Foundations Hub cleanly.
