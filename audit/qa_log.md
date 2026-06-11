@@ -116,3 +116,35 @@ Build `exports/html/eco114_a3_foundations_units_1_to_5.html`, with special focus
 ### Next recommended task
 
 Build `exports/html/eco114_a3_foundations_units_1_to_5.html`, with special focus on Unit 3 and then Units 1, 2, 4 and 5.
+
+
+## 2026-06-11 - Foundations hub v1 content build
+
+### What was built
+
+- Replaced the scaffold in `exports/html/eco114_a3_foundations_units_1_to_5.html` with a first real content version.
+- Built deep packs for Unit 3, Unit 4, Unit 5, Unit 2 and Unit 1 using the A3 heatmap priorities.
+- Added worked examples, graph/model bank, formula/logic bank, trap bank, Section C templates, mini practice, comparison tables, reasoning emergency guidance and study prompts.
+
+### Source basis
+
+- Used `audit/past_paper_heatmap.md`, `audit/a3_coverage_matrix.md`, the War Room v1, the Markets Hub v1 for style/function consistency, archived A2 MegaHub and extracted 2022-2024 A3 source text as control sources.
+
+### Content counts
+
+- 40 worked examples.
+- 38 formula/logic cards.
+- 23 graph/model cards.
+- 70 trap cards.
+- 29 Section C templates.
+- 68 practice questions.
+
+### Warnings
+
+- Graph sketches are redraw aids, not exact source-paper replicas.
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms.
+
+### Next recommended step
+
+Run a focused QA polish pass on `exports/html/eco114_a3_foundations_units_1_to_5.html`, then polish `exports/html/eco114_a3_index.html` so it links cleanly to all completed hubs.
