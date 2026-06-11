@@ -83,3 +83,36 @@ Build the A3 exam warroom first: formula bank, T/F danger bank, MCQ trap bank, g
 ### Next recommended step
 
 Build `exports/html/eco114_a3_foundations_units_1_to_5.html`, with special focus on Unit 3 because it is very high frequency in the A3 heatmap.
+
+
+## 2026-06-11 - Markets hub v1 QA polish
+
+### What was checked
+
+- Confirmed branch `feat/eco114-a3-study-hub` and inspected the Markets Hub HTML.
+- Checked required top-level sections, sidebar navigation IDs, localStorage-backed progress, dark mode, active recall, answer reveal/collapse and smooth-scroll behaviour in the embedded JavaScript.
+- Spot-checked high-risk Unit 8, Unit 7, Unit 10 and Unit 6 calculation and graph logic.
+
+### Issues found
+
+- The Mini Practice Bank had correct counts but several prompts were too generic for exam drilling.
+- Unit deep-pack sections needed clearer study routes, most-examinable-pattern boxes and saved mastery checklists.
+- Several Section C templates used a generic structure where topic-specific calculation and graph labels would be more useful.
+
+### Fixes made
+
+- Added a near-top `First 2 hours with this Markets Hub` route.
+- Added a saved `Markets 80%+ minimum mastery checklist` with concrete Unit 6/7/8/10 capabilities.
+- Added study-route, most-examinable-pattern and 80%+ checklist boxes to each Unit 8, Unit 7, Unit 10 and Unit 6 deep pack.
+- Replaced the Mini Practice Bank with concrete exam-style T/F, MCQ, calculation, graph and Section C prompts with memo-style answers.
+- Upgraded high-priority Section C templates with topic-specific formulas, graph labels, 80%+ paragraphs and mark guidance.
+
+### Remaining limitations
+
+- Graph sketches remain simplified redraw aids rather than exact official diagrams.
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms it is examinable.
+
+### Next recommended task
+
+Build `exports/html/eco114_a3_foundations_units_1_to_5.html`, with special focus on Unit 3 and then Units 1, 2, 4 and 5.
