@@ -3,173 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ECO114 A3 Control Centre</title>
-<style>:root {
-  --dark-purple:#35135f;
-  --purple:#b89bed;
-  --dark-blue:#173b78;
-  --light-blue:#9ed8ff;
-  --dark-green:#17613a;
-  --light-green:#b9efc8;
-  --yellow:#ffe45e;
-  --lighter-orange:#ffc978;
-  --darker-orange:#e16a2d;
-  --red:#cc2f3b;
-  --dark-pink:#9b1b62;
-  --hot-pink:#ff4fb3;
-  --pastel-pink:#ffd0e8;
-  --bg:#fbfbff;
-  --panel:#ffffff;
-  --text:#182033;
-  --muted:#5b6476;
-  --border:#d9dceb;
-  --shadow:0 14px 35px rgba(23, 31, 56, .12);
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
-body.dark{--bg:#11131c;--panel:#191d2a;--text:#f6f7fb;--muted:#b8bfd3;--border:#30364d;--shadow:0 16px 40px rgba(0,0,0,.35)}
-a{color:inherit}
-.layout{display:grid;grid-template-columns:286px minmax(0,1fr);min-height:100vh}
-.sidebar{position:sticky;top:0;height:100vh;overflow:auto;background:linear-gradient(180deg,var(--dark-purple),var(--dark-blue));color:#fff;padding:22px 18px;border-right:1px solid rgba(255,255,255,.16)}
-.brand{font-weight:800;font-size:1.05rem;letter-spacing:.02em;margin-bottom:14px}
-.nav-link{display:block;text-decoration:none;padding:10px 12px;margin:5px 0;border-radius:8px;color:#fff;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12)}
-.nav-link:hover,.nav-link:focus{background:rgba(255,255,255,.2);outline:none}
-.main{padding:28px;max-width:1180px;width:100%;margin:0 auto}
-.hero{border-radius:16px;padding:28px;background:linear-gradient(135deg,var(--dark-purple),var(--purple) 34%,var(--dark-blue) 68%,var(--light-blue));color:white;box-shadow:var(--shadow)}
-.kicker{font-weight:700;text-transform:uppercase;font-size:.78rem;letter-spacing:.08em;opacity:.92}
-h1{margin:.2rem 0 .4rem;font-size:clamp(2rem,5vw,3.3rem);line-height:1.02}
-.controls{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
-button,.button{border:0;border-radius:8px;padding:10px 13px;font-weight:700;background:var(--dark-green);color:white;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
-button.secondary,.button.secondary{background:var(--darker-orange)}
-button.ghost{background:transparent;color:var(--text);border:1px solid var(--border)}
-.search{width:min(520px,100%);padding:11px 12px;border-radius:8px;border:1px solid var(--border);background:var(--panel);color:var(--text)}
-.section{margin:22px 0;padding:22px;border:1px solid var(--border);border-radius:14px;background:var(--panel);box-shadow:0 8px 24px rgba(24,32,51,.05);scroll-margin-top:24px}
-.section.pulse{animation:pulseTarget 1.15s ease-out 1}
-@keyframes pulseTarget{0%{box-shadow:0 0 0 0 rgba(255,79,179,.75)}65%{box-shadow:0 0 0 12px rgba(255,79,179,0)}100%{box-shadow:0 8px 24px rgba(24,32,51,.05)}}
-h2{margin:.1rem 0 .6rem;color:var(--dark-purple)}
-.dark h2{color:var(--light-blue)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
-.card{border:1px solid var(--border);border-radius:10px;padding:14px;background:linear-gradient(180deg,var(--panel),rgba(158,216,255,.08))}
-.badge{display:inline-block;border-radius:999px;padding:4px 9px;margin:3px;background:var(--pastel-pink);color:#4a1030;font-size:.8rem;font-weight:800}
-.warning{border-left:6px solid var(--darker-orange);background:rgba(255,201,120,.18)}
-.checklist label{display:block;padding:7px 0}.checklist input{margin-right:8px}
-.footer{padding:22px 0;color:var(--muted);font-size:.9rem}
-@media(max-width:820px){.layout{grid-template-columns:1fr}.sidebar{position:relative;height:auto}.main{padding:18px}.nav-link{display:inline-block;margin:4px 3px}}
-@media print{.sidebar,.controls,.no-print{display:none!important}.layout{display:block}.main{max-width:none;padding:0}.section,.hero{box-shadow:none;break-inside:avoid}body{background:white;color:black}}</style>
+<title>ECO114 A3 80%+ Control Centre</title>
+<style>
+:root{--dark-purple:#35135f;--purple:#b89bed;--dark-blue:#173b78;--light-blue:#9ed8ff;--dark-green:#17613a;--light-green:#b9efc8;--yellow:#ffe45e;--lighter-orange:#ffc978;--darker-orange:#e16a2d;--red:#cc2f3b;--dark-pink:#9b1b62;--hot-pink:#ff4fb3;--pastel-pink:#ffd0e8;--bg:#f7f8ff;--panel:#fff;--ink:#172033;--muted:#607086;--line:#dce1ee;--shadow:0 16px 42px rgba(23,31,56,.12)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}body.dark{--bg:#10131d;--panel:#191e2b;--ink:#f5f7ff;--muted:#b8c0d3;--line:#30384e;--shadow:0 18px 44px rgba(0,0,0,.35)}.layout{display:grid;grid-template-columns:306px minmax(0,1fr);min-height:100vh}.sidebar{position:sticky;top:0;height:100vh;overflow:auto;background:linear-gradient(180deg,var(--dark-purple),var(--dark-blue));color:#fff;padding:20px 16px}.brand{font-weight:900;margin-bottom:12px}.nav-link{display:block;color:#fff;text-decoration:none;padding:9px 10px;margin:5px 0;border-radius:8px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12)}.nav-link:hover{background:rgba(255,255,255,.2)}.main{padding:28px;max-width:1320px;margin:0 auto;width:100%}.hero{padding:30px;border-radius:18px;background:linear-gradient(135deg,var(--dark-purple),var(--purple) 28%,var(--dark-blue) 62%,var(--light-blue));color:white;box-shadow:var(--shadow)}h1{font-size:clamp(2rem,5vw,3.8rem);line-height:1;margin:.2rem 0 .7rem}h2{color:var(--dark-purple);margin:.2rem 0 .6rem}.dark h2{color:var(--light-blue)}h3{margin:.2rem 0 .35rem}.toolbar{position:sticky;top:0;z-index:3;display:flex;flex-wrap:wrap;gap:10px;padding:12px 0;background:linear-gradient(180deg,var(--bg),rgba(247,248,255,.88))}body.dark .toolbar{background:linear-gradient(180deg,var(--bg),rgba(16,19,29,.9))}button,.button{border:0;border-radius:8px;background:var(--dark-green);color:white;font-weight:800;padding:10px 12px;cursor:pointer;text-decoration:none;display:inline-block}button.secondary,.button.secondary{background:var(--darker-orange)}button.ghost,.button.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}input[type=search],textarea{border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);padding:10px;width:100%}.search{max-width:460px}.section{margin:22px 0;padding:22px;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:0 8px 24px rgba(24,32,51,.05);scroll-margin-top:72px}.section.pulse{animation:pulseTarget 1.15s ease-out 1}@keyframes pulseTarget{0%{box-shadow:0 0 0 0 rgba(255,79,179,.75)}70%{box-shadow:0 0 0 14px rgba(255,79,179,0)}100%{box-shadow:0 8px 24px rgba(24,32,51,.05)}}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}.card{border:1px solid var(--line);border-radius:10px;padding:14px;background:linear-gradient(180deg,var(--panel),rgba(158,216,255,.08));margin:10px 0}.hub-card{border-top:8px solid var(--dark-purple)}.hub-card:nth-child(2){border-top-color:var(--darker-orange)}.hub-card:nth-child(3){border-top-color:var(--dark-green)}.badge{display:inline-block;border-radius:999px;padding:4px 9px;margin:2px;background:var(--pastel-pink);color:#4a1030;font-size:.78rem;font-weight:900}.priority{font-weight:900;border-radius:999px;padding:3px 8px}.very-high{background:var(--red);color:#fff}.high{background:var(--darker-orange);color:#fff}.medium{background:var(--yellow);color:#443800}.muted{color:var(--muted)}table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.92rem}th,td{border:1px solid var(--line);padding:8px;vertical-align:top}th{background:rgba(184,155,237,.18);text-align:left}.checklist label{display:block;padding:6px 0}.checklist input{margin-right:8px}details{border:1px solid var(--line);border-radius:8px;padding:10px;margin:8px 0;background:rgba(185,239,200,.1)}summary{cursor:pointer;font-weight:800}.notes-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}@media(max-width:900px){.layout{grid-template-columns:1fr}.sidebar{position:relative;height:auto}.main{padding:16px}}@media print{.sidebar,.toolbar,.no-print{display:none!important}.layout{display:block}.main{max-width:none;padding:0}.section,.card{break-inside:avoid;box-shadow:none}details:not([open])>*:not(summary){display:block}body{background:white;color:black}}
+</style>
 </head>
-<body data-page="index">
-<div class="layout">
-  <aside class="sidebar">
-    <div class="brand">ECO114 A3 Study Hub</div>
-    <a class="nav-link" href="#top">Dashboard</a>
-<a class="nav-link" href="#scope-warning">Scope Warning</a>
-<a class="nav-link" href="#overview">Control Centre</a>
-<a class="nav-link" href="#outputs">Output Split</a>
-<a class="nav-link" href="#units">Included Units</a>
-<a class="nav-link" href="#workflow">Build Workflow</a>
-<a class="nav-link" href="#archive">A2 Archive</a>
-  </aside>
-  <main class="main">
-    <section class="hero" id="top">
-      <div class="kicker">Economics 114 A3</div>
-      <h1>ECO114 A3 Control Centre</h1>
-      <p>Landing page for the split A3 study system: foundations, markets, and exam warroom.</p>
-    </section>
-    <div class="controls no-print">
-      <input class="search" data-search placeholder="Search this A3 scaffold" aria-label="Search this page">
-      <button data-print>Print / Save PDF</button>
-      <button class="secondary" data-dark-toggle>Dark mode</button>
-      <a class="button ghost" href="eco114_a3_index.html">Index</a>
-    </div>
-    <section class="section warning" id="scope-warning" data-searchable>
-      <h2>Source And Scope Warning</h2>
-      <p>A3 is treated as the full-semester assessment covering Units 1, 2, 3, 4, 5, 6, 7, 8 and 10. Unit 9 is excluded unless the lecturer later confirms it is examinable. This page is a structure-only scaffold for the detailed build.</p>
-    </section>
-    <section class="section" id="overview" data-searchable>
-      <h2>Page Control Centre</h2>
-      <div class="grid"><article class="card" data-searchable><strong>Start Here</strong><p>Open the split HTML outputs from this page and track scaffold readiness.</p></article>
-<article class="card" data-searchable><strong>A3 Scope</strong><p>Full semester: Units 1-8 and 10, with Unit 9 excluded pending lecturer confirmation.</p></article>
-<article class="card" data-searchable><strong>Study System</strong><p>The final system will separate foundations, markets, and exam performance tools.</p></article></div>
-    </section>
-    <section class="section" id="outputs" data-searchable>
-  <h2>A3 Output Split</h2>
-  <div><p>Use this index to open the three focused A3 study hubs and the exam warroom.</p><div class="grid"><a class="button" href="eco114_a3_foundations_units_1_to_5.html">Foundations Units 1-5</a><a class="button" href="eco114_a3_markets_units_6_7_8_10.html">Markets Units 6, 7, 8, 10</a><a class="button" href="eco114_a3_exam_warroom.html">Exam Warroom</a></div></div>
-  <div class="checklist" aria-label="Progress checklist"><label><input type="checkbox" data-progress="outputs-1">Foundations page opened</label>
-<label><input type="checkbox" data-progress="outputs-2">Markets page opened</label>
-<label><input type="checkbox" data-progress="outputs-3">Warroom page opened</label></div>
-</section>
-<section class="section" id="units" data-searchable>
-  <h2>Included And Excluded Units</h2>
-  <div><p>Included: Units 1, 2, 3, 4, 5, 6, 7, 8 and 10. Excluded for now: Unit 9, because it is not shown in the 2026 work programme.</p></div>
-  <div class="checklist" aria-label="Progress checklist"><label><input type="checkbox" data-progress="units-1">Scope checked against framework</label>
-<label><input type="checkbox" data-progress="units-2">Unit 9 exclusion noted</label></div>
-</section>
-<section class="section" id="workflow" data-searchable>
-  <h2>Build Workflow</h2>
-  <div><p>The next build stage will populate source inventory, graph inventory, formulas, past-paper heatmaps, application banks and model answers.</p></div>
-  <div class="checklist" aria-label="Progress checklist"><label><input type="checkbox" data-progress="workflow-1">Source audit prepared</label>
-<label><input type="checkbox" data-progress="workflow-2">Coverage matrix reviewed</label></div>
-</section>
-<section class="section" id="archive" data-searchable>
-  <h2>A2 Archive</h2>
-  <div><p>The A2 MegaHub is preserved under archive/a2 when available, without deleting the original file.</p></div>
-  <div class="checklist" aria-label="Progress checklist"><label><input type="checkbox" data-progress="archive-1">A2 HTML archived</label>
-<label><input type="checkbox" data-progress="archive-2">Original preserved</label></div>
-</section>
-    <footer class="footer">Build v0.1 scaffold · 2026-06-11 · Local file mode ready · ECO114 A3 split study hub</footer>
-  </main>
-</div>
-<script>(function(){
-  const rootKey = 'eco114-a3-study-hub-v1';
-  const page = document.body.dataset.page || 'page';
-  function key(name){ return rootKey + ':' + page + ':' + name; }
-  function pulse(target){
-    if(!target) return;
-    document.querySelectorAll('.section.pulse').forEach(el => el.classList.remove('pulse'));
-    target.classList.add('pulse');
-    window.setTimeout(() => target.classList.remove('pulse'), 1300);
-  }
-  document.querySelectorAll('a[href^="#"]').forEach(link => {
-    link.addEventListener('click', event => {
-      const id = link.getAttribute('href').slice(1);
-      const target = document.getElementById(id);
-      if(!target) return;
-      event.preventDefault();
-      target.scrollIntoView({behavior:'smooth', block:'start'});
-      pulse(target);
-      if(history.pushState) history.pushState(null, '', '#' + id);
-      else location.hash = id;
-    });
-  });
-  document.querySelectorAll('[data-progress]').forEach(box => {
-    const storageKey = key('progress:' + box.dataset.progress);
-    box.checked = localStorage.getItem(storageKey) === '1';
-    box.addEventListener('change', () => localStorage.setItem(storageKey, box.checked ? '1' : '0'));
-  });
-  const search = document.querySelector('[data-search]');
-  if(search){
-    search.addEventListener('input', () => {
-      const q = search.value.trim().toLowerCase();
-      document.querySelectorAll('[data-searchable]').forEach(el => {
-        el.hidden = q && !el.textContent.toLowerCase().includes(q);
-      });
-    });
-  }
-  const darkBtn = document.querySelector('[data-dark-toggle]');
-  if(darkBtn){
-    document.body.classList.toggle('dark', localStorage.getItem(rootKey + ':dark') === '1');
-    darkBtn.addEventListener('click', () => {
-      document.body.classList.toggle('dark');
-      localStorage.setItem(rootKey + ':dark', document.body.classList.contains('dark') ? '1' : '0');
-    });
-  }
-  const printBtn = document.querySelector('[data-print]');
-  if(printBtn) printBtn.addEventListener('click', () => window.print());
-  if(location.hash){
-    const target = document.getElementById(location.hash.slice(1));
-    if(target) window.setTimeout(() => pulse(target), 250);
-  }
-})();</script>
-</body>
-</html>
+<body data-page="index"><div class="layout"><aside class="sidebar"><div class="brand">ECO114 A3 Control Centre</div><nav id="nav"></nav></aside><main class="main">
+<section class="hero" id="top"><h1>ECO114 A3 80%+ Control Centre</h1><p><strong>Target: 80%+.</strong> A3 covers the whole semester: Units 1, 2, 3, 4, 5, 6, 7, 8 and 10. Unit 9 is excluded unless the lecturer confirms it is examinable.</p><p>Use this page first; then move into War Room, Markets, and Foundations.</p></section>
+<div class="toolbar no-print"><input class="search" type="search" data-search aria-label="Search Control Centre"><button data-print>Print / Save PDF</button><button class="secondary" data-dark>Dark mode</button><a class="button ghost" href="eco114_a3_exam_warroom.html">War Room</a><a class="button ghost" href="eco114_a3_markets_units_6_7_8_10.html">Markets</a><a class="button ghost" href="eco114_a3_foundations_units_1_to_5.html">Foundations</a></div>
+<section class="section" id="hubs" data-searchable><h2>Main Hub Cards</h2><div class="grid"><article class="card hub-card"><h3>1. Exam War Room</h3><p><strong>For:</strong> final revision, negative marking, formulas, graph redraws, traps and Final Boss practice.</p><p><strong>Use when:</strong> starting the system, doing past papers, or entering final revision.</p><p><strong>Units:</strong> 1,2,3,4,5,6,7,8,10.</p><p><strong>Contains:</strong> formula bank, graph redraw bank, T/F and MCQ traps, Section C templates, panic lines and mock practice.</p><a class="button" href="eco114_a3_exam_warroom.html">Open hub</a></article><article class="card hub-card"><h3>2. Markets Hub</h3><p><strong>For:</strong> learning the marks-heavy calculation and graph models.</p><p><strong>Use when:</strong> weak at Unit 8, Unit 7, Unit 10 or Unit 6 calculations/graphs.</p><p><strong>Units:</strong> 6,7,8,10.</p><p><strong>Contains:</strong> deep packs, worked examples, graph bank, formula bank, traps, Section C templates and practice.</p><a class="button" href="eco114_a3_markets_units_6_7_8_10.html">Open hub</a></article><article class="card hub-card"><h3>3. Foundations Hub</h3><p><strong>For:</strong> learning the conceptual foundations and early-unit models.</p><p><strong>Use when:</strong> weak at Unit 3 MRS/MRT, Unit 4 games, Unit 5 fairness, Unit 2 isocosts or Unit 1 concepts.</p><p><strong>Units:</strong> 1,2,3,4,5.</p><p><strong>Contains:</strong> deep packs, graph/model bank, logic bank, traps, Section C templates and practice.</p><a class="button" href="eco114_a3_foundations_units_1_to_5.html">Open hub</a></article></div></section>
+<section class="section" id="open-first" data-searchable><h2>What To Open First</h2><table><thead><tr><th>Situation</th><th>Open first</th><th>Why</th></tr></thead><tbody><tr><td>I have 30 minutes</td><td>Exam War Room</td><td>Use panic lines, high-yield formulas and objective traps.</td></tr><tr><td>I have 2 hours</td><td>Exam War Room, then Markets or Foundations route</td><td>Orient with the heatmap, then attack weakest high-yield area.</td></tr><tr><td>I am weak at calculations</td><td>Markets Hub</td><td>Unit 8, 7, 10 and 6 carry many calculation/graph marks.</td></tr><tr><td>I am weak at theory</td><td>Foundations Hub</td><td>It teaches definitions, mechanisms and application paragraphs.</td></tr><tr><td>I am scared of graphs</td><td>Exam War Room graph bank, then Markets/Foundation graph banks</td><td>Start with redraw checklists, then deepen by unit.</td></tr><tr><td>I am doing a past paper</td><td>Exam War Room</td><td>Use negative marking, templates and Final Boss-style marking.</td></tr><tr><td>I am revising the night before</td><td>Exam War Room</td><td>Use cram sheet, panic lines and high-yield checklists.</td></tr><tr><td>I made mistakes in a mock</td><td>Relevant deep hub plus mistake log</td><td>Fix the underlying model, not only the question.</td></tr><tr><td>I need 80%+</td><td>All three, in order: War Room -> Markets -> Foundations</td><td>Combine exam strategy, marks-heavy models and conceptual precision.</td></tr></tbody></table></section>
+<section class="section" id="plan" data-searchable><h2>14-Day A3 Study Plan</h2><table><thead><tr><th>Day</th><th>Main hub</th><th>Exact sections</th><th>Active task</th><th>Output/checkpoint</th><th>Time</th></tr></thead><tbody id="planRows"></tbody></table></section>
+<section class="section" id="emergency" data-searchable><h2>Emergency Study Routes</h2><div class="grid"><article class="card"><h3>7 days left</h3><p><strong>Do not cut:</strong> Unit 8, Unit 7, Unit 10, Unit 3, graph redraws, negative marking.</p><p><strong>Cut:</strong> decorative rereading and low-yield rewriting. Use War Room daily, Markets for 3 days, Foundations for 2 days, final mixed practice day.</p></article><article class="card"><h3>3 days left</h3><p><strong>Do not cut:</strong> Unit 8 tax/controls, Unit 7 MR=MC, Unit 10 externalities, Unit 3 MRS/MRT, Nash/Pareto.</p><p><strong>Cut:</strong> full textbook-style notes. Use templates, formulas, graph redraws and mistake log only.</p></article><article class="card"><h3>24 hours left</h3><p><strong>Do not cut:</strong> panic lines, formulas, top graphs, T/F traps, Section C templates.</p><p><strong>Cut:</strong> learning new low-priority details. Sleep matters.</p></article><article class="card"><h3>Morning of exam</h3><p><strong>Do not cut:</strong> negative marking rules, formula recall, graph labels, confusion pairs.</p><p><strong>Cut:</strong> brand-new questions that will shake confidence. Review rules and breathe.</p></article></div></section>
+<section class="section" id="master-checklist" data-searchable><h2>80%+ Master Checklist</h2><div class="checklist grid" id="masterChecklist"></div></section>
+<section class="section" id="priority" data-searchable><h2>Topic Priority Dashboard</h2><table><thead><tr><th>Unit</th><th>Priority</th><th>Why it matters</th><th>Main hub</th><th>Must-master items</th></tr></thead><tbody id="priorityRows"></tbody></table></section>
+<section class="section" id="graphs" data-searchable><h2>Graph Redraw Checklist</h2><div class="checklist grid" id="graphChecklist"></div></section>
+<section class="section" id="formulas" data-searchable><h2>Formula Recall Checklist</h2><div id="formulaGroups" class="grid"></div></section>
+<section class="section" id="negative" data-searchable><h2>Negative Marking Strategy Box</h2><div class="card"><ul><li>T/F wrong answers lose marks.</li><li>MCQ wrong answers lose marks.</li><li>Answer only when rule-based confidence is high.</li><li>Eliminate first; do not guess from vibes.</li><li>If stuck, write the rule beside the question in rough work.</li><li>Section C: show all calculations, formulas, graph labels and units.</li></ul></div></section>
+<section class="section" id="mistake-log" data-searchable><h2>Weekly Review / Mistake Log</h2><div class="notes-grid"><label>Biggest mistake this week<textarea data-note="biggest" rows="5"></textarea></label><label>Formulas to redo<textarea data-note="formulas" rows="5"></textarea></label><label>Graphs to redraw<textarea data-note="graphs" rows="5"></textarea></label><label>Concepts I keep confusing<textarea data-note="concepts" rows="5"></textarea></label><label>Final 24-hour priorities<textarea data-note="priorities" rows="5"></textarea></label></div></section>
+<section class="section" id="sources" data-searchable><h2>Source Status / Honesty Section</h2><ul><li>Built from the 2026 ECO114 framework scope, extracted 2022-2024 A3 papers, archived A2 MegaHub, and available unit packs.</li><li>2025 Afrikaans A3 is preserved but not text-extracted.</li><li>Unit 9 is excluded unless lecturer confirms.</li><li>Graph sketches are redraw aids, not official replicas.</li><li>AI is a supplementary study tool and should be checked against official module materials.</li></ul></section>
+<footer class="section"><strong>Build:</strong> ECO114 A3 Control Centre v1. Date: 2026-06-11.</footer>
+</main></div>
+<script>
+const rootKey='eco114-a3-control-centre-v1';
+const navItems=[['top','Top'],['hubs','Main Hub Cards'],['open-first','What To Open First'],['plan','14-Day Plan'],['emergency','Emergency Routes'],['master-checklist','80%+ Checklist'],['priority','Priority Dashboard'],['graphs','Graph Redraw'],['formulas','Formula Recall'],['negative','Negative Marking'],['mistake-log','Mistake Log'],['sources','Source Status']];
+const plan=[['Day 1','Exam War Room','Command Centre, format strategy, heatmap','Complete orientation and negative-marking rules','Know exam structure and top priorities','90-120 min'],['Day 2','Markets Hub','Unit 8 equilibrium, price controls, tax','Do worked examples A-F and redraw tax/controls','Can solve Qd=Qs, ceiling/floor, tax revenue/DWL','2-3 h'],['Day 3','Markets Hub','Unit 7 monopoly, MR/MC, elasticity','Derive MR, solve MR=MC, practise elasticity advice','Can read price from demand and calculate profit','2-3 h'],['Day 4','Markets Hub','Unit 10 externalities, public goods, Coase','Draw negative/positive externality and goods matrix','Can find Qm, Q*, Pigouvian tax/subsidy','2-3 h'],['Day 5','Markets Hub','Unit 6 employment rent and labour discipline','Calculate rent and redraw best response/isocost','Can explain efficiency wage/involuntary unemployment','2 h'],['Day 6','Foundations Hub','Unit 3 feasible set, MRS/MRT, working hours','Redraw budget/IC graphs and answer wage-effect prompts','Can explain MRS, MRT, income and substitution effects','2-3 h'],['Day 7','Foundations Hub','Unit 4 games, Nash, Pareto, social dilemmas','Mark best responses in matrices and compare welfare','Can list all Nash and test Pareto efficiency','2 h'],['Day 8','Foundations Hub','Unit 5 Angela-Bruno, feasibility, fairness','Classify technical/biological/economic feasibility','Can explain efficient but unfair outcomes','2 h'],['Day 9','Foundations Hub','Unit 2 opportunity cost, rent, production, isocost','Do formulas and technology choice examples','Can calculate OC/rent/AP/MP and read isocosts','2 h'],['Day 10','Foundations Hub','Unit 1 GDP, capitalism, inequality, planetary limits','Write short paragraphs from templates','Can define GDP/PPP/capitalism and critique GDP','90 min'],['Day 11','Exam War Room + both hubs','Section C templates','Write 6 mixed Section C answers','Memo-marked answers and corrections','2-3 h'],['Day 12','Exam War Room','Past-paper simulation + mistake log','Timed objective + Section C simulation','Mistake log filled with redo list','3 h'],['Day 13','Exam War Room','Graph redraw + formula recall','Redraw top 15 graphs and recite formulas','Graph checklist mostly complete','2 h'],['Day 14','Exam War Room','Light final cram + panic lines + sleep','Review panic lines, formulas, checklist','Calm final plan and sleep','60-90 min']];
+const master=['I opened all three hubs.','I completed the War Room 90-minute route.','I completed the Markets 2-hour route.','I completed the Foundations 2-hour route.','I can solve Unit 8 tax and price-control questions.','I can solve Unit 7 MR/MC and elasticity questions.','I can solve Unit 10 externality and Pigouvian tax questions.','I can calculate Unit 6 employment rent.','I can explain Unit 3 MRS/MRT and income/substitution effects.','I can find Nash equilibria.','I can classify Angela-Bruno feasibility.','I can redraw the top 15 graphs/models.','I have completed one Final Boss practice set.','I have updated the mistake log.','I have reviewed all panic lines.'];
+const priorities=[['Unit 8','Very high','Highest extracted frequency and visible marks.','Markets Hub','Equilibrium, taxes, incidence, price controls, surplus/DWL'],['Unit 7','Very high','Repeated MR/MC, monopoly, elasticity and profit.','Markets Hub','Demand, MR, MC, AC, profit, elasticity, DWL'],['Unit 10','Very high','Externalities and policy recur in graph/application form.','Markets Hub','MPC/MEC/MSC, Pigouvian tax, public goods, Coase'],['Unit 3','Very high','Unexpectedly frequent foundations graph/calculation unit.','Foundations Hub','Feasible set, MRS/MRT, wage effects, working hours'],['Unit 6','High','Employment rent and labour discipline appear in calculations/graphs.','Markets Hub','Employment rent, best response, isocost, no-shirking wage'],['Unit 4','High','T/F, MCQ and Section C game theory traps.','Foundations Hub','Best responses, Nash, Pareto, social dilemmas'],['Unit 5','High','Angela-Bruno and fairness link to Section C.','Foundations Hub','Feasibility, BSC, reservation IC, MRS=MRT, fairness'],['Unit 2','High','Compact calculation and isocost questions.','Foundations Hub','Opportunity cost, rent, AP/MP, isocost, technique choice'],['Unit 1','High','Definition and interpretation traps.','Foundations Hub','GDP, PPP, capitalism, inequality, planetary limits']];
+const graphs=['Unit 8 demand/supply equilibrium','Unit 8 tax wedge, revenue, DWL','Unit 8 price ceiling','Unit 8 price floor','Unit 7 MR/MC/AC/profit','Unit 7 monopoly DWL','Unit 10 negative externality','Unit 10 positive externality','Unit 6 labour discipline','Unit 3 feasible set / budget constraint','Unit 3 MRS=MRT','Unit 4 payoff matrix','Unit 5 Angela-Bruno feasible frontier, BSC, reservation IC','Unit 2 production function / isocost','Unit 1 hockey-stick GDP graph'];
+const formulas={
+'Market formulas':['Qd=Qs','CS, PS, TS','tax revenue = tax x Qafter tax','DWL = 1/2 x base x height','shortage = Qd-Qs','surplus = Qs-Qd'],
+'Firm formulas':['TR=P x Q','MR from linear inverse demand','MR=MC','AC=TC/Q','profit=TR-TC','profit=(P-AC)Q','markup=P-MC','elasticity'],
+'Externality formulas':['MSC=MPC+MEC','MSB=MPB+MEB','Pigouvian tax=MEC at Q*','Pigouvian subsidy=MEB at Q*','Coase payment range'],
+'Employment rent formulas':['hourly rent=current net value-reservation value','total rent=hourly rent x hours x duration','cost per efficiency unit=w/e','effort per rand=e/w'],
+'Foundations formulas':['GDP per capita=GDP/population','opportunity cost=next best forgone','economic rent=chosen-reservation','AP=output/input','MP=change in output/change in input','isocost C=wL+rK','MRS','MRT','MRS=MRT'],
+'Game theory methods':['best response method','Nash=mutual best response','dominant strategy=best in all cases','Pareto improvement','Pareto efficiency','social optimum']
+};
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));}
+function key(name){return rootKey+':'+name;}
+function checkbox(id,label){return `<label><input type="checkbox" data-progress="${esc(id)}"> ${esc(label)}</label>`;}
+function render(){document.getElementById('nav').innerHTML=navItems.map(([id,t])=>`<a class="nav-link" href="#${id}">${t}</a>`).join('');document.getElementById('planRows').innerHTML=plan.map(r=>`<tr>${r.map(x=>`<td>${esc(x)}</td>`).join('')}</tr>`).join('');document.getElementById('masterChecklist').innerHTML=master.map((x,i)=>`<div class="card">${checkbox('master-'+i,x)}</div>`).join('');document.getElementById('priorityRows').innerHTML=priorities.map(r=>`<tr><td>${esc(r[0])}</td><td><span class="priority ${r[1]==='Very high'?'very-high':'high'}">${esc(r[1])}</span></td><td>${esc(r[2])}</td><td>${esc(r[3])}</td><td>${esc(r[4])}</td></tr>`).join('');document.getElementById('graphChecklist').innerHTML=graphs.map((x,i)=>`<div class="card">${checkbox('graph-'+i,x)}</div>`).join('');document.getElementById('formulaGroups').innerHTML=Object.entries(formulas).map(([group,items])=>`<article class="card"><h3>${esc(group)}</h3><div class="checklist">${items.map((x,i)=>checkbox('formula-'+group+'-'+i,x)).join('')}</div></article>`).join('');restoreProgress();restoreNotes();}
+function restoreProgress(){document.querySelectorAll('[data-progress]').forEach(cb=>{let storageKey=key('progress:'+cb.dataset.progress);cb.checked=localStorage.getItem(storageKey)==='1';cb.addEventListener('change',()=>localStorage.setItem(storageKey,cb.checked?'1':'0'));});}
+function restoreNotes(){document.querySelectorAll('[data-note]').forEach(t=>{let storageKey=key('note:'+t.dataset.note);t.value=localStorage.getItem(storageKey)||'';t.addEventListener('input',()=>localStorage.setItem(storageKey,t.value));});}
+function init(){render();document.querySelector('[data-print]').addEventListener('click',()=>window.print());document.querySelector('[data-dark]').addEventListener('click',()=>{document.body.classList.toggle('dark');localStorage.setItem(key('dark'),document.body.classList.contains('dark')?'1':'0')});if(localStorage.getItem(key('dark'))==='1')document.body.classList.add('dark');document.addEventListener('click',e=>{let a=e.target.closest('a[href^="#"]');if(!a)return;let id=a.getAttribute('href').slice(1);let el=document.getElementById(id);if(!el)return;e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.remove('pulse');void el.offsetWidth;el.classList.add('pulse');history.replaceState(null,'','#'+id);});document.querySelector('[data-search]').addEventListener('input',e=>{let q=e.target.value.toLowerCase();document.querySelectorAll('[data-searchable]').forEach(el=>{el.style.display=el.textContent.toLowerCase().includes(q)?'':'none';});});if(location.hash){let el=document.getElementById(location.hash.slice(1));if(el)setTimeout(()=>el.classList.add('pulse'),250);}}
+document.addEventListener('DOMContentLoaded',init);
+</script>
+</body></html>

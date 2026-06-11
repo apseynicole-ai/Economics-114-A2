@@ -177,3 +177,36 @@ Run a focused QA polish pass on `exports/html/eco114_a3_foundations_units_1_to_5
 ### Next recommended task
 
 Polish `exports/html/eco114_a3_index.html` so it functions as the completed A3 control centre linking the War Room, Markets Hub and Foundations Hub cleanly.
+
+
+## 2026-06-11 - Index control centre polish
+
+### What was built
+
+- Replaced the index scaffold with a completed ECO114 A3 80%+ Control Centre.
+- Added main hub cards linking to the Exam War Room, Markets Hub and Foundations Hub.
+- Added `What To Open First`, a 14-day study plan, emergency study routes, 80%+ master checklist, topic priority dashboard, graph redraw checklist, formula recall checklist, negative-marking strategy and weekly mistake log.
+
+### Files linked
+
+- `exports/html/eco114_a3_exam_warroom.html`
+- `exports/html/eco114_a3_markets_units_6_7_8_10.html`
+- `exports/html/eco114_a3_foundations_units_1_to_5.html`
+
+### Checks run
+
+- Confirmed all four HTML files exist.
+- Extracted embedded index JavaScript and checked it with `node --check`.
+- Checked index hub links and internal anchors.
+- Scanned edited files for scaffold/status marker text.
+- Ran `git diff --check`.
+
+### Remaining limitations
+
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms it is examinable.
+- Graph sketches in hubs are redraw aids, not official replicas.
+
+### Next recommended task
+
+Run a final cross-file audit across the Control Centre, Exam War Room, Markets Hub and Foundations Hub.

@@ -10,7 +10,7 @@ The goal is to build an exam-focused A3 preparation system that combines source 
 
 The A3 HTML output is split into four local files:
 
-1. `exports/html/eco114_a3_index.html` - landing page and control centre
+1. `exports/html/eco114_a3_index.html` - completed A3 control centre for hub navigation, study routes, 14-day planning and progress tracking
 2. `exports/html/eco114_a3_foundations_units_1_to_5.html` - content-filled Units 1 to 5 foundations hub with worked examples, graphs/models, logic cards, traps and practice
 3. `exports/html/eco114_a3_markets_units_6_7_8_10.html` - content-filled Units 6, 7, 8, and 10 markets hub with worked examples, graphs, formulas, traps and practice
 4. `exports/html/eco114_a3_exam_warroom.html` - final revision, past-paper strategy, traps, and mock practice
@@ -38,4 +38,4 @@ Raw university material, slides, past papers, memos, textbook extracts, and lect
 
 ## Current Content Status
 
-Markets hub v1 is content-filled for Units 6, 7, 8 and 10. Foundations hub v1 is content-filled for Units 1, 2, 3, 4 and 5. The index/control centre is now the next likely polish target.
+The A3 system now has a completed Control Centre/index, Exam War Room, Markets Hub, and Foundations Hub. Next step: run a final cross-file audit across links, source notes, counts and study flow.
