@@ -297,3 +297,49 @@ Run a final cross-file audit across the Control Centre, Exam War Room, Markets H
 ### Next recommended task
 
 QA polish Markets v2 unit tabs, especially practice wording, tab usability and closed-book graph redraw clarity.
+
+
+## 2026-06-11 - Markets v2 QA polish and promotion
+
+### Checks performed
+
+- Audited `exports/html/eco114_a3_markets_units_6_7_8_10_v2_unit_tabs.html` for unit self-contained structure.
+- Checked Unit 8, Unit 7, Unit 10 and Unit 6 for command card, core story, definitions, theory notes, graphs, formulas, examples, patterns, traps, Section C templates, practice and one-page sheets.
+- Ran practice integrity checks against same-tab teaching content.
+- Checked duplicate/filler trap and practice wording.
+- Checked localStorage root key against the legacy Markets Hub.
+- Ran embedded JavaScript syntax, anchor/link, marker text and whitespace checks.
+
+### Issues found
+
+- Theory notes were too compressed for a student using a unit tab as a standalone lesson.
+- Practice questions had correct metadata but too much generic wording.
+- Some practice metadata used labels that did not literally match earlier teaching text.
+- Search could find hidden-tab content without automatically switching to the matching unit tab.
+
+### Fixes made
+
+- Expanded Unit 8 theory on equilibrium, market vs firm, surplus, taxes, incidence, price controls, shifts and long-run zero economic profit.
+- Expanded Unit 7 theory on product differentiation, downward-sloping demand, TR/MR, MR=MC, price from demand, profit rectangle, elasticity, markup, DWL and entry barriers.
+- Expanded Unit 10 theory on private vs social outcomes, externalities, Pigouvian policy, public goods, Coase bargaining and information failure.
+- Expanded Unit 6 theory on firm authority, incomplete contracts, employment rent, reservation options, best response/isocost, no-shirking wage and involuntary unemployment.
+- Rewrote the practice banks into concrete unit-specific questions with memos and normalised metadata.
+- Improved search behaviour so a match inside a hidden unit tab activates that tab.
+- Promoted Markets v2 from beta to the recommended Markets Hub in the index and README, while preserving the legacy Markets Hub link.
+
+### Results
+
+- Self-contained unit audit: passed for Units 8, 7, 10 and 6.
+- Practice integrity audit: passed; no orphan practice concepts remained.
+- Duplicate/filler audit: passed; no duplicate trap or practice wording remained.
+- Promotion: Markets v2 is now recommended for Units 6, 7, 8 and 10.
+
+### Remaining limitations
+
+- Graph sketches remain redraw aids, not official diagram replicas.
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms it is examinable.
+
+### Next recommended task
+
+Run browser/visual QA on the promoted Markets v2 file, especially tab switching, search in hidden tabs, print view and mobile readability.
