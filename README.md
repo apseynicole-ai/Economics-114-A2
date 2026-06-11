@@ -15,6 +15,10 @@ The A3 HTML output is split into four local files:
 3. `exports/html/eco114_a3_markets_units_6_7_8_10.html` - content-filled Units 6, 7, 8, and 10 markets hub with worked examples, graphs, formulas, traps and practice
 4. `exports/html/eco114_a3_exam_warroom.html` - final revision, past-paper strategy, traps, and mock practice
 
+Experimental upgrade:
+
+- `exports/html/eco114_a3_markets_units_6_7_8_10_v2_unit_tabs.html` - Markets v2 unit-tabs beta. This is the preferred study architecture for Units 6, 7, 8, and 10 once QA passes because each unit keeps its theory, graphs, formulas, traps, Section C templates, and practice together. The original Markets Hub remains preserved.
+
 ## Included Units
 
 A3 scope currently includes Units 1, 2, 3, 4, 5, 6, 7, 8, and 10.
@@ -38,4 +42,4 @@ Raw university material, slides, past papers, memos, textbook extracts, and lect
 
 ## Current Content Status
 
-The A3 system now has a completed Control Centre/index, Exam War Room, Markets Hub, and Foundations Hub. Next step: run a final cross-file audit across links, source notes, counts and study flow.
+The A3 system now has a completed Control Centre/index, Exam War Room, Markets Hub, Foundations Hub, and a Markets v2 unit-tabs beta. Next step: QA polish the Markets v2 file before replacing the main Markets link.

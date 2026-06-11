@@ -258,3 +258,42 @@ Run a final cross-file audit across the Control Centre, Exam War Room, Markets H
 - Spend the first 48 hours on War Room orientation, Unit 8, Unit 7 and Unit 3.
 - Use Markets Hub for calculation-heavy weak spots and Foundations Hub for conceptual traps.
 - Finish each day by updating the mistake log and redrawing at least three graphs/models from memory.
+
+
+## 2026-06-11 - Markets v2 unit-tabs build
+
+### What changed
+
+- Created `exports/html/eco114_a3_markets_units_6_7_8_10_v2_unit_tabs.html` as a new unit-first beta file.
+- Preserved the original Markets Hub at `exports/html/eco114_a3_markets_units_6_7_8_10.html`.
+- Reorganised Units 8, 7, 10 and 6 so each unit tab contains its own command card, core story, definitions, full theory notes, graphs, formula playbooks, worked examples, past-paper patterns, trap bank, Section C templates, practice bank and one-page sheet.
+- Added a short global cross-unit revision section only for comparisons and model selection.
+
+### Practice integrity rule added
+
+- Every practice item in the v2 unit tabs includes metadata for tested concept, taught-above reference, formula/graph used and trap tested.
+- Practice is placed after the teaching content inside the same unit tab so questions do not rely on material hidden in a global bank.
+
+### Duplicate/filler trap cleanup
+
+- Replaced duplicated global trap-bank style entries with unit-specific trap sets.
+- The audit records 70 rewritten or consolidated duplicate/filler traps.
+
+### Files updated
+
+- `exports/html/eco114_a3_markets_units_6_7_8_10_v2_unit_tabs.html`
+- `audit/orphan_practice_question_audit.md`
+- `exports/html/eco114_a3_index.html`
+- `README.md`
+- `audit/qa_log.md`
+
+### Remaining limitations
+
+- The v2 file is a beta and should receive a focused QA polish before it replaces the main Markets Hub link.
+- Graph sketches remain redraw aids, not official diagram replicas.
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms it is examinable.
+
+### Next recommended task
+
+QA polish Markets v2 unit tabs, especially practice wording, tab usability and closed-book graph redraw clarity.
