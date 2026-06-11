@@ -29,3 +29,19 @@
 ## Current limitation
 
 No clearly labelled ECO114 A3 past paper, A3 memo, or A3 feedback file is present. A3 frequency claims must remain provisional until those files are added.
+
+## A3 past-paper source update - 2026-06-11
+
+| Source | File path | Type | Units covered | Reliability | Copyright/distribution note | Used for |
+|---|---|---|---|---|---|---|
+| A3 2024 paper | `sources/raw/A3_2024_paper.pdf` | Official A3 paper | Units 1-8, 10 | Highest | Raw university assessment; do not redistribute if repo visibility changes. | Real heatmap rows via combined extracted text. |
+| A3 2024 Section A/B memo | `sources/raw/A3_2024_memo_sections_A_B.pdf`; `sources/raw/A3_2024_memo_student.pdf` | Official memo | Units 1-8, 10 | Highest | Raw university memo; do not redistribute if repo visibility changes. | Answer-key support for later trap bank. |
+| A3 2024 feedback | `sources/raw/A3_2024_feedback.pdf` | Feedback | Units 1-8, 10 | High | Raw university feedback; do not redistribute if repo visibility changes. | Later Section C answer-template build. |
+| A3 2023 paper | `sources/raw/A3_2023_paper.pdf` | Official A3 paper | Units 1-8, 10 | Highest | Raw university assessment; do not redistribute if repo visibility changes. | Real heatmap rows via combined extracted text. |
+| A3 2022 paper | `sources/raw/A3_2022_paper_eng_afr.pdf` | Official A3 paper | Units 1-8, 10 | Highest | Raw university assessment; do not redistribute if repo visibility changes. | Real heatmap rows via combined extracted text. |
+| A3 2022 memos/feedback | `sources/raw/A3_2022_short_questions_memo.pdf`; `sources/raw/A3_2022_long_questions_feedback.pdf` | Memo and feedback | Units 1-8, 10 | High | Raw university memo/feedback; do not redistribute if repo visibility changes. | Later answer checking and Section C model answers. |
+| A3 2025 Afrikaans assessment | `sources/raw/A3_2025_assessment_afrikaans.pdf` | Official A3 paper | Likely Units 1-8, 10 | High but not extracted | Raw university assessment; do not redistribute if repo visibility changes. | Indexed only; requires OCR/text extraction before heatmap rows. |
+| A3 2025 Section C feedback | `sources/raw/A3_2025_feedback_section_c.pdf` | Feedback | Likely Units 1-8, 10 | High but not extracted | Raw university feedback; do not redistribute if repo visibility changes. | Indexed only; requires OCR/text extraction before use. |
+| Combined A3 past-paper DOCX | `sources/raw/ECO_A3_PAST_PAPERS.docx`; extracted to `sources/extracted/ECO_A3_PAST_PAPERS_extracted.txt` | Combined packet | 2022-2024 A3 plus extra embedded material | High for text extraction; verify against PDFs | Treat as internal source compilation; do not redistribute raw if policy changes. | Main machine-readable source for this heatmap. |
+| Formula guide | `sources/raw/economics_114_essential_formulae_guide.pdf` | Formula/support guide | Units 1-8, 10 | Supporting | Generated/supporting source; verify against official materials. | Future formula bank. |
+| 2022 key concepts guide | `sources/raw/econ_114_a3_exam_questions_key_concepts_2022.pdf` | A3 guide/support | 2022 A3 | Supporting | Generated/supporting source; verify against official materials. | Future revision map. |

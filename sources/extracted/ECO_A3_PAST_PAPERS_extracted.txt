@@ -1,0 +1,1252 @@
+Tab 1
+ECO A3 PAST PAPERS; 
+
+
+Tab 2
+2024: 
+
+A2 FINAL MT V: Page 2 of 16
+INSTRUCTIONS PLEASE NOTE: ONLY NON-PROGRAMMABLE CALCULATORS ARE ALLOWED.
+KEY: AP = Average product AC = Average cost BL = Budget line D = Demand DWL = Deadweight loss FF = Feasible frontier GDP = Gross domestic product IC = Indifference curve K = Capital L = Labour MB = Marginal benefit MC = Marginal cost MEB = Marginal external benefit MP = Marginal product MPB = Marginal private benefit MPC = Marginal private cost
+MR = Marginal revenue MRS = Marginal rate of substitution MRT = Marginal rate of transformation MSB = Marginal social benefit MSC = Marginal social cost P = Price PF = Production function Q = Quantity Qd = Quantity demanded Qs = Quantity supplied S = Supply TC = Total cost TP = Total product TR = Total revenue w = Wage Y = Income
+ANSWER SECTION A's QUESTIONS ON THE SUPPLIED ANSWER SHEET. INDICATE YOUR CHOICE BY DARKLY COLOURING THE CIRCLE NEXT TO THE NUMBER OF THE STATEMENT. ALSO ANSWER SECTION B's QUESTIONS ON THE SUPPLIED ANSWER SHEET. INDICATE YOUR CHOICE BY DARKLY COLOURING THE CIRCLE NEXT TO THE NUMBER OF THE STATEMENT. ANSWER SECTION C's QUESTIONS IN THE ANSWER BOOK PROVIDED. START EVERY QUESTION ON A NEW PAGE. SHOW ALL CALCULATIONS.
+
+Page 3 of 16
+SECTION A TRUE OR FALSE STATEMENTS
+[16 marks: 1 mark for a correct answer and - ½ for an incorrect answer]
+1. The game shown below is an example of the Prisoner's Dilemma.
+Player 2 Vaccinate Don't vaccinate
+Player 1 Vaccinate 5, 5 2, 6
+Don't vaccinate 6, 2 3, 3 a) True b) False
+2. In the Invisible Hand game, each player's rational, self-interested behaviour creates a
+benefit for the other player. a) True b) False
+3. A Pareto improvement occurs when a change from an initial allocation of goods makes
+at least one person better off. a) True b) False
+4. Social dilemmas are defined as Nash equilibria that are Pareto efficient.
+a) True b) False
+5. Microsoft is owned by many shareholders. The role of these shareholders is to keep a
+close eye on the performance of the manager. a) True b) False
+6. Theresa works for a company in Stellenbosch that has recently increased her housing
+and medical insurance benefits. Under such conditions Theresa will have a high employment rent, ceteris paribus. a) True b) False
+
+Page 4 of 16
+7. The price elasticity of demand for the product of a price-setting firm at a price of R50, is 1,5. This implies that a 10 percent increase in price will lead to a decrease in total revenue. a) True b) False
+8. The competitive market equilibrium price is that price which results in the quantity
+supplied being equal to the quantity demanded. a) True b) False
+9. Firms prefer to enter competitive markets where zero economic profit is being made by
+existing firms. a) True b) False
+10. If MR = MC, the quantity produced by a firm is always Pareto efficient.
+a) True b) False
+11. If government wants to raise more revenue through tax, they should levy a tax on a
+product that has a price inelastic demand. a) True b) False
+12. A price-taking firm has a horizontal marginal revenue curve that lies above the demand
+curve. a) True b) False
+13. For a profit-maximising monopolistic firm, P = MC.
+a) True b) False
+14. Unregulated price-setting firms can earn positive economic profits in both the short and
+long run. a) True b) False
+
+Page 5 of 16
+15. The toxic material that is used in the production of polyester fibre leads to water pollution. Supposing that the market for polyester fibre is competitive, an efficient quantity of polyester fibre can be attained if a tax is set equal to the marginal external cost of pollution at the efficient equilibrium. a) True b) False
+16. In an unregulated competitive market, the presence of negative externalities will lead to overproduction.
+a) True b) False
+SECTION B MULTIPLE CHOICE QUESTIONS
+[44 marks: 2 marks for a correct answer and – ¼ for an incorrect answer]
+17. Consider the following game scenario, where Zendaya and Timothée must each choose
+a movie to watch at the cinema:
+Zendaya Call me by
+your Name Dune
+Timothée Call me by your Name 4, 1 3, 2
+Dune 2, 0 6, 5
+Which one of the following options is CORRECT? a) Timothée has a dominant strategy, because he always gets a higher payoff than
+Zendaya. b) Zendaya has a dominant strategy, which is to choose "Call me by your Name". c) Both players have a dominant strategy, which is to choose "Dune". d) None of the above.
+
+Page 6 of 16
+18. Pam and Debbie must choose between going to the cinema or watching football. The matrix below represents their level of happiness (payoff), depending on the choice of activity. Given this information, which one of the following statements is TRUE?
+Pam Football Cinema
+Debbie Football 3, 5 1, 1 Cinema 4, 3 6, 2
+a) The dominant strategy for both players is to watch football. b) The dominant strategy equilibrium is Pareto inefficient. c) Neither player would want to deviate from the dominant strategy equilibrium. d) The dominant strategy equilibrium yields each player's best possible outcome.
+19. In a soccer game, the two team captains, Verstappen and Le Clerc, are considering whether to rest or not to rest various members of their teams. The game has the following payoff matrix:
+Verstappen Rest Don't rest
+Le Clerc
+Rest 0, 0 -1, 1 Don't rest 1, -1 -2,- 2
+Which one of the following options is FALSE? a) This game has more than one Nash Equilibrium. b) The best response for each team captain is to do the opposite of what the other
+captain chooses. c) Both should avoid resting to gain time on the pitch, despite the risk. d) None of the captains has a dominant strategy.
+20. Which of the following will result in a higher employment rent of a job?
+I. The existence of another job that pays a higher wage. II. Employer provision of onsite childcare. III. Unemployment benefits that are only paid for a portion of the expected
+duration of unemployment. IV. Higher effort costs of the job.
+a) Only I b) II and III c) III and IV d) Only IV
+
+
+Page 7 of 16
+21. Five friends must decide how to allocate a chocolate cheesecake among themselves. An allocation in which each friend receives a fifth of the cake is Pareto___________, while an allocation in which each friend receives a sixth of the cake with the remainder of the cake to still be allocated is Pareto__________. a) efficient; inefficient b) efficient; efficient c) inefficient; efficient d) inefficient; inefficient
+22. Donald is a landowner and Robert is a lentil farmer. Robert pays Donald a share of his lentil output as rent for the land.
+Which one of the following statements is CORRECT? a) Under a take-it-or-leave-it rent agreement, Robert will work for 12 hours and keep
+2kgs of lentils. b) Under a take-it-or-leave-it rent agreement, Robert will only work 9 hours if he
+receives more than 10 kgs of lentils. c) Under a take-it-or-leave-it rent agreement, any allocation in the economically
+feasible set will result in a Pareto improvement over one where Robert and Donald do not reach an agreement.
+d) Donald’s share of the lentils will be maximised at the point where Robert’s biological survival constraint curve intersects the feasible frontier.
+
+Page 8 of 16
+23. Which of the following factors can increase a worker's employment rent? I. The costs of searching for a job II. Negative work conditions III. An increase of firm-specific assets IV. The social stigma associated with unemployment
+a) I and II b) III and IV c) I, II and III d) I, III and IV
+24. Which one of the following statements could be a reason for why large firms may be faced with a principal-agent problem? a) Workers and managers all have the same information. b) Larger firms usually have more market power. c) Managers do not necessarily strive to maximise profits. d) It is possible to monitor the actions of workers at all times.
+25. Ken works in a job that pays a wage of R80 an hour, and his work week is 35 hours
+long. He exerts an effort level of 0.6 and experiences disutility of work equal to R15 an hour. Assume that it would take him 5 weeks to find a new job should he become unemployed. During that time, he can claim unemployment benefits of R25 per hour for the full duration of his unemployment. Using this information, Ken's total employment rent is ______. a) R5 000 b) R6 200 c) R7 000 d) R7 300
+Use the following average cost function to answer Question 26 and Question 27:
+AC=180000/Q+32+2Q
+26. The total cost of producing 200 units is: a) 1 332 b) 34 c) 266 400 d) 832
+27. The marginal cost of producing the 200th unit is:
+a) 832 b) 1 332 c) 34 d) 266 400
+
+Page 9 of 16
+28. The market for dark chocolate has many sellers and buyers, all of whom are price takers. A global study finds that dark chocolate has significant health benefits, including reducing inflammation and decreasing the risk of heart disease. Which one of the following statements is CORRECT?
+a) The market supply curve will shift to the right and the market demand curve will
+shift to the left. As a result, the equilibrium quantity will increase. b) The market demand curve will shift to the right, the equilibrium price of dark
+chocolate will increase, and the equilibrium quantity will decrease. c) The market supply curve will shift to the right and the market demand curve will
+shift to the right. As a result, the equilibrium price of dark chocolate may increase, decrease, or remain unchanged.
+d) The market demand curve will shift to the right, the equilibrium price of dark chocolate will increase, and the equilibrium quantity will increase.
+29. Each firm in a perfectly competitive market
+a) can influence the price of its product. b) produces a product that differs slightly from the products of its competitors. c) is a price taker. d) has a perfectly inelastic demand for its product.
+30. Which one of the following statements is CORRECT? a) The deadweight loss will be larger when a price-setting firm faces elastic demand,
+ceteris paribus. b) The deadweight loss will be larger when a price-setting firm is able to set a larger
+price mark-up, ceteris paribus. c) A tax will be effective to dissuade use of a "bad" product if the product has
+relatively inelastic demand. d) Consumer surplus will always decrease when a binding price ceiling is introduced.
+
+
+Page 10 of 16
+31. The graph below shows the demand and supply curves of a certain good. A per unit tax is imposed on this good.
+Which ONE of the following statements regarding tax incidence is CORRECT? a) The tax incidence on buyers will exceed the incidence on sellers because demand
+is relatively less price elastic than supply. b) The tax incidence on buyers will exceed the incidence on sellers because demand
+is relatively more price elastic than supply. c) The tax incidence on sellers will exceed the incidence on buyers because demand
+is relatively more price elastic than supply. d) The tax incidence on sellers will exceed the incidence on buyers because demand
+is relatively less price elastic than supply. Use the following information to answer Question 32 and Question 33: A firm with market power has the following demand and marginal cost functions:
+P=100−2Q
+MC=Q
+32. What price should the firm set to maximise profits?
+a) R36,67 b) R60 c) R52 d) R40
+
+
+
+Page 11 of 16
+33. What is the marginal revenue of the fifth unit sold?
+a) R10 b) R20 c) R60 d) R80
+34. The figure below shows the marginal cost of production and the market price charged by a firm in a perfectly competitive market in long-run equilibrium.
+The firm's average cost of producing 100 units is: a) R50 b) R40 c) R25 d) R5
+35. The market for cucumbers is perfectly competitive. Higher consumer demand for cucumbers results in short-run economic profits for the sellers of cucumbers. Over the long run, the price of cucumbers will ________ and the profit-maximising quantity of cucumbers produced and sold by an individual seller of cucumbers will ________. a) fall; increase b) rise; decrease c) rise; increase d) fall; decrease
+Pr ic
+e an
+d co
+st s
+(R an
+d)
+
+
+
+Page 12 of 16
+36. The graph below shows the demand and supply curves of a certain good. A per unit
+tax is imposed on this good, which results in total sales revenue amounting to R2 400.
+The price paid by consumers following the implementation of the tax is ________. a) R48 b) R31 c) R27 d) R29
+37. Live performances of the musical Wicked where no cell phone recordings are allowed are examples of: a) rival and excludable goods. b) rival and non-excludable goods. c) non-rival and excludable goods. d) non-rival and non-excludable goods.
+38. The education you receive at university has a positive effect on other members of
+society. Which one of the following statements is CORRECT? a) If nothing is done in an unregulated market for higher education, higher education
+will be undersupplied if universities are private enterprises. b) A socially optimal provision of higher education could be achieved through taxing
+suppliers of higher education. c) To ensure that the socially optimal quantity of higher education is provided, MSB
+must always exceed MPB. d) Providing subsidies to the suppliers of higher education will decrease the quantity
+of higher education supplied.
+
+
+Page 13 of 16
+SECTION C DESCRIPTIVE QUESTIONS
+[40 marks]
+Question 39 [4 marks] Zolani is an indie rock musician who has a back-up band called Freshlyground. One night in the recording studio, Zolani and her bandmates get into an argument and need to decide whether they are going to split up or stay together as a band. Their interaction is represented by the payoff matrix below:
+Freshlyground Stay Together Split Up
+Zolani Stay Together 5, 5 2, 7 Split Up 7, 2 3, 3
+39.1 List all the Nash Equilibria of this game. [2] 39.2 What is the socially optimal outcome of this game? Motivate your answer briefly. [2] Question 40 [3 marks] Mpho is a cattle farmer who grazes his cattle on Sipho's farm. He must pay Sipho a portion of his beef for the right to do so. The feasible frontier of Mpho and Sipho as well as Mpho's reservation indifference curve are portrayed in the figure below. Currently, the allocation of beef is according to point B, where Mpho pays Sipho 7kg of the total 15kg of beef produced, and Mpho decides to work 8 hours a day.
+
+
+Page 14 of 16
+40.1 Does allocation C Pareto dominate allocation B? Explain. [2]
+40.2 Under what conditions would the allocation of beef between the two parties
+move to point C? [1] QUESTION 41 [5 marks] The figure below indicates the best response curve of Tina, a florist, and several isocost of effort curves of her employer, Blossom Bazaar Floral Trading.
+41.1 Which one of the isocost curves I1, I2 and I3, represents the firm's highest cost of
+effort? [1]
+41.2 How many efficiency units per rand are represented by isocost curve I1? [1]
+41.3 Would it be a feasible option for the firm to pay R55 per hour? Justify your answer. [1]
+41.4 Which of the points A, B and C would be the most preferred for Blossom Bazaar
+Floral Trading? Briefly explain. [1]
+41.5 What hourly wage should the firm pay Tina? [1]
+
+Page 15 of 16
+QUESTION 42 [3 marks] The market for short-term lease bachelor flats, which is competitive, has an inverse demand function given by:
+P=10000–0,25Qd
+and an inverse supply function given by:
+P=0,15Qs+400
+Government decides to introduce a price ceiling of R7 000 in this market. Is this price ceiling binding? Justify your answer fully. [3]
+QUESTION 43 [6 marks] Susan sells hamburgers at a Sunday market. The demand for her hamburgers is given by:
+Q!=50−0,4P
+She currently charges R40 per hamburger.
+43.1 Calculate the price elasticity of demand for Susan's hamburgers. Show all calculations. [4]
+43.2 Would you advise Susan to lower the price of her hamburgers? Motivate your answer.
+[2]
+QUESTION 44 [13 marks] The equations of the market demand and supply curves for laptop sleeves are given by:
+P=300−0,02Q!
+P=60+0,01Q"
+44.1. Calculate the market equilibrium price and quantity of laptop sleeves. [3]
+Suppose the government introduces a R30 per unit tax on the production of laptop sleeves to generate revenue.
+44.2 What is the price and quantity of laptop sleeves sold following the imposition of the tax?
+Show all calculations. [4]
+
+Page 16 of 16
+44.3 Draw a fully labelled graph to illustrate the:
+	•	consumer surplus;
+	•	producer surplus; and
+	•	deadweight loss
+in the market for laptop sleeves following the imposition of this tax. [5]
+44.4 What is the total tax revenue collected by the government? [1] QUESTION 45 [6 marks] The market for orange juice is unregulated and perfectly competitive. Suppose the marginal private cost of producing a crate of orange juice is:
+P = 100 + Q
+and that the demand curve for orange juice is given by:
+P = 600 – 1/3Qd
+where prices and costs are in Rands. Suppose that the production of orange juice causes pollution that leads to a marginal external cost of 2Q.
+45.1 What is the Pareto efficient quantity (crates) of orange juice? Show your calculations. [2]
+45.2 What is the tax revenue from the imposition of an optimal Pigouvian tax? Show your calculations. [2]
+45.3 How can private bargaining solve the problem of an external cost that is created during production? [2]
+
+
+
+14 A3 Eng - 13 June 2024 - for Ada MT V1.1.pdf
+Source guide
+This document is a comprehensive undergraduate economics examination from Stellenbosch University, specifically designed for the Economics 114 module in June 2024. The assessment is structured into three distinct parts: true or false statements, multiple-choice questions, and descriptive problems that require detailed calculations and graphical illustrations. Its primary purpose is to evaluate student proficiency across a broad spectrum of microeconomic and macroeconomic principles, ranging from GDP growth calculations and Malthusian models to game theory and market failures. Key themes explored throughout the text include consumer choice theory involving indifference curves, firm behavior under different market structures like monopolies and perfect competition, and the impact of government interventions such as price floors and excise taxes. Additionally, the paper emphasizes the application of economic logic to social dilemmas, Pareto efficiency, and environmental externalities, requiring students to interpret complex data and visual diagrams to solve real-world theoretical problems.
+
+Page 1 of 17
+FACULTY OF ECONOMIC AND MANAGEMENT SCIENCES/ FAKULTEIT EKONOMIESE EN
+BESTUURSWETENSKAPPE
+DEPARTMENT OF ECONOMICS/ DEPARTEMENT EKONOMIE
+Module Code: 12084-114
+ECONOMICS 114/ EKONOMIE 114
+ASSESSMENT A3 / ASSESSERING A3
+CLOSED BOOK/ TOE BOEK
+PAPER 1 OF 1 / VRAESTEL 1 VAN 1
+DATE/ DATUM 14 JUNE 2024/14 JUNIE 2024 DURATION/TYDSDUUR 3 HOURS / 3URE TOTAL OF MARKS/ TOTALE PUNTE 100 EXAMINERS/EKSAMINTORE: DR C LINKS
+PROF S DU PLESSIS MS O EZEOBI MR M MEYER DR K MALINDI MR J PRETORIUS DR D SHEPHERD DR P VORSTER
+INTERNAL MODERATOR/ INTERNE MODERATOR
+DR E MOSES
+Chairperson / Voorsitter: Co-ordinator / Sameroeper:
+Prof AI Jansen Dr C Links
+
+Page 2 of 17
+INSTRUCTIONS PLEASE NOTE: ONLY NON-PROGRAMMABLE CALCULATORS ARE ALLOWED.
+KEY: AP = Average product AC = Average cost BL = Budget line D = Demand DWL = Deadweight loss FF = Feasible frontier GDP = Gross domestic product IC = Indifference curve K = Capital L = Labour MB = Marginal benefit MC = Marginal cost MEB = Marginal external benefit MP = Marginal product MPB = Marginal private benefit MPC = Marginal private cost
+MR = Marginal revenue MRS = Marginal rate of substitution MRT = Marginal rate of transformation MSB = Marginal social benefit MSC = Marginal social cost P = Price PF = Production function Q = Quantity Qd = Quantity demanded Qs = Quantity supplied S = Supply TC = Total cost TP = Total product TR = Total revenue w = Wage Y = Income
+ANSWER SECTION A’s QUESTIONS ON THE SUPPLIED ANSWER SHEET. INDICATE YOUR CHOICE BY DARKLY COLOURING IN THE CIRCLE NEXT TO THE NUMBER OF THE STATEMENT. ALSO ANSWER SECTION B’s QUESTIONS ON THE SUPPLIED ANSWER SHEET. INDICATE YOUR CHOICE BY DARKLY COLOURING IN THE CIRCLE NEXT TO THE NUMBER OF THE STATEMENT. ANSWER SECTION C’s QUESTIONS IN THE ANSWER BOOK PROVIDED. START EVERY QUESTION ON A NEW PAGE. SHOW ALL CALCULATIONS.
+
+Page 3 of 17
+SECTION A TRUE OR FALSE STATEMENTS
+[10 marks: 1 mark for a correct answer and - ½ for an incorrect answer]
+1. The GDP per capita of China was $7 636 in 2014 and $8 016 in 2015. Based on these
+figures, the growth rate of GDP per capita of China between 2014 and 2015 (measured to two decimal places) was 4.98%. a) True b) False
+2. According to Malthus, the population size will increase if living standards increase, but then the average product of labour will eventually decline. a) True b) False
+3. After Melody's wage increased, she chose to work less because her income effect on free time dominated her substitution effect on free time. a) True b) False
+4. A Nash equilibrium is always a dominant strategy equilibrium. a) True b) False
+5. The Nash equilibrium of a prisoner's dilemma game represents a social dilemma. a) True b) False
+6. Previously, a corrupt government official frequently accepted bribes, driven solely by personal financial interests. Due to the establishment of stronger institutions that effectively mitigate corrupt practices, the official can no longer solicit or accept bribes. This change represents a Pareto improvement. a) True b) False
+
+Page 4 of 17
+7. In the labour discipline model, it is assumed that the firm must pay the worker exactly his/her reservation wage to create an incentive for him/her to work hard. a) True b) False
+8. In a perfectly competitive market, the process of entry and exit of firms will end when
+marginal cost is equal to average cost. a) True b) False
+9. The MR curve for a monopolist is also its demand curve. a) True b) False
+10. When VW car manufacturer is forced to consider the social cost of production, it must add the costs that are incurred by others affected by their production, to its private costs of production. a) True b) False
+
+
+
+
+Page 5 of 17
+SECTION B MULTIPLE CHOICE QUESTIONS
+[40 marks: 2 marks for a correct answer and – ¼ for an incorrect answer]
+11. Which one of the following statements is INCORRECT?
+a) An economic system is a way of organising the production and distribution of goods and services in an entire economy.
+b) An authoritarian government can never exist in a capitalist economic system. c) There remains a role for governments in modern capitalist systems. d) Markets existed before capitalism.
+12. A change in the relative price of two production inputs will affect the
+a) marginal product of labour. b) slope of the isocost line. c) slope of the production function. d) marginal rate of substitution.
+13. The diagram below shows the budget constraint and an indifference curve of a consumer
+of two goods, X and Y.
+At point A, the MRS is ______ and at point B the MRS is ______. a) 0.33; 3 b) 0.5; 2 c) 2; 0.5 d) impossible to calculate with the information given.
+!"#$%&#$'()*+),$-#.I0$%I$)1"0#+$%&#$2I..I0(1*$34#"%(I15$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+61'(22#+#17#$74+8#$9$
+:;$
+<:$
+<:$ :;$
+=;$
+9;$ =;$
+9;$
+>4)1%(%?$I2$@$
+A$
+B$
+
+Page 6 of 17
+14. Consider a consumer with a fixed budget that chooses to consume a combination of two
+normal goods, chicken and chips. The consumer's budget line is plotted with chicken on the horizontal axis. When the price of chicken increases:
+a) the substitution effect on the consumption of chicken is positive, as the consumer will have to increase his/her expenditure on chicken due to its higher price, ceteris paribus.
+b) the income effect on the consumption of chips is negative, ceteris paribus. c) the consumer will consume less chips because the substitution effect dominates the
+income effect, ceteris paribus. d) the consumer will consume more chicken because the income effect dominates the
+substitution effect, ceteris paribus.
+15. Melinda is a graphic designer who charges R400 per hour to produce social media marketing adverts for a leading company. She spends 8 hours per day sleeping and allocates the remaining 16 hours between work and free time. If we plot Melinda's budget constraint with free time on the horizontal axis and consumption on the vertical axis, __________.
+a) her MRS at her best affordable point is greater than R400. b) her MRS at her best affordable point is smaller than R400. c) the relative price of consumption is R400. d) her per hour opportunity cost of free time is R400.
+16. Which one of the following statements is CORRECT? a) A dominant strategy equilibrium always arises when both players play their best
+responses. b) A dominant strategy equilibrium implies that each player changes their strategy based
+on the other player's strategy. c) The Nash equilibrium is a dominant strategy equilibrium when players choose a strategy
+independently of the other players. d) A strategy is dominant when a player's payoffs are greater in size than the other players’
+payoffs.
+
+
+Page 7 of 17
+17. Consider the following figure showing the payoff allocations for two persons, Atreides
+and Harkonnen:
+Which of the following statements is/are CORRECT?
+I. Allocation B is only Pareto dominated by allocations A and D. II. Allocation A is Pareto efficient. III. Allocation E and C are Pareto efficient. IV. Moving from allocation C to D results in a Pareto improvement.
+a) I, II, and III b) Only II c) II and III d) II, III, and IV
+18. Zephyr works for a window washing company and earns a wage of R75 per hour. He works a 40-hour work week. He finds his job quite boring, and has a disutility of effort of R25 per hour. The government provides an unemployment benefit equivalent to R30 per hour. Which one of the following statements is INCORRECT? a) To calculate the cost of job loss, Zephyr needs to compare the value of his current job
+to the value of his reservation option. b) If Zephyr is offered another window washing job that pays R30 per hour, he will
+definitely take this job. c) If Zephyr's employer provided health insurance and a travel allowance, Zephyr's
+employment rent would be higher. d) Zephyr's disutility of effort reduces his employment rent.
+
+
+Page 8 of 17
+19. Bruno is a landowner and Angela is a farmer who pays a share of her grain output to Bruno for the use of his land. Which of the allocation(s) indicated represent a Pareto improvement over Z?
+a) (c) and (d) b) only (c) c) only (d) d) None of the allocations
+20. Economies of scale necessarily exist when: a) the firm's decision to hire additional labour does not result in an increase in wages. b) a firm is large and diversified. c) the average cost of producing a unit of output falls as output increases. d) a firm is small and very specialised.
+21. A monopoly is best defined as a firm operating in an industry where barriers prevent
+a) other firms from selling that good or service. b) product uniqueness. c) many buyers from purchasing the good or service. d) price-setting.
+! !
+!
+"#A%&'()!*+,&,A+-'&! )./0+0'&!-,#)1/'+#1!
+
+Page 9 of 17
+22. A monopolist’s demand and marginal cost functions are given by:
+Q = 400 - 5P
+MC = 20 + 0,2Q
+What is the monopolist's profit-maximising output? a) 250 b) 150 c) 500 d) 100
+23. A price-setting firm can sell 100 units of its product at a price of R250. However, to sell
+101 units they would need to lower the price to R248. What is the marginal revenue of the 101st unit? a) -R2 b) R2 c) R48 d) -R48
+24. A binding price floor and a binding price ceiling both have the result that
+a) a smaller quantity, relative to the equilibrium quantity, will be sold. b) a larger quantity, relative to the equilibrium quantity, will be sold. c) producer surplus increases. d) consumer surplus increases
+25. "Charlie's Chimps" is a perfectly competitive firm that produces soft toy chimpanzees for
+children. The market price of a chimpanzee is R10 and Charlie produces 100 chimpanzees at a marginal cost of R9. The firm ___________ a) is maximising its profit. b) will maximise its profit if it produces more than 100 chimpanzees. c) will maximise its profit if it lowers the price to R9 a chimpanzee. d) will maximise its profit if it produces fewer than 100 chimpanzees.
+
+
+Page 10 of 17
+$26. The demand function for a price-setting firm is 𝑄 = 100 − ! "# 𝑃. When Q = 13, MR is $
+equal to _____. a) R5 920 b) R6 240 c) R1 100 d) R6 400
+27. Suppose that the average cost of a particular firm is given by:
+AC=2Q−15+20000/Q
+The average cost is at a minimum when quantity equals ___________. a) 150 b) 100 c) 200 d) 85
+28. The figure below represents Ron's Hamburger Joint, the only restaurant in town. Ron's
+AC, MC, MR and demand curves are indicated. All prices and costs are given in $.
+If Ron's Hamburger Joint produces the profit-maxisiming quantity of hamburgers, their economic profit will be ________ per hour. a) $40 b) $30 c) $20 d) $120
+AC
+
+
+Page 11 of 17
+29. Suppose that private solutions have failed to encourage brick manufacturing factories to
+lower their emissions, resulting in market failure and deadweight loss. Governments can regulate the market to produce a Pareto efficient output by
+I. banning brick manufacturing entirely.
+II. investing in the expansion of brick factories so that emissions are more evenly distributed.
+III. regulating the quantity of emissions per factory. IV. taxing the production of bricks.
+a) only I b) I, II and IV c) I, III and IV d) only III and IV
+30. The market for paint is competitive and unregulated. Suppose a paint factory, Ray's Paint,
+disposes of its dirty water into a nearby river. This pollution is slowly killing off the fish stock, which is harming the local fishery, Raymond's Big Catch.
+Which one of the following statements is CORRECT?
+a) Ray's Paint chooses to produce 40 000 litres of paint, because this is where the MPB = MSC.
+b) Ray’s Paint will produce 80 000 litres of paint, because this is where MPC = P. c) If Ray's Paint owns the river, there is no way to deal with the cost caused by the
+pollution. d) Raymond wants to do what is right for the environment and closes his paint business.
+
+Page 12 of 17
+SECTION C DESCRIPTIVE QUESTIONS
+[50 marks]
+QUESTION 31 [2 marks] A 2019 International Monetary Fund (IMF) research paper found that policies targeted at redistributing unpaid household work across men and women could increase GDP by 4 percent. Discuss briefly why this positive effect could occur. [2] QUESTION 32 [5 marks] A winemaker is faced with five technologies (A, B, C, D, E) that use different combinations of workers and carts of grapes to produce a given level of output, as indicated in the table below. Workers are paid a wage of R900 and a cart of grapes costs R3 000.
+Technology Number of workers Carts of grapes A 10 4 B 4 5 C 5 7 D 8 3 E 1 8
+32.1 Which technologies are dominated? [2] 32.2 Give the equation of the isocost line that represents a total cost of production of
+R300 000 if carts of grapes are plotted on the vertical axis. [2]
+32.3 What does the slope of the isocost line in 32.2 represent? [1]
+
+
+Page 13 of 17
+QUESTION 33 [2 marks] Use the information provided in the table below to answer the questions that follow.
+Labour employed (L) 0 15 30 45 60 75 Output (Q) 0 300 600 750 800 900
+33.1 What is the MP of the 30th unit of labour? [1]
+33.2 What is the AP of the 30th unit of labour? [1]
+QUESTION 34 [5 marks] Simon has an income of R3 000 that he spends on two goods: wine and camembert cheese. Wine costs R30 per glass, and a camembert cheese costs R100. Several of Ben's budget lines and indifference curves are indicated in the figure below (not drawn to scale).
+The price of a camembert cheese decreases from R100 to R60. Use the information provided, and determine the value of:
+34.1 W4 [1]
+34.2 C4 [1]
+34.3 MRS at C [3]
+
+Page 14 of 17
+QUESTION 35 [3 marks] The following payoff matrix applies to a game played by two players, Player 1 and Player 2, who can choose to play strategy A or strategy B:
+Player 2 A B
+Player 1 A 2, 2 -4, 4 B 4, -4 -8,-8
+35.1 What is the Nash equilibrium of this game? [2]
+35.2 Does Player 1 and/or Player 2 have a dominant strategy? Explain your answer. [1]
+QUESTION 36 [5 marks] Bronwyn, Nonso, and Leonard are discussing how to share three chocolate ice-creams and three strawberry ice-creams. Leonard likes chocolate and strawberry ice-creams equally, but Nonso prefers chocolate to strawberry ice-cream, and Bronwyn prefers strawberry to chocolate ice-cream. 36.1 Is an allocation in which Leonard gets two strawberry ice-creams, Nonso gets a
+chocolate ice-cream and a strawberry ice-cream, and Bronwyn gets two chocolate ice-creams Pareto efficient? Explain. [3]
+Johan, who also likes chocolate and strawberry ice-creams equally, steals all the ice creams for himself.
+36.2 Is this allocation in which Johan gets all the ice-creams Pareto efficient? Explain. [2]
+
+
+Page 15 of 17
+QUESTION 37 [4 marks] The firm "Titan Forge" is making a decision on what wage to pay their employee, Oceanus.
+37.1 Which one of the isocost curves I1, I2 or I3 represents Titan Forge's highest cost of effort?
+Why? [1] 37.2 What wage would Titan Forge pay in order to maximise its profit? [1] 37.3 Which of points A, B and C would be feasible for Titan Forge? Briefly explain your
+answer. [2] QUESTION 38 [7 marks]
+The equations below represent the market demand and market supply for eggs:
+Qd=10000–1000P
+Qs=4000+1000P
+Suppose the government imposes a price floor of R5 per egg.
+38.1 Is there a shortage or a surplus in this market following the introduction of the price floor, and what is the size thereof? [3]
+Effort per hour
+Oceanus’s best response
+Wage per hour, Rands
+
+Page 16 of 17
+38.2 How does the introduction of a price floor affect the size of consumer surplus? No calculations are required. [1]
+38.3 Draw a fully labelled graph that illustrates the deadweight loss in the market for eggs as a result of the price floor. Your graph does not need to be drawn to scale. [3]
+QUESTION 39 [3 marks] Every year during the annual budget speech, the Minister of Finance increases excise taxes on cigarettes. Explain, using your knowledge of price elasticity of demand, the rationale behind this decision. [3]
+QUESTION 40 [5 marks]
+The Golden Tuckshop asks R12,50 per can of Pepsi. At this price the quantity demanded is 500. If Golden Tuckshop lowers the price to R10 per can of Pepsi, the quantity demanded rises to 750.
+40.1 Calculate Golden Tuckshop's price elasticity of demand for Pepsi when the price charged is R12,50. [3]
+40.2 Given your answer in 40.1, would you advise that the shop owner should consider lowering the price of a can of Pepsi? Motivate your answer. [2]
+QUESTION 41 [5 marks] Your roommate complains about the cost of living and says he wishes the government would create a maximum price for milk of R12 per litre. Assume the market-clearing price is R13 per litre of milk. 41.1 Explain to your roommate the welfare effects of this price ceiling on milk. No graph is
+required. [4] Suppose that farm conditions improve in the following year, which results in a market equilibrium price of R11 per litre of milk. 41.2 How would you classify the price ceiling of R12 per litre of milk given this change in the
+market? [1]
+
+
+Page 17 of 17
+QUESTION 42 [4 marks]
+The figure below shows the market for coal. The production of coal leads to pollution that imposes an external cost.
+42.1 What letter in the above figure represents the following:
+42.1.1 Equilibrium price in an unregulated, competitive market. [1]
+42.1.2 Equilibrium quantity in an unregulated, competitive market. [1]
+42.2 What area represents the deadweight loss of the unregulated, competitive market outcome? [1]
+42.2 What distance represents the size of the Pigouvian tax per ton that will be charged to produce the Pareto efficient outcome? [1]
+
+Economics 114
+Memo A3 2024
+True and False
+1.a
+2.a
+3.a
+4.a
+5.a
+6.b
+7.b
+8.b
+9.b
+10.a
+Multiple choice questions
+11.b
+12.b
+13.c
+14.b
+15.d
+16.c
+17.c
+18.b
+19.a
+20.c
+21.a
+22.d
+23.c
+Economics 114
+24.a
+25.b
+26.a
+27.b
+28.a
+29.d
+30.a
+
+Tab 3
+2023: 
+
+A3 English 2023.pdf
+Source guide
+This document is a comprehensive undergraduate economics examination paper designed to assess a student's grasp of both microeconomic theory and broader socioeconomic trends. The assessment is divided into three distinct sections: objective true/false statements, multiple-choice questions exploring core concepts like capitalism and market failure, and detailed descriptive problems requiring mathematical calculations. Key themes woven throughout the text include individual decision-making under constraints, the strategic interactions of game theory, and the mechanics of market equilibrium involving taxes, subsidies, and monopolies. Ultimately, the purpose of this source is to evaluate a learner's ability to apply formal economic modeling to real-world scenarios, ranging from historical Malthusian traps to modern environmental externalities.
+Page 1 of 15
+SECTION A
+TRUE OR FALSE STATEMENTS
+[10 marks: 1 mark for a correct answer and - ½ for an incorrect answer]
+1. Since the 1700s, increases in average living standards became a permanent feature of
+economic life in many countries. This process has been accompanied by growing threats
+to our natural environment.
+a) True
+b) False
+
+2. A firm uses labour and coal to produce a pair of shoes. Coal costs R12.50 per ton and
+labour costs R5 per worker per hour. On the firm's R300 isocost line, the firm will give
+up 0.8 tons of coal to hire two additional workers.
+a) True
+b) False
+3. Alicia consumes only sour worms and magazines. A change in Alicia's income will
+change the shape of her indifference curves.
+a) True
+b) False
+4. Suppose that a standard Ultimatum game is adapted so that the Proposer makes an offer
+to a group of four Responders. As long as the offer is accepted by at least one of the
+Responders, the split will be implemented. Under this variation of the Ultimatum game,
+Responders will be more likely to accept lower offers made by the Proposer than would
+be the case in a standard Ultimatum game.
+a) True
+b) False
+5. If Bruno can coerce Angela to work on his land, Bruno is indifferent between all
+allocations that lie on Angela's biological survival constraint.
+a) True
+b) False
+6. In economics, we use the term “employment rent” to refer to the wage workers earn.
+a) True
+b) False
+7. In a perfectly competitive market, the market price is equal to the marginal cost of
+production.
+a) True
+b) False
+Page 2 of 15
+8. A fall in South Africans' incomes due to unemployment caused by Covid-19-related
+restrictions leads to a leftward shift of the demand curve for houses.
+a) True
+b) False
+9. Monopolies keep prices high by producing a quantity that is higher than the Pareto-
+efficient allocation.
+a) True
+b) False
+10. Pure public goods are non-rival and non-excludable.
+a) True
+b) False
+SECTION B
+MULTIPLE CHOICE QUESTIONS
+[30 marks: 2 marks for a correct answer and – ¼ for an incorrect answer]
+11. Capitalism is an economic system in which private property, markets, and firms play an
+important role. Given this definition, which one of the following statements is
+CORRECT?
+a) An economic system is a way of organising the production and distribution of
+goods and services in an entire economy.
+b) The knowledge you attain from the Economics 114 module is considered private
+property.
+c) There is no role for governments in modern capitalist systems.
+d) Firms in capitalist systems are usually managed by the workers.
+12. Which of the following statements is/are CORRECT?
+i. Technological advancement and the division of labour have both played an
+important role in increasing the scale of production of firms in a market economic
+system.
+ii. Firms competing with one another provide an incentive to refrain from adopting
+and developing new and more productive technologies.
+iii. It is impossible for markets to exist outside a capitalist system.
+iv. Some of the ideas about capitalism can be attributed to Adam Smith.
+a) Only i is correct.
+b) ii and iii are correct.
+c) i and iv are correct.
+d) i, iii and iv are correct.
+
+Page 3 of 15
+13. Suppose that the price of good Y decreases, while the price of good X and a person's
+income remain the same. If the person's consumption of X remains unchanged after the
+decrease in the price of Y, it means that:
+a) the income and substitution effects are not applicable in this instance.
+b) the income and substitution effects on the consumption of X are zero.
+c) the increase in the consumption of X (caused by the income effect) is countered
+exactly by the decrease in consumption of X (caused by the substitution effect).
+d) the income and substitution effects work in the same direction.
+14. The figure below shows the feasible frontier and indifference curve of a high school
+student who faces a tradeoff between free time and school marks obtained.
+At point A the student is not in equilibrium because _______. He could increase his
+utility by ___________.
+a) MRT > MRS; increasing his free time
+b) MRT > MRS; studying more
+c) MRT < MRS; studying more
+d) MRT < MRS; increasing his free time
+Page 4 of 15
+15. The production function for sneakers is given by:
+f(h)=4h2+6h+20
+The marginal product of labour in the factory is given by:
+a)4h+6
+b)8h+6h+20
+c)8h+6
+d) 20
+16. Palesa and her best friend, Thandi, want to catch up but cannot do so in person as a
+result of the Covid-19 social distancing regulations. They can meet via WhatsApp or
+FaceTime, and their interaction is represented by the game in the table below:
+Thandi
+WhatsApp FaceTime
+Palesa WhatsApp 3, 3 1, 0
+FaceTime 0, 1 2, 2
+Which one the following statements is INCORRECT?
+a) When Palesa plays WhatsApp, Thandi's best response is WhatsApp.
+b) (WhatsApp, WhatsApp) and (Facetime, Facetime) are Nash equilibria in this
+game.
+c) There is no dominant strategy equilibrium in this game.
+d) Thandi has a dominant strategy to play WhatsApp.
+17. Which one of the following is a procedural judgement of fairness?
+a) Wealth should be distributed as equally as possible.
+b) Politicians should not enrich themselves through corruption.
+c) Everyone should be able to satisfy their basic needs.
+d) Celebrities do not deserve to earn more than ordinary people.
+18. Evaluate the following two statements to answer this question:
+i. The principal-agent problem can be explained by a lack of incentives.
+ii. The key problem in principal-agent situations is the manager's inability to
+supervise the actions of the worker.
+a) i and ii are both true.
+b) i is true and ii is false.
+c) ii is true and i is false.
+d) i and ii are both false.
+Page 5 of 15
+19. Which one of the following statements regarding employment contracts is CORRECT?
+a) The firm is required to state exactly what it needs the employee to do in an
+employment contract.
+b) The firm needs to specify exactly how much effort employees are expected to put
+into their job.
+c) Employees' effort levels cannot be the basis of an enforceable contract.
+d) Employment contracts are incomplete as they can only specify things that both the
+employees and the business owner care about.
+20.Inthemarketforpremiumheadphones,themarketdemandisP=5000–10Q,while
+themarketsupplyisP=500+5Q.Supposethegovernmentplacesataxonthe
+production of headphones of R450 per unit. Which of the following statements are
+CORRECT?
+i. 300 headphones will be traded after the introduction of the tax.
+ii. 270 headphones will be traded after the introduction of the tax.
+iii. The price of headphones will increase by R450.
+iv. The price of headphones will increase by R300.
+v. Producers bear a greater share of the tax burden than consumers.
+a) i and iii
+b) iii and v
+c) ii and iv
+d) ii, iii and v
+21. Which one of the following statements regarding firms with market power is
+CORRECT?
+a) Firms with market power cannot influence the price that is set in the market.
+b) Firms with market power produce more goods than firms without market power,
+ceteris paribus.
+c) Marginal revenue is always constant for firms with market power.
+d) Some firms with market power are able to make economic profits in the long run
+because barriers to entry prevent competition from emerging.
+22. The price of insulin (a medicine used by diabetics) increases but the quantity of insulin
+purchased by diabetics remains the same. This is an example of:
+a) price elastic demand
+b) perfectly price inelastic demand
+c) unitary price elasticity of demand
+d) perfectly price elastic demand
+Page 6 of 15
+23. In the market for budget laptops, the effect of an increase in the price of premium laptops
+(a substitute for budget laptops) along with an increase in the cost of raw materials (used
+in the production of budget laptops) will cause ___________ in the equilibrium price
+and ___________ in the equilibrium quantity in the market for budget laptops.
+a) an increase; an increase
+b) an increase; a decrease
+c) a decrease; an indeterminate change
+d) an increase; an indeterminate change
+24. In the case of a negative externality, there is ______________ and ___________.
+a)underproduction;MSC>MSB
+b)underproduction;MSB>MSC
+c)overproduction;MSC>MSB
+d)overproduction;MSB>MSC
+25. The consumption of fairy dust causes positive externalities. Consider the following
+equations:
+MC=5500+Q
+MPB=8000−2Q
+MEB=1000−Q
+What subsidy per unit should the fairy queen pay to the fairy dust industry to arrive at
+the socially optimal outcome?
+a) 125
+b) 875
+c) 6 250
+d) 6 375
+Page 7 of 15
+SECTION C
+DESCRIPTIVE QUESTIONS
+[60 marks]
+QUESTION 26 [2 marks]
+The GDP per capita of Greece was $22 494 in 2021 and $21 966 in 2022. Based on these
+figures, calculate the growth rate of GDP between 2021 and 2022. Round your answer off to
+two decimal places. [2]
+Page 8 of 15
+QUESTION 27 [5 marks]
+27.1 Living standards remained at or near subsistence levels for centuries before the
+Industrial Revolution. Briefly explain this phenomenon using Malthus’s theory. [3]
+27.2 Name two conditions that allowed countries to escape from the Malthusian trap. [2]
+
+Page 9 of 15
+QUESTION 28 [6 marks]
+Aworkerfacesaconsumptionconstraintc=10(24−t),wheretishoursoffreetimeperday
+andcisconsumption.TheworkerispaidinRands.
+28.1 Assume that this worker can work for a maximum of 15 hours a day. What is the
+worker's maximum possible daily consumption? [2]
+28.2 Assume that an anonymous benefactor pays this worker R100 every day, irrespective
+of the hours worked. What is the opportunity cost of one hour of free time? [1]
+28.3 The worker is now told that his wage is going to increase by R5 for every hour worked.
+He will still receive the R100 from the benefactor.
+28.3.1 Write an equation for his new consumption constraint. [1]
+28.3.2 What is the substitution effect of this wage change on free time? Explain your
+answer. No calculations are required. [2]
+QUESTION 29 [5 marks]
+The diagram below shows the budget constraints before and after a change in prices and income,
+as well as an indifference curve of a consumer of Good X and Good Y.
+29.1 Calculate the value of the MRS at point A. [2]
+29.2 On BL1, if the price of Good X is R4, what is
+Page 10 of 15
+29.2.1 the price of Good Y? [1]
+29.2.2 the consumer's income? [1]
+29.3 On BL2, what is the relative price of Good Y? [1]
+QUESTION 30 [3 marks]
+Sheldon and Leonard are splitting housework. The social interaction of washing dishes is
+represented in the table below:
+Leonard
+Wash dishes Don’t wash dishes
+Sheldon Wash dishes 12, 12 2, 15
+Don’t wash dishes 15, 2 5, 5
+What is the Nash equilibrium of this game and explain why it is a social dilemma. [3]
+Page 11 of 15
+QUESTION 31 [5 marks]
+Keanu works in Wachowski's factory, producing Protein, which both Keanu and Wachowski
+consume. The graph below shows the feasible frontier (FF) which indicates combinations of
+Keanu's free time and Protein production that is feasible to produce. Wachowski consumes the
+Protein that is produced by Keanu that Keanu does not consume himself. Point Z represents
+Keanu's reservation option. Production will only occur if a voluntary agreement can be reached
+between Keanu and Wachowski. Note that the two straight lines through C and D on the graph
+are parallel.
+31.1. Which point (A, B, C, D, E, F, G or Z) would be Wachowski's most preferred on the
+graph? Briefly motivate your answer. [2]
+31.2. Suppose Wachowski and Keanu bargain with each other until a voluntary agreement is
+reached, and that they have roughly equal bargaining power. Where on the graph would
+the outcome be? Motivate your answer. [3]
+QUESTION 32 [4 marks]
+Aniya earns R15 per hour in her current job and works 40 hours a week. Her disutility of effort
+is measured as R1 per hour of work. In the case that she loses her job, she receives R5 per hour
+unemployment benefit. Additionally, being unemployed has psychological and social costs
+which is a disutility equivalent to R2 per hour. Calculate Aniya's total employment rent if she
+can get another job with the same wage rate after 44 weeks of being unemployed. [4]
+Page 12 of 15
+QUESTION 33 [11 marks]
+Julian's Chesa-Nyama is one of many businesses operating in a competitive braai food market
+in Stellenbosch. The inverse demand function for braai meals is represented by:
+P=68−0.02Q
+whereQrepresentsthenumberofplatesofbraaimealssoldinStellenboschperday.Theinverse
+supply function for braai meals is represented by:
+P=28+0.005Q
+33.1 Determine the market equilibrium price and quantity of braai meals. [3]
+33.2 What is the price elasticity of demand for Julian's braai meals? [1]
+Julian’s total cost of production is given by:
+TC=40+28q+1
+8q2
+whereqrepresentsthenumberofplatesofbraaimealssoldbyJulianperday.
+33.3 How many braai meals should Julian sell per day to maximise his economic profit?
+[3]
+33.4 Calculate Julian’s economic profit. [2]
+33.5 Can Julian increase his profit by raising the price of his meals? Why or why not? [2]
+Page 13 of 15
+QUESTION 34 [4 marks] Lindi
+The equations below describe the market demand and supply curves of sneakers:
+P=32−Qd
+P=Qs+8
+Assume that the government imposes a price ceiling of R11 per pair of sneakers. Answer the
+following questions that refers to the period after the price ceiling was introduced.
+34.1 Is there a shortage or a surplus in this market? What is the size thereof? [3]
+34. 2 How does the introduction of a price ceiling affect the size of the consumer surplus? No
+calculations are required. [1]
+
+Page 14 of 15
+QUESTION 35 [9 marks] Lindi
+The figure below indicates the demand, marginal revenue, and marginal cost curves of a
+monopoly.
+35.1 Write down the equations for the demand and marginal cost curves. [2]
+35.2 Calculate the producer and consumer surplus. Show all calculations. [4]
+35.3 Calculate the price mark-up. [1]
+35.4 Calculate the size of the deadweight loss. [2]
+Page 15 of 15
+QUESTION 36 [6 marks]
+The Flotsams like to have loud parties at night, while their neighbours the Jetsams suffer harm
+from the noise. The table below shows the marginal private cost (MPC) and marginal private
+benefit (MPB) of parties to the Flotsams, as well as the marginal external cost (MEC) of the
+parties. Show all calculations for the questions below.
+Q MPB MPC MEC
+1 101 40 40
+2 91 50 40
+3 81 60 40
+4 71 70 40
+5 61 80 40
+6 51 90 40
+7 41 100 40
+36.1 How many parties per month will the Flotsams choose if they can freely choose without
+legal or social restrictions? (Note, they can only choose an integer number.) [1]
+36.2 What is the socially optimal number of parties? [1]
+36.3 How much will it benefit the Jetsams if the number of parties were reduced to the
+socially optimal level? [2]
+36.4 If property rights were well defined, what private agreement could be made between the
+Flotsams and the Jetsams? [2]
+
+
+Memo section a and b: Page 1 of 1
+FACULTY OF ECONOMIC AND MANAGEMENT SCIENCES DEPARTMENT OF ECONOMICS
+ECONOMICS 114 A3
+DATE: 15 June 2023
+Section A 1. A 2. A 3. B 4. A 5. B 6. B 7. A 8. A 9. B 10. A SECTION B 11. A 12. C 13. C 14. D 15. C 16. D 17. B 18. A 19. C 20. C 21. D 22. B 23. D 24. C 25. A
+
+Tab 4
+2022: 
+
+Page 1 of 26
+EXAMINERS: Dr K Malindi Ms L Boltman
+Prof S du Plessis Ms C Pengelly
+Dr D Shepherd Ms J Terblanche
+Mr MP van Schoor
+INTERNAL MODERATOR: Dr E Moses
+PLEASE NOTE: ONLY NON-PROGRAMMABLE CALCULATORS ARE
+ALLOWED.
+KEY:
+AP = Average product
+AFC = Average fixed cost
+AVC = Average variable cost
+AC = Average total cost
+BL = Budget line
+GDP = Gross domestic product
+IC = indifference curve
+K = capital
+FF = Feasible frontier
+MC = Marginal cost
+MP = Marginal product
+MPB = Marginal private benefit
+MPC = Marginal private cost
+MRS = Marginal rate of substitution
+MRT = Marginal rate of transformation
+MSB = Marginal social benefit
+MSC = Marginal social cost
+P = Price
+PF = Production frontier
+Q = Quantity
+Qd = Quantity demanded
+Qs = Quantity supplied
+TC = Total cost
+TP = Total product
+w = Wage
+WTA = Willingness to accept
+WTP = Willingness to pay
+Y = Income
+STELLENBOSCH UNIVERSITY
+DEPARTMENT OF ECONOMICS
+ECONOMICS 114
+MAIN ASSESSMENT A3: 21 JUNE 2022
+Time: 3 hours Marks: 100
+ANSWER SECTION A QUESTIONS ON THE SUPPLIED ANSWER SHEET. INDICATE
+YOUR CHOICE BY MAKING A CROSS NEXT TO THE NUMBER OF THE STATEMENT.
+ALSO ANSWER SECTION B QUESTIONS ON THE SUPPLIED ANSWER SHEET.
+INDICATE YOUR CHOICE BY MAKING A CROSS NEXT TO THE NUMBER OF THE
+STATEMENT.
+
+Page 2 of 26
+SECTION A
+TRUE/FALSE STATEMENTS
+[10 marks: 1 mark for a correct answer and minus ½ for an incorrect answer]
+1. GDP does not take the value of household or other types of unpaid work into account.
+a) True
+b) False
+2. Ceteris paribus is an assumption in economic models which refers to keeping the
+important variables that you are focusing on, constant.
+a) True
+b) False
+3. If Wendell increased his number of hours of free time following a decrease in his hourly
+wage, his income effect was larger than his substitution effect.
+a) True
+b) False
+4. The game in the table below is an example of the Invisible Hand game.
+a) True
+b) False
+5. The Nash equilibrium of a strategic interaction is always Pareto efficient.
+a) True
+b) False
+6. When workers are paid their reservation wage, they are indifferent between keeping and
+losing their job.
+a) True
+b) False
+7. If a price-taking firm sells one more unit of a good, then its marginal revenue will
+decrease.
+a) True
+b) False
+Page 3 of 26
+8. Profit-maximising monopolies and firms in competitive markets produce a quantity at
+which marginal revenue equals marginal cost.
+a) True
+b) False
+9. If the price falls in a market with price inelastic demand, the producer’s total revenue will
+increase.
+a) True
+b) False
+10. A farmer uses a pesticide on her wheat plantation to prevent pests from damaging the
+crop. However, the pesticide pollutes the river going through the farmer’s land, which is
+used by a nearby community as a source of water. The marginal external cost is the cost
+of the pesticide to the farmer.
+a) True
+b) False
+SECTION B
+MULTIPLE CHOICE QUESTIONS
+[30 marks: 2 marks for a correct answer and minus ¼ for an incorrect answer]
+11. The GDP per capita of Greece was $22 494 in 2012 and $21 966 in 2013. Based on these
+figures, the growth rate of GDP between 2012 and 2013 (to two decimal places) was
+________.
+a)−2.40
+b)2.35
+c)−2.35
+d)−0.24
+12. Which of the following statements regarding the Malthusian model are CORRECT?
+I. A sustained increase in income per capita would be impossible.
+II. The rise in productivity of labour would be offset by population growth.
+III. Its predictions were correct throughout 19th century Britain.
+IV. It explained why the population would stay constant over centuries without trending
+upwards.
+a) I, II and IV are correct.
+b) I and II are correct.
+c) I and IV are correct.
+d) I, II and III are correct.
+
+Page 4 of 26
+13. Given a consumption choice model, assume that quantity of milkshakes is measured on the
+horizontal axis and the quantity of pizzas is measured on the vertical axis. At your optimal
+point of consumption an MRS of _____ means that 20 more pizzas are as good as 5 more
+milkshakes.
+a)1/4
+b)0.2
+c) 20
+d) 4
+14. A worker faces a consumption constraint:
+c=10(24−t)
+wheretisfreetimeandcisconsumption.Bothfreetimeandconsumptionarenormal
+goods. If she was given an opportunity to receive R100 of unearned income a day,
+which one of the following statements applies to the worker?
+a) The worker will increase her consumption by R100.
+b) The worker will increase both her consumption and free time.
+c) The worker’s budget line will pivot from the axis that measures her consumption.
+d) The worker’s budget line will pivot from the axis that measures her hours of free time.
+15. A baker’s production of cupcakes corresponds to a certain number of hours worked per
+day. He faces the feasibility frontier below. Which ONE of the following statements are
+CORRECT?
+a) Points B and D are both infeasible.
+b) Point D is not feasible because the baker is not taking as much leisure time as he could.
+c) The MRT between points E and F is approximately 7.5.
+d) At point C the baker’s opportunity cost of free time is lower than at point E.
+Page 5 of 26
+16. Which ONE of the following represents a social dilemma?
+a) Not everyone can agree whether VAT (value-added tax) should be increased.
+b) Someone out for dinner with a group of friends decides to order the most expensive
+item on the menu after they all decided beforehand to share the total cost of the meal
+equally.
+c) A good harvest of grapes is sold to neighbouring farms to produce wine.
+d) Colleagues decide to carpool to work to save on the rising cost of petrol.
+17. Zendaya and Tom Holland are having a staring contest, where the person who blinks first
+loses. If both of them blink, or if neither blinks, then there is a draw. Not blinking for too
+long dries their eyes out, so they would rather have a (Blink, Blink) draw than a (Don’t
+blink, Don’t blink) draw. The payoffs to their strategic interaction are represented in the
+figure below.
+Tom Holland
+Z en
+d ay
+a
+Blink Don’t blink
+Blink 1, 1 0, 2
+Don’t blink 2, 0 -1, -1
+Based on this information, which ONE of the following statements is INCORRECT?
+a) (Blink, Don’t blink) is a Pareto-efficient outcome of this interaction.
+b) (Don’t blink, Don’t blink) is Pareto dominated by all the Pareto-efficient outcomes of
+this interaction.
+c) (Don’t blink, Don’t blink) is Pareto dominated by (Blink, Don’t blink).
+d) One Pareto improvement is possible on the outcome (Blink, Don’t blink).
+18. Which ONE of the following results in a higher reservation wage?
+a) Higher costs of searching for a job
+b) The job is unpleasant.
+c) Social stigma associated with unemployment
+d) Lower unemployment benefits
+
+Page 6 of 26
+19. A longer duration of expected unemployment shifts a worker’s best response curve to the
+left from BRC1 to BRC2.
+As a result of this change, which ONE of the following statements is CORRECT?
+a) The employer’s cost of effort and the worker’s employment rent have both increased
+b) The employer should pay the worker less than R60 per hour to minimise costs.
+c) The cost per unit of effort has decreased from R150 to R100.
+d) The employer obtains fewer efficiency units per rand spent following the shift of the
+worker’s best response curve.
+20. Which of the following factors can shift the demand curve of a good?
+I. A change in consumer preferences.
+II. A change in the price of the good.
+III. A change in competitors’ prices.
+a) II and III
+b) I and III
+c) Only I
+d) Only II
+21. Suppose the total cost function of a firm is given by:
+TC=150000+30Q+3Q2
+The marginal cost of producing the 20th unit is:
+a) 147
+b) 150
+c) 6
+d) 210
+Page 7 of 26
+22. If the absolute value of the price elasticity of demand for a product is more than one,
+a) a small price decrease will increase the firm’s total revenue.
+b) a small price decrease will decrease the firm’s total revenue.
+c) a small price increase will increase the firm’s total revenue.
+d) a small price increase has an undetermined effect on the firm’s total revenue.
+23. Which ONE of the following statements is TRUE regarding a firm that operates in a market
+where many firms produce homogeneous goods?
+a) The firm will exit the market if they make zero economic profit.
+b) The average cost curve of the firm is the supply curve.
+c) There are unexploited gains to trade if production occurs where marginal revenue is
+greater than marginal cost.
+d) The firm will set its own price.
+24. The education you receive at university has a positive effect on other members of society.
+Which ONE of the following statements is CORRECT?
+a) If nothing is done in an unregulated market for higher education, education will be
+undersupplied if universities are private enterprises.
+b) A socially optimal provision of education could be achieved through taxing suppliers
+of education.
+c) To ensure that the socially optimal quantity of education is provided, MSB must always
+exceed MPB.
+d) Providing subsidies to the suppliers of education will decrease the quantity of education
+supplied.
+25. Netflix, Disney Plus, Showmax and Amazon Prime are all streaming platforms, where
+people pay monthly to watch movies and TV series. Netflix is an example of:
+a) A rival and excludable good.
+b) A rival and non-excludable good.
+c) A non-rival and excludable good.
+d) A non-rival and non-excludable good.
+Page 8 of 26
+SECTION C
+LONG QUESTIONS
+[60 marks]
+QUESTION 1
+Briefly discuss why the United States and China would both be regarded as capitalist
+economies, using the definition of capitalism that was provided in this module. [2]
+QUESTION 2
+A firm, Party Fits, makes use of combinations of labour (L) and capital (K) to produce clothing.
+Suppose that the price of a unit of capital is R10. The firm can choose from three different
+technologies (A, B and C) to produce a particular quantity of clothing items. The firm currently
+uses technology A and the cost of technology A is R 850. The inputs of all three technologies
+are given below:
+A: 50 units of labour and 10 units of capital
+B: 25 units of labour and 40 units of capital
+C: 15 units of labour and 35 units of capital
+2.1 How many units of capital does the firm need to give up to hire one additional worker?
+[1]
+2.2 Given the relative price of labour, explain why Party Fits as a rational firm will not likely
+make use of a technology such as A. [3]
+2.3 Party Fits competes with Basic & Boujee in the production of both shirts and trousers. The
+following table indicates the maximum amount of each clothing item that can be produced
+if the firms spend an hour on producing only that item. Both firms know that they can do
+better by specialising in the production of one of the goods. In which product should Party
+Fits specialise? [2]
+Trousers Shirts
+Party Fits 12 5
+Basic & Boujee 5 3
+QUESTION 3
+Leslie is hired as an employee by Lovely Lawns. She faces a linear consumption constraint, B1,
+represented by:
+c=200(24−t)
+wheretishoursoffreetimeandcisherconsumptionlevel.
+
+
+Page 9 of 26
+3.1 What is Leslie’s current hourly wage, and how many hours does she work per day? [1]
+Suppose her wage is decreased by R100 an hour. Answer the following questions with
+reference to the graph above.
+3.2 What is budget line B2's intercept on the axis for consumption? [1]
+3.3 What is her MRS at her new optimal point? [1]
+3.4 Is it safe to assume that a lower wage will encourage more hours worked for all individuals
+like it did for Leslie? Explain your answer. [2]
+QUESTION 4
+Carol is a consumer who earns an income of R360 per week. She uses her entire budget to
+purchase two goods: pizza and cola. Several indifference curves (Ig and Ih) and budget
+constraints are indicated in the figure below. Carol first consumes at her optimal point, D, but
+an increase in her income means that she consumes at a new optimal point, A.
+4.1 What is the money price of a cola? [1]
+
+
+Page 10 of 26
+4.2 What is the money price of a pizza? [2]
+4.3 What is her new income? [1]
+QUESTION 5
+Consider the game below where two players, P1 and P2, have the option of playing either A or
+B.
+5.1 What is the Nash equilibrium solution of this game? [2]
+5.2 Does your answer to 5.1 also represent a dominant strategy equilibrium? Briefly explain.
+[2]
+QUESTION 6
+Timon is a landowner and Pumbaa is a farmer who pays a share of his grain output to Timon
+for the use of the land. This is a voluntary exchange, where Timon makes Pumbaa a take-it-or-
+leave-it offer. Pumbaa’s friend, Simba, agrees to give Pumbaa a survival ration of two bushels
+of grain if Timon’s offer is rejected. The figure below shows several of Timon and Pumbaa’s
+combined feasible frontiers (FF), Pumbaa’s biological survival constraint (BSC) and
+reservation indifference curve (RIC). Timon and Pumbaa’s current feasible frontier is FF1.
+
+Page 11 of 26
+6.1 Which of the allocations – A, B, C, D, E, F, and G – are economically feasible? [2]
+6.2 Would Pumbaa prefer allocation B to allocation A? [1]
+Pumbaa’s usual supplier of mulch has retired, and he has not been able to find a replacement.
+As a result, the acidity of the farm soil worsens, leading to worse grain harvests.
+6.3 How does this affect the feasible frontier and Pumbaa’s biological survival constraint?
+[1]
+QUESTION 7
+McDonald’sTM is hiring a new worker and is making use of the labour discipline model (given
+below), to set wages. The best response curve of this new worker is given by BR1. Round off
+all final answers to the second decimal place.
+7.1 If McDonald’sTM could choose any isocost line on which to operate, which one of IC1, IC2,
+IC3 or IC4 would they choose and why? [2]
+7.2 Which isocost lines are feasible? [1]
+7.3 If McDonald’sTM sets an efficiency wage, what is the cost per unit of effort? [1]
+QUESTION 8
+Suppose the demand for wheat in Cofimvaba in the year 1825 is given by:
+Qd=1000−2P
+Favourable weather conditions cause the annual crop to increase from 350 to 550 tonnes.
+Calculate the price elasticity of demand over the quantity 350 to 550, and interpret your answer.
+Show all calculations. [5]
+Page 12 of 26
+QUESTION 9
+ThedemandcurveofmilkisgivenbytheequationP=8−Qd,whereasthesupplycurveis
+givenbyP=1
+2Qs+2.ThequantitiesQdandQsaremeasuredinlitresofmilk.
+9.1 Determine the equilibrium price and quantity algebraically. [3]
+9.2 Calculate the situation that would arise in this competitive market if the price of milk is R5
+per litre. How would the market respond? [3]
+QUESTION 10
+Fires in the Stellenbosch area have destroyed approximately 30% of vineyards this year. At the
+same time, the medical school of Stellenbosch University releases a statement to all people in
+Stellenbosch that a diet rich in grapes promotes intellectual performance. Explain with the aid
+of a graph the effect of these events on the grape market in Stellenbosch. [4]
+QUESTION 11
+The table below gives the demand and supply schedules for a competitive bread market.
+Price (Rands per
+loaf)
+Quantity demanded
+(loaves per day)
+Quantity supplied
+(loaves per day)
+6.00 240 0
+8.00 200 80
+10.00 160 160
+12.00 120 240
+14.00 80 320
+16.00 40 400
+18.00 0 480
+11.1 What is the maximum price that consumers are willing to pay for the 80th loaf of bread?
+[1]
+11.2 What is the minimum price that producers are willing to accept to produce the 200th
+loaf of bread? [1]
+11.3 Calculate the consumer surplus if the market is in equilibrium. [2]
+The demand for bread increases by 40 loaves of bread per day and the supply of bread decreases
+by 80 loaves of bread per day at each price.
+11.4 If the market is efficient, what is the new producer surplus? [4]
+
+Page 13 of 26
+QUESTION 12
+A unit tax is imposed on a good. Explain with the aid of a graph who carries the tax burden if
+supply is relatively elastic, but demand is perfectly inelastic. [4]
+QUESTION 13
+A factory producing cars is situated next to a university residence. The production process is
+noisy and disturbs the students when they attempt to study. The graph below depicts the MPC
+and MSC of car production. The car market is competitive and the market price is R340.
+13.1 What is the socially efficient quantity of cars produced? [1]
+13.2 Calculate the deadweight loss generated at the factory’s profit-maximising output. [2]
+13.3 What is the optimal per unit tax that could be charged by government to correct for the
+market failure? [1]
+Page 14 of 26
+EKSAMINATORE: Dr K Malindi Me L Boltman
+
+
+Memo: Page 1 of 1
+FACULTY OF ECONOMIC AND MANAGEMENT SCIENCES DEPARTMENT OF ECONOMICS
+ECONOMICS 114 A3
+DATE: 15 June 2023
+Section A 1. A 2. A 3. B 4. A 5. B 6. B 7. A 8. A 9. B 10. A SECTION B 11. A 12. C 13. C 14. D 15. C 16. D 17. B 18. A 19. C 20. C 21. D 22. B 23. D 24. C 25. A
+A3 2022 Short Questions Memo.pdf
+Source guide
+This document serves as an official memorandum for an introductory economics assessment administered at Stellenbosch University in June 2022. The text outlines a systematic grading key for two distinct sections, providing the correct answers for both true/false evaluations and multiple-choice inquiries. Notably, the source reveals a weighted scoring strategy that incorporates negative marking to penalize incorrect guesses and ensure academic rigor. By detailing the distribution of marks and specific time limits, the memo acts as a structured guide for evaluating student performance on a comprehensive examination worth one hundred total points.
+SECTION A
+TRUE/FALSE STATEMENTS
+[10 marks: 1 mark for a correct answer and minus ½ for an incorrect answer]
+1. A – True
+2. B – False
+3. B – False
+4. A – True
+5. B – False
+6. A – True
+7. B – False
+8. A – True
+9. B – False
+10. B – False
+SECTION B
+MULTIPLE CHOICE QUESTIONS
+[30 marks: 2 marks for a correct answer and minus ¼ for an incorrect answer]
+11. C
+12. B
+13. D
+14. B
+15. C
+16. B
+17. D
+18. B
+19. C
+20. B
+21. B
+22. A
+23. C
+24. A
+25. C
+STELLENBOSCH UNIVERSITY
+DEPARTMENT OF ECONOMICS
+ECONOMICS 114
+MAIN ASSESSMENT A3: 28 JUNE 2022
+Time: 3 hours Marks: 100
+A3 2022 Short Questions Memo.SECTION A
+TRUE/FALSE STATEMENTS
+[10 marks: 1 mark for a correct answer and minus ½ for an incorrect answer]
+1. A – True
+2. B – False
+3. B – False
+4. A – True
+5. B – False
+6. A – True
+7. B – False
+8. A – True
+9. B – False
+10. B – False
+SECTION B
+MULTIPLE CHOICE QUESTIONS
+[30 marks: 2 marks for a correct answer and minus ¼ for an incorrect answer]
+11. C
+12. B
+13. D
+14. B
+15. C
+16. B
+17. D
+18. B
+19. C
+20. B
+21. B
+22. A
+23. C
+24. A
+25. C
+STELLENBOSCH UNIVERSITY
+DEPARTMENT OF ECONOMICS
+ECONOMICS 114
+MAIN ASSESSMENT A3: 28 JUNE 2022
+Time: 3 hours Marks: 100
+
