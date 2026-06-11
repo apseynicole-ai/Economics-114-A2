@@ -210,3 +210,51 @@ Polish `exports/html/eco114_a3_index.html` so it functions as the completed A3 c
 ### Next recommended task
 
 Run a final cross-file audit across the Control Centre, Exam War Room, Markets Hub and Foundations Hub.
+
+
+## 2026-06-11 - Final cross-file A3 system audit
+
+### Files audited
+
+- `exports/html/eco114_a3_index.html`
+- `exports/html/eco114_a3_exam_warroom.html`
+- `exports/html/eco114_a3_markets_units_6_7_8_10.html`
+- `exports/html/eco114_a3_foundations_units_1_to_5.html`
+
+### Checks run
+
+- Repository status, branch, recent commit history and exported HTML listing.
+- Cross-file relative link audit between Index, War Room, Markets Hub and Foundations Hub.
+- Internal anchor/sidebar navigation audit for all four HTML files.
+- Embedded JavaScript extraction and `node --check` for all four files.
+- localStorage root-key collision audit.
+- Required section audit for all four files.
+- Content count verification against previous build reports.
+- Marker-text scan for scaffold/status terms.
+- Source-honesty wording audit.
+- `git diff --check`.
+
+### Issues found
+
+- War Room used shorter section labels for the A3 format and formula bank sections than the final checklist expected.
+- War Room source-honesty wording did not explicitly use the same redraw-aids and official-module-materials phrasing as the other hubs.
+- Markets and Foundations used equivalent AI-warning wording, but not the exact final cross-file phrase.
+
+### Fixes made
+
+- Normalised War Room section headings to `A3 Format and Negative Marking Strategy` and `Formula and Calculation Bank`.
+- Normalised source-honesty wording across the War Room, Markets Hub and Foundations Hub.
+
+### Remaining limitations
+
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms it is examinable.
+- Graph sketches are redraw aids, not official diagram replicas.
+- The working tree contains unrelated local dirty/untracked files outside this final audit.
+
+### Final recommended study route
+
+- Start with the Control Centre and complete the 80%+ Master Checklist.
+- Spend the first 48 hours on War Room orientation, Unit 8, Unit 7 and Unit 3.
+- Use Markets Hub for calculation-heavy weak spots and Foundations Hub for conceptual traps.
+- Finish each day by updating the mistake log and redrawing at least three graphs/models from memory.
