@@ -12,7 +12,7 @@ The A3 HTML output is split into four local files:
 
 1. `exports/html/eco114_a3_index.html` - landing page and control centre
 2. `exports/html/eco114_a3_foundations_units_1_to_5.html` - Units 1 to 5 foundations and theory
-3. `exports/html/eco114_a3_markets_units_6_7_8_10.html` - Units 6, 7, 8, and 10 models, calculations, and graphs
+3. `exports/html/eco114_a3_markets_units_6_7_8_10.html` - content-filled Units 6, 7, 8, and 10 markets hub with worked examples, graphs, formulas, traps and practice
 4. `exports/html/eco114_a3_exam_warroom.html` - final revision, past-paper strategy, traps, and mock practice
 
 ## Included Units
@@ -34,3 +34,8 @@ The scaffold is designed to work in local file mode without external dependencie
 ## Source Handling Note
 
 Raw university material, slides, past papers, memos, textbook extracts, and lecturer-owned content should not be redistributed if repository visibility changes or sharing policies change. Generated study outputs should cite and summarise sources without exposing restricted materials unnecessarily.
+
+
+## Current Content Status
+
+Markets hub v1 is now content-filled for Units 6, 7, 8 and 10. Foundations Units 1-5 remain the next major content build.

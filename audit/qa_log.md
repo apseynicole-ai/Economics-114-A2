@@ -61,3 +61,25 @@ Add the actual ECO114 A3 paper, memo and feedback files to a clearly named folde
 ### Next recommended task
 
 Build the A3 exam warroom first: formula bank, T/F danger bank, MCQ trap bank, graph redraw bank, and Section C answer templates based directly on this heatmap.
+
+## 2026-06-11 - Markets hub v1 content build
+
+### What was built
+
+- Replaced the scaffold in `exports/html/eco114_a3_markets_units_6_7_8_10.html` with a first real content version.
+- Built deep packs for Unit 8, Unit 7, Unit 10 and Unit 6 using the A3 heatmap priorities.
+- Added worked examples, graph bank, formula bank, trap bank, Section C templates, mini practice, comparison tables, calculation emergency guidance and study prompts.
+
+### Source basis
+
+- Used `audit/past_paper_heatmap.md`, `audit/a3_coverage_matrix.md`, the War Room v1, archived A2 MegaHub and extracted 2022-2024 A3 source text as control sources.
+
+### Warnings
+
+- Graphs are redraw aids, not exact source-paper replicas.
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms.
+
+### Next recommended step
+
+Build `exports/html/eco114_a3_foundations_units_1_to_5.html`, with special focus on Unit 3 because it is very high frequency in the A3 heatmap.
