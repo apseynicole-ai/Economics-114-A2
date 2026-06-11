@@ -343,3 +343,72 @@ QA polish Markets v2 unit tabs, especially practice wording, tab usability and c
 ### Next recommended task
 
 Run browser/visual QA on the promoted Markets v2 file, especially tab switching, search in hidden tabs, print view and mobile readability.
+
+
+## 2026-06-11 - Markets v2 browser/visual QA
+
+### Browser/visual QA performed
+
+- Reviewed the promoted `exports/html/eco114_a3_markets_units_6_7_8_10_v2_unit_tabs.html` as a local-file study page.
+- Checked the visible layout contract: sidebar navigation, top toolbar, unit tabs, active tab state, cards, definitions, graphs, formulas, practice memos and one-page unit sheets.
+- Confirmed the file remains unit-first: Unit 8, Unit 7, Unit 10 and Unit 6 each keep their own theory, graphs, formulas, examples, traps, templates and practice inside the unit tab.
+
+### Tabs tested
+
+- Unit 8, Unit 7, Unit 10 and Unit 6 tab wiring remains intact through generated `data-tab` buttons and generated unit IDs.
+- Active tab styling remains visible through the `.tabbtn.active` state.
+- Only the selected unit is shown on screen; all unit tabs are shown in print.
+
+### Search result
+
+- Search terms checked: tax, MR, employment rent, Pigouvian, price ceiling, elasticity, Nash and public good.
+- Markets terms match the relevant unit content.
+- `Nash` has no Markets Hub match, which is correct because Nash is in the Foundations Hub.
+- Added a visible search note/status line explaining that search scans all unit tabs and jumps to the first matching unit, and that Nash/Pareto/Angela-Bruno belong in Foundations.
+
+### Mobile result
+
+- Added overflow protection for wide tables and long formulas.
+- Improved mobile wrapping for toolbar buttons and unit tab buttons.
+- Reduced graph height slightly on narrow screens so SVG redraw aids fit better.
+
+### Print result
+
+- Print CSS already hid sidebar/toolbars and expanded hidden details.
+- Added clearer print behaviour so all unit tabs print and each unit starts on a new page where possible.
+
+### Dark mode result
+
+- Existing dark mode contrast remained structurally sound.
+- Added search-note dark-mode styling so the new note remains readable.
+
+### Active recall / reveal result
+
+- Expand Answers now opens all memo panels and marks answers as revealed so active recall blur does not remain on expanded memos.
+- Collapse Answers now closes panels and removes reveal state.
+
+### Issues found
+
+- Search could previously hide all content on a no-match term, which looked like the page had broken.
+- Expand Answers did not fully cooperate with active recall blur.
+- Wide tables/formulas had no explicit overflow protection for mobile.
+- Print mode showed all tabs but did not clearly begin unit tabs on separate pages.
+
+### Fixes made
+
+- Added a search status/help note near the toolbar.
+- Updated search JavaScript to report match/no-match status and activate the first matching unit tab.
+- Added table/formula overflow and mobile button wrapping CSS.
+- Improved print CSS for all-unit printing.
+- Updated Expand/Collapse Answers behaviour for active recall.
+
+### Remaining limitations
+
+- A real screenshot-based browser pass was not available in the local automation environment because Playwright was not installed in the current Node runtime.
+- Graph sketches remain redraw aids, not official diagram replicas.
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms it is examinable.
+
+### Next recommended task
+
+Open the promoted Markets v2 file in the in-app browser and do a quick human visual skim of Unit 8 and Unit 7, then decide whether to apply the same unit-tab architecture to the Foundations Hub.
