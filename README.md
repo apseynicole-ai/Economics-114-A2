@@ -11,13 +11,15 @@ The goal is to build an exam-focused A3 preparation system that combines source 
 The A3 HTML output is split into four local files:
 
 1. `exports/html/eco114_a3_index.html` - completed A3 control centre for hub navigation, study routes, 14-day planning and progress tracking
-2. `exports/html/eco114_a3_foundations_units_1_to_5.html` - content-filled Units 1 to 5 foundations hub with worked examples, graphs/models, logic cards, traps and practice
+2. `exports/html/eco114_a3_foundations_units_1_to_5.html` - legacy Units 1 to 5 foundations hub with worked examples, graphs/models, logic cards, traps and practice
 3. `exports/html/eco114_a3_markets_units_6_7_8_10_v2_unit_tabs.html` - recommended Markets v2 unit-first hub for Units 6, 7, 8, and 10 with each unit's theory, graphs, formulas, traps, templates and practice kept together
 4. `exports/html/eco114_a3_exam_warroom.html` - final revision, past-paper strategy, traps, and mock practice
 
-Legacy file:
+Legacy and beta files:
 
 - `exports/html/eco114_a3_markets_units_6_7_8_10.html` - original global-bank Markets Hub. It remains preserved as a legacy version.
+- `exports/html/eco114_a3_foundations_units_1_to_5_v2_unit_tabs.html` - Foundations v2 unit-tabs beta. It keeps each Unit 1-5 unit self-contained and should become recommended after QA polish.
+- `exports/html/eco114_a3_foundations_units_1_to_5.html` - old Foundations Hub remains preserved until Foundations v2 passes QA.
 
 ## Included Units
 
@@ -42,4 +44,4 @@ Raw university material, slides, past papers, memos, textbook extracts, and lect
 
 ## Current Content Status
 
-The A3 system now has a completed Control Centre/index, Exam War Room, recommended Markets v2 unit-first hub, legacy Markets Hub, and Foundations Hub. Next step: continue with visual/browser QA or build printable exports.
+The A3 system now has a completed Control Centre/index, Exam War Room, recommended Markets v2 unit-first hub, legacy Markets Hub, legacy Foundations Hub, and Foundations v2 unit-tabs beta. Next step: QA polish Foundations v2 before promoting it.

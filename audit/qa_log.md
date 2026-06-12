@@ -412,3 +412,46 @@ Run browser/visual QA on the promoted Markets v2 file, especially tab switching,
 ### Next recommended task
 
 Open the promoted Markets v2 file in the in-app browser and do a quick human visual skim of Unit 8 and Unit 7, then decide whether to apply the same unit-tab architecture to the Foundations Hub.
+
+
+## 2026-06-12 - Foundations v2 unit-tabs build
+
+### What was built
+
+- Created `exports/html/eco114_a3_foundations_units_1_to_5_v2_unit_tabs.html` as a new unit-first beta file.
+- Preserved the legacy Foundations Hub at `exports/html/eco114_a3_foundations_units_1_to_5.html`.
+- Reorganised Units 3, 4, 5, 2 and 1 so each unit tab contains its own command card, core story, definitions, full theory notes, models/graphs, formula/logic playbooks, worked examples, past-paper patterns, trap bank, Section C templates, practice bank and one-page sheet.
+- Added a short global cross-unit revision section only for comparisons and model selection.
+
+### Architecture change
+
+- The legacy Foundations Hub uses global graph/formula/trap/template/practice banks.
+- Foundations v2 keeps the full study path inside each unit tab so a student can study Unit 3, Unit 4, Unit 5, Unit 2 or Unit 1 without jumping around the page.
+
+### Practice integrity rule added
+
+- Every practice item includes tested concept, taught-above reference, formula/model/graph used and trap tested.
+- Practice is placed after the teaching content inside the same unit tab.
+- `audit/foundations_orphan_practice_question_audit.md` records the practice counts and orphan-status audit.
+
+### Duplicate/filler cleanup
+
+- Replaced repeated global-bank style trap wording with unit-specific trap lists.
+- Duplicate/filler traps rewritten into unit-specific traps: 48.
+
+### Markets link consistency patch
+
+- Updated War Room and legacy Foundations toolbar links so the main Markets link points to `eco114_a3_markets_units_6_7_8_10_v2_unit_tabs.html`.
+- Preserved secondary legacy Markets links to `eco114_a3_markets_units_6_7_8_10.html`.
+- Added a Foundations v2 beta link to the Index while keeping the original Foundations Hub as the main Foundations link until QA polish passes.
+
+### Remaining limitations
+
+- Foundations v2 is beta and still needs a focused QA polish pass before promotion.
+- Graph sketches are redraw aids, not official diagram replicas.
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms it is examinable.
+
+### Next recommended task
+
+QA polish Foundations v2 unit tabs, especially Unit 3 depth, Unit 4 matrix mechanics, search behaviour, mobile readability and print view.
