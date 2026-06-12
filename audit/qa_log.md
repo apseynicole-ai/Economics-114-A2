@@ -529,3 +529,36 @@ Run browser/visual QA on the promoted Foundations v2 file, especially Unit 3 gra
 
 ### Next recommended task
 Browser/visual QA of the War Room Final Boss and patched priority SVGs, followed by a screenshot-based graph-redraw audit.
+
+## 2026-06-12 - Browser/visual QA after Claude audit patch
+
+### Browser attempt
+- Attempted to open the local file-mode A3 hubs in the in-app browser. The browser runtime rejected file:// navigation under its URL policy, so screenshot-based QA could not be completed in this pass.
+- Used static DOM/CSS/JS checks as the safer fallback: section/link checks, embedded script checks, Final Boss data checks, SVG class/style checks, mobile/print CSS checks and localStorage key checks.
+
+### Files tested
+- exports/html/eco114_a3_index.html
+- exports/html/eco114_a3_exam_warroom.html
+- exports/html/eco114_a3_markets_units_6_7_8_10_v2_unit_tabs.html
+- exports/html/eco114_a3_foundations_units_1_to_5_v2_unit_tabs.html
+
+### Results
+- Hub map/link coherence: main links point to Markets v2 and Foundations v2; legacy links are labelled Legacy.
+- Final Boss QA: 20 T/F, 20 MCQ and 6 Section C questions present; all 6 Section C memos include numeric/final answers where relevant plus mark splits and traps.
+- Priority SVG QA: distinct SVGs are present for the patched priority models; v2 SVG styling was patched so new svgbox diagrams scale and display like existing graph SVGs.
+- Tab/search QA: Markets v2 and Foundations v2 retain tab wiring, search status notes, expand/collapse and active recall handlers.
+- Mobile/print QA: CSS contains mobile wrapping and print rules; v2 svgbox class now participates in responsive graph sizing.
+- Dark mode QA: graph labels use graph-label styling and v2 svgbox backgrounds now match dark-mode SVG backgrounds.
+
+### Issues found and fixes made
+- War Room Expand answers opened details but did not mark answers as revealed, so active-recall blur could remain on expanded Boss memos. Patched expand/collapse to add/remove revealed on .answer elements.
+- Markets v2 and Foundations v2 priority SVG replacements used svgbox while v2 CSS styled svg. Patched v2 CSS to style .svgbox alongside .svg, including dark mode and mobile height.
+
+### Remaining limitations
+- No screenshots were captured because file:// navigation was blocked by browser policy. A human visual skim in the local browser is still recommended.
+- Graph sketches remain redraw aids, not official diagram replicas.
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms it is examinable.
+
+### Next recommended task
+Open War Room and both v2 hubs manually in the local browser for a quick human visual skim of the patched SVGs, then start the 48-hour mock-paper readiness loop.
