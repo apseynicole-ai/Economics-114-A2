@@ -501,3 +501,31 @@ QA polish Foundations v2 unit tabs, especially Unit 3 depth, Unit 4 matrix mecha
 ### Next recommended task
 
 Run browser/visual QA on the promoted Foundations v2 file, especially Unit 3 graph flow, Unit 4 matrix readability, search in hidden tabs, print view and mobile readability.
+
+## 2026-06-12 - Claude audit false-confidence risk patch
+
+### Checked
+- Reconciled the independent Claude audit against the current recommended v2 files instead of the legacy Markets file.
+- Checked War Room Final Boss, Section C memos, priority graph SVGs, Unit 7 elasticity/MR/market-power coverage, Unit 6 no-shirking wage logic and hub link labels.
+
+### Issues found
+- War Room Final Boss objective questions were too close to main-bank style and needed fresh exam-style wording.
+- Final Boss Section C memos were too method-only and did not give complete final numeric answers.
+- Several high-priority graph redraw aids were still generic/cloned sketches.
+- Unit 7 elasticity-MR-market power and Unit 6 no-shirking wage logic needed clearer formula/playbook cards.
+- Some preserved old hub links needed clearer Legacy labels.
+
+### Fixes made
+- Rebuilt all 20 Final Boss T/F and all 20 Final Boss MCQs with fresh wording and required unit weighting.
+- Upgraded all 6 Final Boss Section C memos with model identification, setup, step-by-step calculation or reasoning, final answers, interpretation, graph labels, mark splits and common traps.
+- Replaced priority SVGs for tax wedge, monopoly, negative/positive externality, labour discipline, Unit 3 wage change, Unit 5 Angela-Bruno and Unit 4 payoff matrix.
+- Added source-honest Unit 7 elasticity/MR/market-power and Unit 6 no-shirking wage logic cards to the War Room and Markets v2.
+- Added audit/claude_audit_reconciliation.md.
+
+### Results
+- Final Boss exact duplicate check against main War Room T/F/MCQ banks: zero exact duplicates.
+- Main hub links point to Markets v2 and Foundations v2; legacy links are labelled as legacy.
+- Remaining limitations: graph SVGs are redraw aids, not official replicas; 2025 Afrikaans A3 remains preserved but not text-extracted; Unit 9 remains excluded unless confirmed; browser visual QA still recommended.
+
+### Next recommended task
+Browser/visual QA of the War Room Final Boss and patched priority SVGs, followed by a screenshot-based graph-redraw audit.
