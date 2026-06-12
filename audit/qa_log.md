@@ -455,3 +455,49 @@ Open the promoted Markets v2 file in the in-app browser and do a quick human vis
 ### Next recommended task
 
 QA polish Foundations v2 unit tabs, especially Unit 3 depth, Unit 4 matrix mechanics, search behaviour, mobile readability and print view.
+
+
+## 2026-06-12 - Foundations v2 QA polish and promotion
+
+### Checks performed
+
+- Audited `exports/html/eco114_a3_foundations_units_1_to_5_v2_unit_tabs.html` for unit self-contained structure.
+- Checked Unit 3, Unit 4, Unit 5, Unit 2 and Unit 1 for command card, core story, definitions, theory notes, models/graphs, formula/logic playbook, examples, patterns, traps, Section C templates, practice and one-page sheets.
+- Ran practice integrity checks against same-tab teaching content.
+- Checked duplicate/filler trap and practice wording.
+- Checked localStorage root key against the legacy Foundations Hub.
+- Ran embedded JavaScript syntax, anchor/link, marker text and whitespace checks.
+
+### Issues found
+
+- Unit theory notes were good but still compressed in places, especially Unit 2, Unit 4 and Unit 5.
+- Unit 3 needed a little more explicit Section C graph-method depth.
+- T/F and MCQ banks were metadata-safe but too generic.
+
+### Fixes made
+
+- Expanded Unit 3 theory on free time, consumption, opportunity cost and graph-based Section C method.
+- Expanded Unit 4 theory on mechanical best-response marking and identifying game type from payoffs.
+- Expanded Unit 5 theory on Angela-Bruno surplus, bargaining power and the separation of voluntary, efficient and fair.
+- Expanded Unit 2 theory on technology, incentives, relative input prices, dominated technologies, cost minimisation and innovation rent.
+- Expanded Unit 1 theory on the Malthusian trap, modern takeoff, prosperity and planetary limits.
+- Replaced generic T/F and MCQ practice banks with concrete unit-specific questions and memos.
+- Promoted Foundations v2 from beta to the recommended Foundations Hub in the index, War Room, Markets v2 and README, while preserving the legacy Foundations Hub link.
+
+### Results
+
+- Self-contained unit audit: passed for Units 3, 4, 5, 2 and 1.
+- Practice integrity audit: passed; no orphan practice concepts remained.
+- Duplicate/filler audit: passed; no duplicate trap or practice wording remained.
+- Promotion: Foundations v2 is now recommended for Units 1, 2, 3, 4 and 5.
+
+### Remaining limitations
+
+- Foundations v2 still needs browser/visual QA before final polish.
+- Graph sketches are redraw aids, not official diagram replicas.
+- 2025 Afrikaans A3 remains preserved but not text-extracted.
+- Unit 9 remains excluded unless lecturer confirms it is examinable.
+
+### Next recommended task
+
+Run browser/visual QA on the promoted Foundations v2 file, especially Unit 3 graph flow, Unit 4 matrix readability, search in hidden tabs, print view and mobile readability.
